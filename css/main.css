@@ -80,6 +80,11 @@
         url('../fonts/e40066be-3cea-4221-b7d6-d7c804e6be87.svg#e40066be-3cea-4221-b7d6-d7c804e6be87') format('svg');
 }
 
+
+/***** MOBILE FIRST *****/
+
+/***** END MOBILE FIRST *****/
+
 body {
 font-family: 'Quicksand', sans-serif;
  height: auto;

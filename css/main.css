@@ -173,7 +173,7 @@ a:hover {
     color: #72b648;
 }
 
-/***** Header *****/
+/***** HEADER | NAVIGATION *****/
 
 
 nav {
@@ -212,7 +212,7 @@ nav ul li a {
   padding-left: 65px;
 }
 
-/***** Home *****/
+/***** HOME *****/
 
 #home {
   height : 825px;
@@ -273,7 +273,7 @@ nav ul li a {
   word-spacing: 1.5px;
 }
 
-/***** About *****/
+/***** ABOUT *****/
 
 #about {
   width: auto;
@@ -547,7 +547,7 @@ writing-mode: sideways-lr;
   border-width: 2px;
 }
 
-/***** portfolio 5 by infinite layout system *****/
+/***** PORTFOLIO | 5 by infinite layout system *****/
 .porfolio-thumb-col-1 {
   width: 220px;
   height: 220px;
@@ -882,7 +882,7 @@ writing-mode: sideways-lr;
   text-decoration: none;
 }
 
-/***** Contact *****/
+/***** CONTACT *****/
 #contact {
   height : 825px;
   border-bottom: solid;
@@ -943,7 +943,7 @@ writing-mode: sideways-lr;
 }
 
 
-/***** Footer *****/
+/***** FOOTER *****/
 
 #footer p {
   font-size: 17px;

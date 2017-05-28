@@ -83,8 +83,6 @@
 
 /***** MOBILE FIRST *****/
 
-/***** END MOBILE FIRST *****/
-
 body {
 font-family: 'Quicksand', sans-serif;
  height: auto;
@@ -103,6 +101,42 @@ font-family: 'Quicksand', sans-serif;
     background-repeat: no-repeat;
     background-color: #ffffff;
 }
+
+/***** Special class's and id's *****/
+
+.height-140 {
+  height: 140px;
+}
+
+.black {
+  color: #000000;
+  text-decoration: none;
+}
+
+.grey-text{
+  color:#808285;
+  text-decoration: none;
+}
+/*****  colors
+        70% grey color: #6d6e71;
+        60% grey color: #808285;
+        white: #ffffff;
+        purple: #dfcde4;
+        green: #72b648;
+        deep-blue-purple: #211E53;
+        *****/
+
+/*** mouse over link ***/
+a:hover {
+    color: #72b648;
+}
+
+
+/***** END MOBILE FIRST *****/
+
+/***** ======= DESKTOPS ======= *****/
+@media screen and (min-width:940px) {
+  /*desktop styles*/
 
 /***** Grid *****/
 
@@ -144,34 +178,6 @@ font-family: 'Quicksand', sans-serif;
 }
 
 
-/***** Special class's and id's *****/
-
-.height-140 {
-  height: 140px;
-}
-
-.black {
-  color: #000000;
-  text-decoration: none;
-}
-
-.grey-text{
-  color:#808285;
-  text-decoration: none;
-}
-/*****  colors
-        70% grey color: #6d6e71;
-        60% grey color: #808285;
-        white: #ffffff;
-        purple: #dfcde4;
-        green: #72b648;
-        deep-blue-purple: #211E53;
-        *****/
-
-/*** mouse over link ***/
-a:hover {
-    color: #72b648;
-}
 
 /***** HEADER | NAVIGATION *****/
 

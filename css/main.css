@@ -185,7 +185,11 @@ textarea {
 
 body {
 font-family: 'Quicksand', sans-serif;
- height: auto;
+background: url('../img/wise-web-owl.gif'), url('../img/corner-sketch.gif');
+background-repeat: no-repeat, no-repeat;
+background-attachment: scroll, scroll;
+background-size: 94%, 61%;
+background-position: -62px 25px, -29px 0px;
 }
 
 
@@ -424,11 +428,24 @@ nav ul li a {
 @media screen and (min-width:940px) {
   /*desktop styles*/
 
+  body {
+      height: 830px;
+      background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
+      background-repeat: no-repeat, no-repeat;
+  }
+
+  .background {
+      height: 830px;
+      background: url('../img/corner-sketch.gif');
+      background-repeat: no-repeat;
+      background-color: #ffffff;
+  }
+
 /***** Grid *****/
 
 .full-width {
-  width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   vertical-align: top;
 }
 
@@ -438,7 +455,7 @@ nav ul li a {
 }
 
 .half-width {
-  width: 600px;
+  width: 50%;
   float: left;
 }
 
@@ -467,7 +484,15 @@ nav ul li a {
 
 /***** HEADER | NAVIGATION *****/
 
+header img {
+  float: left;
+  width: 12.13%;
+  padding: .65% 0 0 4.57%;
+}
 
+.mobile-nav {
+  display: none;
+}
 nav {
     float: right;
     padding: 75px 40px;
@@ -475,10 +500,6 @@ nav {
 
 nav ul li{
     display: inline-block;
-}
-
-header img {
-  padding: 10px 0 0 10px;
 }
 
 nav ul li a {
@@ -507,9 +528,8 @@ nav ul li a {
 /***** HOME *****/
 
 #home {
-  height : 825px;
-  border-bottom: solid;
-  border-color: #000000;
+  height : 817px;
+  border-bottom: solid #000000;
 }
 
 #home .full-width {
@@ -532,6 +552,7 @@ nav ul li a {
   color: #000000;
   line-height: 30px;
   text-align: right;
+  padding-right: 16%;
   text-decoration: none;
 }
 
@@ -1244,11 +1265,13 @@ writing-mode: sideways-lr;
   line-height: 15px;
   text-align: left;
   text-decoration: none;
+  padding-left: 5px;
 }
 
 #footer ul {
   list-style: none;
   text-align: right;
+  padding-right: 5px;
 }
 
 .about-page-footer-div {

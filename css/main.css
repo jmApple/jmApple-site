@@ -246,10 +246,13 @@ header img {
 
 .mobile-nav {
   float: right;
+  font-size: 25px;
+  color: #808080;
+  padding-right: 2.5%;
 }
 
 nav {
-    float: right;
+  float: right;
 }
 
 nav ul li{

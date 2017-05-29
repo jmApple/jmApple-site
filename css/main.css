@@ -420,14 +420,15 @@ nav ul li a {
 
 /***** ======= DESKTOPS ======= *****/
 
+/***** ======= DESKTOPS ======= *****/
 @media screen and (min-width:940px) {
   /*desktop styles*/
 
 /***** Grid *****/
 
 .full-width {
-  width: 100%;
-  margin: 0;
+  width: 1200px;
+  margin: 0 auto;
   vertical-align: top;
 }
 
@@ -462,40 +463,10 @@ nav ul li a {
   float: left;
 }
 
-.background-owl {
-    height: 830px;
-    background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
-    background-repeat: no-repeat, no-repeat;
-    background-color: #ffffff, #ffffff;
-    background-size: 387px , 600px 827px;
-}
-
-.home-background {
-    height: 830px;
-    background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
-    background-repeat: no-repeat, no-repeat;
-    background-color: #ffffff, #ffffff;
-}
-
-.background {
-    height: 830px;
-    background: url('../img/corner-sketch.gif');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-}
-
 
 
 /***** HEADER | NAVIGATION *****/
 
-header img {
-  width: inherit;
-  padding: 15px 0 0 25px;
-}
-
-.mobile-nav{
-  display: none;
-}
 
 nav {
     float: right;
@@ -503,8 +474,11 @@ nav {
 }
 
 nav ul li{
-  width: 60%;
-  display: inline-block;
+    display: inline-block;
+}
+
+header img {
+  padding: 10px 0 0 10px;
 }
 
 nav ul li a {

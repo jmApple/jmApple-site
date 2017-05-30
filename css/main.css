@@ -188,8 +188,8 @@ font-family: 'Quicksand', sans-serif;
 background: url('../img/wise-web-owl-mobile.gif'), url('../img/corner-sketch.gif');
 background-repeat: no-repeat, no-repeat;
 background-attachment: scroll, scroll;
-background-size: 94%, 61%;
-background-position: -62px 25px, -29px 0px;
+background-size: 105%, 61%;
+background-position: -70px 15px, -29px 0px;
 }
 
 
@@ -241,7 +241,7 @@ header img {
 
 .mobile-nav-icon {
   float: right;
-  padding: 0 15px 0 0;
+  padding: 0 3px 0 0;
 }
 
 hr {
@@ -362,17 +362,6 @@ hr {
   text-decoration: none;
 }
 
-#home p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 23px;
-    font-weight: 300;
-    color: #828282;
-    line-height: 27px;
-    padding-top: 50px;
-    text-align: right;
-    text-decoration: none;
-}
-
 #home ul li a {
   font-family: 'Quicksand', sans-serif;
   font-weight: 100;
@@ -390,41 +379,60 @@ hr {
 }
 
 .developer-designer-illustrator-mobile {
-  float: right;
+    float: right;
     writing-mode: vertical-rl;
     -webkit-transform:rotate(180deg);
-      -moz-transform:rotate(180deg);
-      -o-transform: rotate(180deg);
-      -ms-transform:rotate(1800deg);
-      transform: rotate(180deg);
-      white-space:nowrap;
-      display:block;
-      bottom:0;
-      width:20px;
-      height:400px;
-      padding-top: 10px;
-      font-family: 'Quicksand', sans-serif;
-      font-size: 25px;
-      font-weight: 300;
-      color: #fec769;
-      line-height: 20px;
-      text-align: right;
-      text-decoration: none;
-      word-spacing: 1.5px;
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(1800deg);
+    transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0;
+    width: 20px;
+    height: 420px;
+    padding: 7px 0 0 13.5px;
+    margin:  -21px 0 0 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 31.5px;
+    font-weight: 300;
+    color: #fec769;
+    line-height: 0px;
+    text-align: right;
+    text-decoration: none;
+    word-spacing: 1.5px;
 }
 
-
-
-.developer-designer-illustrator {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 25px;
-  font-weight: 300;
-  color: #fec769;
-  line-height: 20px;
-  text-align: right;
-  text-decoration: none;
-  word-spacing: 1.5px;
+.little-bit-info {
+  float: right;
+  margin: 0 19.5px;
 }
+
+#home .little-bit-info .email-homepage {
+    float: right;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #1b1464;
+    line-height: 18px;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: right;
+    text-decoration: none;
+}
+
+  #home .little-bit-info p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #828282;
+    line-height: 19px;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: justify;
+    text-decoration: none;
+  }
+
 
 
 

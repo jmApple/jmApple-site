@@ -185,7 +185,7 @@ textarea {
 
 body {
 font-family: 'Quicksand', sans-serif;
-background: url('../img/wise-web-owl.gif'), url('../img/corner-sketch.gif');
+background: url('../img/wise-web-owl-mobile.gif'), url('../img/corner-sketch.gif');
 background-repeat: no-repeat, no-repeat;
 background-attachment: scroll, scroll;
 background-size: 94%, 61%;
@@ -210,11 +210,6 @@ background-position: -62px 25px, -29px 0px;
 }
 
 /***** Special class's and id's *****/
-
-.height-140 {
-  height: 140px;
-}
-
 .black {
   color: #000000;
   text-decoration: none;
@@ -386,11 +381,45 @@ hr {
   text-decoration: none;
 }
 
+.hello-mobile {
+  display: block;
+}
+
+.hello {
+  display: none;
+}
+
+.developer-designer-illustrator-mobile {
+  float: right;
+    writing-mode: vertical-rl;
+    -webkit-transform:rotate(180deg);
+      -moz-transform:rotate(180deg);
+      -o-transform: rotate(180deg);
+      -ms-transform:rotate(1800deg);
+      transform: rotate(180deg);
+      white-space:nowrap;
+      display:block;
+      bottom:0;
+      width:20px;
+      height:400px;
+      padding-top: 10px;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 25px;
+      font-weight: 300;
+      color: #fec769;
+      line-height: 20px;
+      text-align: right;
+      text-decoration: none;
+      word-spacing: 1.5px;
+}
+
+
+
 .developer-designer-illustrator {
   font-family: 'Quicksand', sans-serif;
   font-size: 25px;
   font-weight: 300;
-  color: #000000;
+  color: #fec769;
   line-height: 20px;
   text-align: right;
   text-decoration: none;
@@ -541,7 +570,9 @@ hr {
   float: left;
 }
 
-
+.height-140 {
+  height: 140px;
+}
 
 /***** HEADER | NAVIGATION *****/
 
@@ -577,9 +608,6 @@ nav ul li a {
     color: #828282;
     padding-left: 65px;
 }
-
-
-
 
 #nav-on-page {
   font-family: 'Quicksand', sans-serif;
@@ -639,6 +667,22 @@ nav ul li a {
   font-size: 19px;
   color: #000000;
   text-decoration: none;
+}
+
+.hello-mobile {
+  display: none;
+}
+
+.hello {
+  display: block;
+}
+
+#home .half-width{
+  margin-top: 80px;
+}
+
+.developer-designer-illustrator-mobile {
+  display: none;
 }
 
 .developer-designer-illustrator {

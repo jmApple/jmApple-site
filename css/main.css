@@ -184,12 +184,12 @@ textarea {
 /***** MOBILE FIRST *****/
 
 body {
-font-family: 'Quicksand', sans-serif;
-background: url('../img/wise-web-owl-mobile.gif'), url('../img/corner-sketch.gif');
-background-repeat: no-repeat, no-repeat;
-background-attachment: scroll, scroll;
-background-size: 105%, 61%;
-background-position: -70px 15px, -29px 0px;
+  font-family: 'Quicksand', sans-serif;
+  background: url('../img/wise-web-owl-mobile.gif'), url('../img/corner-sketch.gif');
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: scroll, scroll;
+  background-size: 105%, 61%;
+  background-position: -70px 15px, -29px 0px;
 }
 
 
@@ -203,10 +203,10 @@ background-position: -70px 15px, -29px 0px;
 }
 
 .background {
-    height: 830px;
-    background: url('../img/corner-sketch.gif');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
+  height: 830px;
+  background: url('../img/corner-sketch.gif');
+  background-repeat: no-repeat;
+  background-color: #ffffff;
 }
 
 /***** Special class's and id's *****/
@@ -219,21 +219,22 @@ background-position: -70px 15px, -29px 0px;
   color:#808285;
   text-decoration: none;
 }
-/*****  colors
+
+/*****  COLORS =================
         70% grey color: #6d6e71;
         60% grey color: #808285;
         white: #ffffff;
         purple: #dfcde4;
         green: #72b648;
         deep-blue-purple: #211E53;
-        *****/
+========================== *****/
 
 /*** mouse over link ***/
 a:hover {
-    color: #72b648;
+  color: #72b648;
 }
 
-/***** NAV & HEADER *****/
+/***** MOBILE NAV & HEADER *****/
 header img {
   width: 27%;
   padding: 10px 0 0 15px;
@@ -333,13 +334,12 @@ hr {
 }
 
 
-/***** HOME PAGE *****/
+/***** MOBILE HOME PAGE *****/
 #home {
   width: 100%;
   padding-top: 10px;
-  height : 825px;
-  border-bottom: solid;
-  border-color: #000000;
+  height : 567px;
+  border-bottom: 1px solid #000000;
 }
 
 
@@ -391,7 +391,7 @@ hr {
     bottom: 0;
     width: 20px;
     height: 420px;
-    padding: 7px 0 0 13.5px;
+    padding: 7px 0 0 13.3px;
     margin:  -21px 0 0 0;
     font-family: 'Quicksand', sans-serif;
     font-size: 31.5px;
@@ -422,19 +422,48 @@ hr {
     text-decoration: none;
 }
 
-  #home .little-bit-info p {
-    float: right;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    color: #828282;
-    line-height: 19px;
-    padding-top: 0px;
-    margin-top: 0px;
-    text-align: justify;
-    text-decoration: none;
-  }
+#home .little-bit-info p {
+  float: right;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #828282;
+  line-height: 19px;
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: justify;
+  text-decoration: none;
+}
 
+#footer-home .copyright {
+  float: left;
+  font-size: 14px;
+  margin: 0 0 13px 0;
+  line-height: 4px;
+  padding-left: 7px;
+}
+
+#footer-home ul {
+  padding-right: 3px;
+  margin-top: 7px;
+}
+
+#footer-home ul li {
+  float: right;
+  display: inline-block;
+}
+
+#footer-home ul li a {
+  font-size: 17px;
+  color: #000000;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+#footer-home .email {
+  display: none;
+}
 
 
 
@@ -541,7 +570,7 @@ hr {
       background-color: #ffffff;
   }
 
-/***** Grid *****/
+/***** DESKTOP Grid *****/
 
 .full-width {
   width: 100%;
@@ -584,7 +613,7 @@ hr {
   height: 140px;
 }
 
-/***** HEADER | NAVIGATION *****/
+/***** DESKTOP HEADER | NAVIGATION *****/
 
 header img {
   float: left;
@@ -696,11 +725,12 @@ nav ul li a {
 }
 
 .developer-designer-illustrator {
+  display: block;
   font-family: 'Quicksand', sans-serif;
   font-size: 25px;
   font-weight: 300;
   color: #000000;
-  line-height: 20px;
+  line-height: 33px;
   text-align: right;
   text-decoration: none;
   word-spacing: 1.5px;
@@ -1376,7 +1406,46 @@ writing-mode: sideways-lr;
 }
 
 
-/***** FOOTER *****/
+/*****  DESKTOP | FOOTER *****/
+#footer-home .copyright {
+  margin-top: 13px;
+}
+
+#footer-home p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 15px;
+  text-align: left;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+#footer-home ul {
+  float: right;
+  list-style: none;
+  text-align: right;
+  padding-right: 5px;
+  margin-top: 23px;
+}
+
+#footer-home ul li {
+  float: left;
+  display: inline-block;
+}
+
+#footer-home ul li a {
+  font-size: 17px;
+  color: #000000;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+#footer-home .email {
+  display: block;
+  line-height: 28px;
+}
 
 #footer p {
   font-size: 17px;

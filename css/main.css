@@ -188,11 +188,11 @@ textarea {
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background: url('../img/wise-web-owl-mobile.gif'), url('../img/corner-sketch.gif');
-  background-repeat: no-repeat, no-repeat;
-  background-attachment: scroll, scroll;
-  background-size: 100%, 61%;
-  background-position: -70px 15px, -29px 0px;
+  background: url('../img/corner-sketch.gif');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 61%;
+  background-position: -29px 0px;
 }
 
 
@@ -202,8 +202,25 @@ body {
   background-attachment: scroll, scroll;
   background-size: 94%, 61%;
   background-position: -62px 25px, -29px 0px;
+}
+
+.background-corner {
+  background: url('../img/corner-sketch.gif');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 61%;
+  background-position: -29px 0px;
+}
+
+.owl {
+  background: url('../img/wise-web-owl.gif');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 94%;
+  background-position: -62px 25px;
 
 }
+
 
 .background {
   height: 830px;
@@ -380,8 +397,23 @@ hr {
   display: none;
 }
 
+.owl-home {
+  width: 100%;
+}
+
+.owl-home img{
+  float: left;
+  width: 100%;
+  margin: -105px auto auto -62px;
+}
+
+.owl-home span {
+      float: right;
+      display: flex;
+      align-content: flex-end;
+}
+
 .developer-designer-illustrator-mobile {
-    float: right;
     writing-mode: vertical-rl;
     -webkit-transform:rotate(180deg);
     -moz-transform:rotate(180deg);
@@ -389,17 +421,16 @@ hr {
     -ms-transform:rotate(1800deg);
     transform: rotate(180deg);
     white-space: nowrap;
-    display: block;
     bottom: 0;
     width: 20px;
-    padding: 7px 0 7px 13.3px;
-    margin: 0px;
+    padding-top: 5px;
+    padding-left: 13.3px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 31.5px;
+    font-size: 31px;
     font-weight: 300;
     color: #fec769;
     line-height: 0px;
-    text-align: right;
+    text-align: left;
     text-decoration: none;
     word-spacing: 1.5px;
 }

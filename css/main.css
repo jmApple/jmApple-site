@@ -206,11 +206,15 @@ body {
 }
 
 .background-corner {
-  background: url('../img/corner-sketch.gif'), url('../img/logo-green.gif');
+  background: url('../img/logo-green.gif'), url('../img/corner-sketch.gif');
   background-repeat: no-repeat, no-repeat;
   background-attachment: scroll, scroll;
-  background-size: 61%, 50%;
-  background-position: -29px 0px, 10px 0 0 15px;
+  background-size: 28%, 61%;
+  background-position: 10px 10px, -29px 0px;
+}
+
+.background-corner:hover {
+  background-size: 61%;
 }
 
 .owl {
@@ -485,12 +489,14 @@ line-height: 16px;
 padding: 17.55px 0 0 3px;
 margin: 0;
 }
+
 .social-media {
   width: 50%;
   float: right;
   padding: 0;
   margin: 0;
 }
+
 #footer-home ul {
   display: inline-block;
   float: right;
@@ -666,6 +672,7 @@ margin: 0;
 /***** DESKTOP HEADER | NAVIGATION *****/
 
 header img {
+  display: block;
   float: left;
   width: 12.13%;
   padding: .65% 0 0 4.57%;
@@ -1459,6 +1466,13 @@ writing-mode: sideways-lr;
 /*****  DESKTOP | FOOTER *****/
 #footer-home .copyright {
   margin-top: 13px;
+}
+
+.social-media {
+  width: 100%;
+  float: right;
+  padding: 0;
+  margin: 0;
 }
 
 #footer-home p {

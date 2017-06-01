@@ -359,6 +359,7 @@ hr {
 /***** MOBILE HOME PAGE *****/
 
 #home {
+  height: 100%;
   width: 100%;
   padding-top: 10px;
   border-bottom: 1px solid #000000;
@@ -393,30 +394,54 @@ hr {
 }
 
 .hello-mobile {
-  display: block;
-}
-
-.hello {
-  display: none;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 .owl-home {
-  width: 100%;
   display: flex;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
-.owl-home img{
+.owl-mobile {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.owl-mobile img {
+  display: flex;
+  height: 100%;
   width: 110%;
-  margin: -35px auto auto -62px;
+  margin: -35px 0 0 -62px;
 }
 
 .vertical-header {
-      display: flex;
-      justify-content: flex-end;
-      align-content: flex-end;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .developer-designer-illustrator-mobile {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.developer-designer-illustrator-mobile-text {
     writing-mode: vertical-rl;
     -webkit-transform:rotate(180deg);
     -moz-transform:rotate(180deg);
@@ -429,7 +454,7 @@ hr {
     padding-top: 5px;
     padding-left: 13.3px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 31px;
+    font-size: 30px;
     font-weight: 300;
     color: #fec769;
     line-height: 0px;
@@ -468,6 +493,10 @@ hr {
   margin-top: 0px;
   text-align: justify;
   text-decoration: none;
+}
+
+.hello {
+  display: none;
 }
 
 #footer-home {
@@ -715,7 +744,7 @@ nav ul li a {
   padding-left: 65px;
 }
 
-/***** HOME *****/
+/***** DESKTOP | HOME *****/
 
 #home {
   height : 817px;

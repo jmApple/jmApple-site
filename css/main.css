@@ -182,6 +182,8 @@ textarea {
 }
 
 /***** MOBILE FIRST *****/
+
+/***** ======= MOBILE small - iphone 5 ======= *****/
 html, body {
   width: 100%;
   height: 100%;
@@ -402,7 +404,7 @@ hr {
 }
 
 .owl-home {
-  display: flex;
+  display: inline-flex;
   align-items: flex-end;
   height: 100%;
   width: 100%;
@@ -412,15 +414,16 @@ hr {
 .owl-mobile {
   display: flex;
   height: 100%;
-  width: 100%;
+  width: 110%;
   margin: 0;
+  flex: 1;
 }
 
 .owl-mobile img {
   display: flex;
   height: 100%;
-  width: 110%;
-  margin: -35px 0 0 -62px;
+  width: 93%;
+  margin: -45px 0 0 0;
 }
 
 .vertical-header {
@@ -428,20 +431,26 @@ hr {
   flex-flow: column;
   justify-content: flex-end;
   justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  min-height: 375px;
   margin: 0;
+  flex: 0;
 }
 
 .developer-designer-illustrator-mobile {
     height: 100%;
     width: 100%;
     margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .developer-designer-illustrator-mobile-text {
+    display: flex;
     writing-mode: vertical-rl;
     -webkit-transform:rotate(180deg);
     -moz-transform:rotate(180deg);
@@ -454,7 +463,7 @@ hr {
     padding-top: 5px;
     padding-left: 13.3px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 300;
     color: #fec769;
     line-height: 0px;
@@ -485,7 +494,7 @@ hr {
 #home .little-bit-info p {
   float: right;
   font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   color: #828282;
   line-height: 19px;
@@ -539,7 +548,7 @@ margin: 0;
 }
 
 #footer-home ul li a {
-  font-size: 17px;
+  font-size: 14.3px;
   color: #000000;
   padding-left: 5px;
   padding-right: 5px;
@@ -634,6 +643,78 @@ margin: 0;
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+   /***** ======= Larger MOBILE ======= *****/
+   @media screen and (min-width:360px) {
+     /*larger mobile styles*/
+
+   .owl-mobile img {
+     display: flex;
+     height: 100%;
+     width: 93%;
+     margin: -35px 0 0 0;
+   }
+
+   .vertical-header {
+     display: flex;
+     flex-flow: column;
+     justify-content: flex-end;
+     justify-content: space-between;
+     height: 100%;
+     width: 100%;
+     min-height: 470px;
+     margin: 0;
+     flex: 0;
+   }
+
+   .developer-designer-illustrator-mobile-text {
+     display: flex;
+       writing-mode: vertical-rl;
+       -webkit-transform:rotate(180deg);
+       -moz-transform:rotate(180deg);
+       -o-transform: rotate(180deg);
+       -ms-transform:rotate(1800deg);
+       transform: rotate(180deg);
+       white-space: nowrap;
+       bottom: 0;
+       width: 20px;
+       padding-top: 5px;
+       padding-left: 13.3px;
+       font-family: 'Quicksand', sans-serif;
+       font-size: 31px;
+       font-weight: 300;
+       color: #fec769;
+       line-height: 0px;
+       text-align: left;
+       text-decoration: none;
+       word-spacing: 1.5px;
+   }
+
+   #home .little-bit-info p {
+     float: right;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 16px;
+     font-weight: 300;
+     color: #828282;
+     line-height: 19px;
+     padding-top: 0px;
+     margin-top: 0px;
+     text-align: justify;
+     text-decoration: none;
+   }
+
+   #footer-home ul li a {
+     font-size: 17px;
+     color: #000000;
+     padding-left: 5px;
+     padding-right: 5px;
+     text-decoration: none;
+   }
+
+}
+
+
+   /***** END LARGE MOBILE FIRST *****/
 
 
 /***** ======= DESKTOPS ======= *****/

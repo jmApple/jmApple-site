@@ -644,82 +644,71 @@ margin: 0;
    Modify as content requires.
    ========================================================================== */
 
-   /***** ======= Larger MOBILE ======= *****/
+   /***** ======= LARGE MOBILE TWEAKS ======= *****/
    @media screen and (min-width:360px) {
-     /*larger mobile styles*/
+     /*larger mobile styles set 1 Galaxy S5*/
 
    .owl-mobile img {
-     display: flex;
-     height: 100%;
-     width: 93%;
-     margin: -35px 0 0 0;
+        margin: -45px 0 0 0;
    }
 
    .vertical-header {
-     display: flex;
-     flex-flow: column;
-     justify-content: flex-end;
-     justify-content: space-between;
-     height: 100%;
-     width: 100%;
-     min-height: 470px;
-     margin: 0;
-     flex: 0;
+        min-height: 435px;
    }
 
    .developer-designer-illustrator-mobile-text {
-     display: flex;
-       writing-mode: vertical-rl;
-       -webkit-transform:rotate(180deg);
-       -moz-transform:rotate(180deg);
-       -o-transform: rotate(180deg);
-       -ms-transform:rotate(1800deg);
-       transform: rotate(180deg);
-       white-space: nowrap;
-       bottom: 0;
-       width: 20px;
-       padding-top: 5px;
-       padding-left: 13.3px;
-       font-family: 'Quicksand', sans-serif;
-       font-size: 31px;
-       font-weight: 300;
-       color: #fec769;
-       line-height: 0px;
-       text-align: left;
-       text-decoration: none;
-       word-spacing: 1.5px;
+        font-size: 31px;
+   }
+
+   #home .little-bit-info .email-homepage {
+        font-size: 19px;
    }
 
    #home .little-bit-info p {
-     float: right;
-     font-family: 'Quicksand', sans-serif;
-     font-size: 16px;
-     font-weight: 300;
-     color: #828282;
-     line-height: 19px;
-     padding-top: 0px;
-     margin-top: 0px;
-     text-align: justify;
-     text-decoration: none;
+        font-size: 16px;
+        line-height: 19px;
    }
 
    #footer-home ul li a {
-     font-size: 17px;
-     color: #000000;
-     padding-left: 5px;
-     padding-right: 5px;
-     text-decoration: none;
+        font-size: 17px;
    }
-
 }
 
 
-   /***** END LARGE MOBILE FIRST *****/
+@media screen and (min-width:375px) {
+  /*larger mobile styles set 2 iPhone6*/
+
+    .vertical-header {
+        min-height: 455px;
+    }
+
+    #home .little-bit-info .email-homepage {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:412px) {
+  /*larger mobile styles set 3 Nexus 5x, Nexus 6P & iPhone 6 Plus (414 screen width) */
+
+  .vertical-header {
+      min-height: 500px;
+      padding-left: 7px;
+  }
+
+  .developer-designer-illustrator-mobile-text {
+      letter-spacing: 1.3px;
+  }
+
+  #home .little-bit-info .email-homepage {
+      font-size: 21px;
+  }
+}
+
+/***** ======= END LARGE MOBILE ======= *****/
 
 
-/***** ======= DESKTOPS ======= *****/
 
-/***** ======= DESKTOPS ======= *****/
+/***** ======= BEGIN DESKTOPS ======= *****/
 @media screen and (min-width:940px) {
   /*desktop styles*/
 

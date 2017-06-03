@@ -714,12 +714,12 @@ margin: 0;
   /*desktop styles*/
 
   body {
-      height: 830px;
       background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
       background-repeat: no-repeat, no-repeat;
       background-attachment: scroll, scroll;
       background-size: 30.5%, 47%;
       background-position: -29px 0px;
+      height: auto;
   }
 
   .background {
@@ -848,8 +848,8 @@ nav ul li a {
 /***** DESKTOP | HOME *****/
 
 #home {
-  height : 817px;
-  border-bottom: solid #000000;
+  height : 0;
+  padding-bottom: 49.55%;
 }
 
 #home .full-width {
@@ -1594,8 +1594,13 @@ writing-mode: sideways-lr;
 
 
 /*****  DESKTOP | FOOTER *****/
+footer .half-width {
+  background-color: #fff;
+  border-top: solid #000;
+}
+
 #footer-home .copyright {
-  margin-top: 13px;
+  padding-top: 13px;
 }
 
 .social-media {
@@ -1604,6 +1609,8 @@ writing-mode: sideways-lr;
   padding: 0;
   margin: 0;
 }
+
+
 
 #footer-home p {
   font-size: 17px;

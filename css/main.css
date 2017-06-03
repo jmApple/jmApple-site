@@ -260,7 +260,7 @@ a:hover {
 }
 
 /***** MOBILE NAV & HEADER *****/
-header img {
+.logo {
   display: none;
 }
 
@@ -783,14 +783,15 @@ header {
 
 .logo {
   display: flex;
-  width: 30%;
+  width: 13%;
   margin: 0;
 }
 
-.logo a img {
+.logo img {
   display: flex;
-  width: 85%;
-  padding: 5% 0 0 15%;
+  width: 100%;
+  height: auto;
+  padding: 9% 0 0 20%;
   margin: 0;
 }
 
@@ -809,7 +810,7 @@ header {
   display: flex;
   height: 100%;
   width: 100%;
-  padding:  0 5%;
+  padding: 0 5% 0 10%;
   margin: 0;
 }
 

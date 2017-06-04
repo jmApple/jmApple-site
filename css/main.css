@@ -426,6 +426,10 @@ hr {
   margin: -45px 0 0 0;
 }
 
+.owl-tablet img {
+     display: none;
+}
+
 .vertical-header {
   display: flex;
   flex-flow: column;
@@ -707,7 +711,80 @@ margin: 0;
 /***** ======= END LARGE MOBILE ======= *****/
 
 /***** ======= TABLETS ======= *****/
+@media screen and (min-width: 768px) {
 
+  body {
+    background-size: 19%, 45.5%;
+    background-position: 5% 2.5%, -29px 0px;
+  }
+
+  hr {
+    border-top: 2px solid #808080;
+  	border-bottom: 1px solid #fff;
+    width: 50px;
+    margin-bottom: -9px;
+  }
+
+  .owl-mobile img {
+    display: none;
+  }
+
+  .owl-tablet {
+    display: flex;
+    height: 100%;
+    width: 110%;
+    margin: 0;
+  }
+
+  .owl-tablet img {
+    display: flex;
+    height: 100%;
+    margin: -59px 0 0 0;
+    width: 76%;
+  }
+
+  .vertical-header {
+    min-height: 740px;
+    padding-top: 15px;
+    padding-bottom: 7px;
+  }
+
+  .developer-designer-illustrator-mobile-text {
+    width: 40px;
+    padding-left: 0px;
+    font-size: 50px;
+    line-height: 0px;
+  }
+
+  #home .little-bit-info .email-homepage {
+    font-size: 30px;
+    padding: 3px 0 17px 0;
+  }
+
+  #home .little-bit-info {
+    margin-bottom: 0;
+  }
+
+  #home .little-bit-info p {
+    font-size: 20.58px;
+    line-height: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 0
+  }
+
+  #footer-home .copyright p{
+    padding-left: 19.5px;
+    margin: 0;
+  }
+
+  #footer-home ul {
+    margin-right: 19.5px;
+  }
+
+  #footer-home ul li a {
+    font-size: 17px;
+  }
+}
 
 /***** ======= BEGIN DESKTOPS ======= *****/
 @media screen and (min-width:940px) {
@@ -717,7 +794,7 @@ margin: 0;
       background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
       background-repeat: no-repeat, no-repeat;
       background-attachment: scroll, scroll;
-      background-size: 30.5%, 47%;
+      background-size: 30.5%, 47.3%;
       background-position: -29px 0px;
       height: auto;
   }

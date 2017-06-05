@@ -539,17 +539,34 @@ footer .half-width {
   align-items: center;
 }
 
-#footer-home {
+#footer-border {
   margin: 0;
 }
 
-#footer-home .copyright {
+#footer-no-border {
+  margin: 0;
+}
+
+#footer-border .copyright {
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
-#footer-home .copyright p {
+#footer-no-border .copyright {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#footer-border .copyright p {
+font-size: 14px;
+line-height: 16px;
+padding: 7.5px 0 0 3px;
+margin: 0;
+}
+
+#footer-no-border .copyright p {
 font-size: 14px;
 line-height: 16px;
 padding: 7.5px 0 0 3px;
@@ -562,19 +579,31 @@ margin: 0;
   margin: 0;
 }
 
-#footer-home ul {
+#footer-border ul {
   display: inline-block;
   float: right;
   margin: 10px 0;
   padding: 0;
 }
 
-#footer-home ul li {
+#footer-no-border ul {
+  display: inline-block;
+  float: right;
+  margin: 10px 0;
+  padding: 0;
+}
+
+#footer-border ul li {
   float: right;
   display: inline-block;
 }
 
-#footer-home ul li a {
+#footer-no-border ul li {
+  float: right;
+  display: inline-block;
+}
+
+#footer-border ul li a {
   font-size: 14.3px;
   color: #000000;
   padding-left: 5px;
@@ -582,12 +611,21 @@ margin: 0;
   text-decoration: none;
 }
 
-#footer-home .email {
+#footer-no-border ul li a {
+  font-size: 14.3px;
+  color: #000000;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+#footer-border .email {
   display: none;
 }
 
-
-
+#footer-no-border .email {
+  display: none;
+}
 
 /***** END MOBILE FIRST *****/
 
@@ -706,7 +744,7 @@ margin: 0;
      display: none;
    }
 
-   #footer-home ul li a {
+   #footer-border ul li a {
         font-size: 17px;
    }
 }
@@ -801,7 +839,7 @@ margin: 0;
     text-decoration: none;
   }
 
-  #footer-home ul {
+  #footer-border ul {
       margin-right: 19.5px;
   }
 }
@@ -874,16 +912,29 @@ margin: 0;
     margin-bottom: 0;
   }
 
-  #footer-home .copyright p{
+  #footer-border .copyright p{
     padding-left: 19.5px;
     margin: 0;
   }
 
-  #footer-home ul {
+  #footer-no-border .copyright p{
+    padding-left: 19.5px;
+    margin: 0;
+  }
+
+  #footer-border ul {
     margin-right: 19.5px;
   }
 
-  #footer-home ul li a {
+  #footer-no-border ul {
+    margin-right: 19.5px;
+  }
+
+  #footer-border ul li a {
+    font-size: 17px;
+  }
+
+  #footer-no-border ul li a {
     font-size: 17px;
   }
 }
@@ -1805,10 +1856,12 @@ margin: 0;
 
   #footer-border .copyright {
     padding-top: 0px;
+    padding-left: 5px;
   }
 
   #footer-no-border .copyright {
     padding-top: 0px;
+    padding-left: 5px;
   }
 
   .social-media {

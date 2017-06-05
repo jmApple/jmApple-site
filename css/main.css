@@ -189,7 +189,17 @@ html, body {
   height: 100%;
   margin: 0;
 }
-body {
+
+.home-body {
+  font-family: 'Quicksand', sans-serif;
+  background: url('../img/logo-green.gif'), url('../img/corner-sketch.gif');
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: scroll, scroll;
+  background-size: 28%, 61%;
+  background-position: 10px 10px, -29px 0px;
+}
+
+.corner-body {
   font-family: 'Quicksand', sans-serif;
   background: url('../img/logo-green.gif'), url('../img/corner-sketch.gif');
   background-repeat: no-repeat, no-repeat;
@@ -800,8 +810,12 @@ margin: 0;
 
 /***** ======= TABLETS ======= *****/
 @media screen and (min-width: 768px) {
+  .home-body {
+    background-size: 19%, 45.5%;
+    background-position: 5% 2.5%, -29px 0px;
+  }
 
-  body {
+  .corner-body {
     background-size: 19%, 45.5%;
     background-position: 5% 2.5%, -29px 0px;
   }
@@ -878,11 +892,20 @@ margin: 0;
 @media screen and (min-width:940px) {
   /*desktop styles*/
 
-  body {
+  .home-body {
       background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
       background-repeat: no-repeat, no-repeat;
       background-attachment: scroll, scroll;
       background-size: 30.5%, 47.3%;
+      background-position: -29px 0px;
+      height: 100%;
+  }
+
+  .corner-body {
+      background: url('../img/corner-sketch.gif');
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: 30.5%;
       background-position: -29px 0px;
       height: 100%;
   }
@@ -1754,13 +1777,22 @@ margin: 0;
   }
 
   /*****  DESKTOP | FOOTER *****/
-  footer {
+
+  .footer-border {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     width: 100%;
     background-color: #fff;
     border-top: solid #000;
+    max-height: 12%;
+  }
+
+  .footer-no-border {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
     max-height: 12%;
   }
 
@@ -1771,7 +1803,11 @@ margin: 0;
     width: 100%;
   }
 
-  #footer-home .copyright {
+  #footer-border .copyright {
+    padding-top: 0px;
+  }
+
+  #footer-no-border .copyright {
     padding-top: 0px;
   }
 
@@ -1782,7 +1818,7 @@ margin: 0;
     margin: 0;
   }
 
-  #footer-home p {
+  #footer-border p {
     font-size: 17px;
     font-weight: 300;
     color: #000000;
@@ -1792,7 +1828,17 @@ margin: 0;
     padding-left: 5px;
   }
 
-  #footer-home ul {
+  #footer-no-border p {
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 15px;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 5px;
+  }
+
+  #footer-border ul {
     float: right;
     list-style: none;
     text-align: right;
@@ -1800,12 +1846,25 @@ margin: 0;
     margin-top: 23px;
   }
 
-  #footer-home ul li {
+  #footer-no-border ul {
+    float: right;
+    list-style: none;
+    text-align: right;
+    padding-right: 5px;
+    margin-top: 23px;
+  }
+
+  #footer-border ul li {
     float: left;
     display: inline-block;
   }
 
-  #footer-home ul li a {
+  #footer-no-border ul li {
+    float: left;
+    display: inline-block;
+  }
+
+  #footer-border ul li a {
     font-size: 17px;
     color: #000000;
     padding-left: 5px;
@@ -1813,7 +1872,20 @@ margin: 0;
     text-decoration: none;
   }
 
-  #footer-home .email {
+  #footer-no-border ul li a {
+    font-size: 17px;
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+  }
+
+  #footer-border .email {
+    display: block;
+    line-height: 28px;
+  }
+
+  #footer-no-border .email {
     display: block;
     line-height: 28px;
   }

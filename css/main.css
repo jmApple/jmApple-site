@@ -184,6 +184,7 @@ textarea {
 /***** ======= MOBILE FIRST ======= *****/
 
 /***** ======= MOBILE small - iphone 5 ======= *****/
+  /***** HOME *****/
 html, body {
   width: 100%;
   height: 100%;
@@ -560,17 +561,17 @@ footer .half-width {
 }
 
 #footer-border .copyright p {
-font-size: 14px;
-line-height: 16px;
-padding: 7.5px 0 0 3px;
-margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 7.5px 0 0 3px;
+  margin: 0;
 }
 
 #footer-no-border .copyright p {
-font-size: 14px;
-line-height: 16px;
-padding: 7.5px 0 0 3px;
-margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 7.5px 0 0 3px;
+  margin: 0;
 }
 
 .social-media {
@@ -626,6 +627,241 @@ margin: 0;
 #footer-no-border .email {
   display: none;
 }
+
+/***** ======= MOBIlE | ABOUT PAGE ======= *****/
+
+#about {
+  width: 100%;
+  border-bottom: solid;
+  border-color: #000000;
+}
+
+.fifth-width-about {
+  width: 100%;
+  float: left;
+}
+
+.jessica-mcintosh-vertical {
+  float: right;
+  padding-right: 19px;
+}
+
+.vertical {
+  display: block;
+  bottom:0;
+  width:100%;
+  padding-top: 13px;
+}
+
+#about h1 {
+  font-family:'Natural Script Bold W001405414';
+  font-size: 29px;
+  font-weight: bold;
+  color: #DFCDE4;
+  line-height: 10px;
+  margin-bottom: 10px;
+}
+
+.four-fifths-width-work {
+  width: 80%;
+  float: left;
+}
+
+.work-bracket-div {
+  width: 5%;
+  display: inline-block;
+  float: left;
+}
+
+.giant-bracket-work {
+  font-family:'Cochin LT W01 Roman';
+  font-size: 217px;
+  line-height: 125px;
+  margin-left: 0px;
+  color: #bbbdc0;
+}
+
+.work-vertical {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: -81px;
+  transform: rotate(270deg);
+  white-space: nowrap;
+  display: block;
+  color: #fff;
+}
+
+.about-wording-section-work {
+  width: 83%;
+  display: inline-block;
+  float: left;
+}
+
+.work-info-small-mobile {
+  width: 100%;
+  float: left;
+  padding-left: 50px;
+}
+
+.work-info {
+  display: none;
+}
+
+#about p {
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration: none;
+  color: #828282;
+}
+
+/***** Graphic Designer *****/
+.dark-purple-blue {
+  color: #262261;
+  font-size: 17px;
+  line-height: 5px;
+  margin-top: 0px;
+}
+
+/***** Illustrator *****/
+.true-purple {
+  color: #652C90;
+  font-size: 17px;
+  line-height: 8px;
+}
+
+/***** Front End Developer *****/
+.bright-purple {
+  color: #91268F;
+  font-size: 17px;
+  line-height: 8px;
+}
+
+/***** Web Designer *****/
+.warm-purple {
+  color: #9E1E62;
+  font-size: 17px;
+  line-height: 8px;
+}
+
+/***** HTML *****/
+.cool-red {
+  color: #D91B5B;
+  font-size: 17px;
+  line-height: 8px;
+}
+
+/***** CSS *****/
+.red {
+  color: #ED1C24;
+  font-size: 17px;
+  line-height: 8px;
+}
+
+/***** Javascript *****/
+.red-orange {
+  color: #F05A28;
+  font-size: 17px;
+  line-height: 8px;
+}
+
+/***** Responsive Development *****/
+.orange {
+  color: #F7931D;
+  font-size: 17px;
+  line-height: 8px;
+}
+
+.about-img-block-work {
+  display: none;
+}
+
+.four-fifths-width-home {
+  width: 80%;
+  float: left;
+  margin-top: 45px;
+}
+
+.home-bracket-div-mobile {
+  width: 5%;
+  display: inline-block;
+  float: left;
+}
+
+.home-bracket-div {
+  display: none;
+}
+
+.about-wording-section-home {
+  width: 83%;
+  display: inline-block;
+  float: left;
+}
+
+.giant-bracket-home {
+  font-family:'Cochin LT W01 Roman';
+  font-size: 217px;
+  line-height: 125px;
+  margin-left: 0px;
+  color: #bbbdc0;
+}
+
+.home-vertical {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: -81px;
+  transform: rotate(270deg);
+  white-space: nowrap;
+  display: block;
+  color: #fff;
+}
+
+.home-info {
+  width: 400px;
+  height: 412px;
+  margin-top: 5px;
+  text-align: right;
+  float: right;
+}
+
+/***** Wife *****/
+.green {
+  color: #38B449;
+  font-size: 29.7px;
+  line-height: 30px;
+}
+
+/***** Mother *****/
+.blue-green {
+  color: #00A79D;
+  font-size: 29.7px;
+  line-height: 25px;
+}
+
+/***** Proud USAF Sister *****/
+.blue {
+  color: #1B75BB;
+  font-size: 29.7px;
+  line-height: 25px;
+}
+
+/***** Play *****/
+.colbalt-blue {
+  color: #2A388F;
+  font-size: 29.7px;
+  line-height: 25px;
+}
+
+/***** Creative Dreamer *****/
+.true-purple-home {
+  color: #652C90;
+  font-size: 29.7px;
+  line-height: 25px;
+}
+
+.about-img-block-home {
+  display: none;
+}
+
 
 /***** END MOBILE FIRST *****/
 
@@ -1162,7 +1398,7 @@ margin: 0;
     word-spacing: 1.5px;
   }
 
-  /***** ABOUT *****/
+  /***** DESKTOP | ABOUT *****/
 
   #about {
     width: auto;

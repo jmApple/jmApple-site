@@ -632,8 +632,7 @@ footer .half-width {
 
 #about {
   width: 100%;
-  border-bottom: solid;
-  border-color: #000000;
+  border-bottom: 1px solid #000000;
 }
 
 .fifth-width-about {
@@ -650,12 +649,13 @@ footer .half-width {
   display: block;
   bottom:0;
   width:100%;
-  padding-top: 13px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 #about h1 {
   font-family:'Natural Script Bold W001405414';
-  font-size: 29px;
+  font-size: 30px;
   font-weight: bold;
   color: #DFCDE4;
   line-height: 10px;
@@ -663,8 +663,13 @@ footer .half-width {
 }
 
 .four-fifths-width-work {
-  width: 80%;
+  width: 100%;
+  padding-left: 60px;
   float: left;
+}
+
+.mobile-img-set {
+  display: none;
 }
 
 .work-bracket-div {
@@ -677,14 +682,15 @@ footer .half-width {
   font-family:'Cochin LT W01 Roman';
   font-size: 217px;
   line-height: 125px;
-  margin-left: 0px;
+  margin-left: -30px;
   color: #bbbdc0;
 }
 
 .work-vertical {
-  font-size: 20px;
-  margin-left: 40px;
-  margin-top: -81px;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 13.5px;
+  margin-top: -93px;
   transform: rotate(270deg);
   white-space: nowrap;
   display: block;
@@ -692,15 +698,21 @@ footer .half-width {
 }
 
 .about-wording-section-work {
-  width: 83%;
   display: inline-block;
+  width: 64%;
   float: left;
+  padding-left: 15px;
 }
 
 .work-info-small-mobile {
+  display: inline-block;
   width: 100%;
   float: left;
-  padding-left: 50px;
+  padding-left: 3px;
+}
+
+.work-info-mobile {
+  display: none;
 }
 
 .work-info {
@@ -776,9 +788,11 @@ footer .half-width {
 }
 
 .four-fifths-width-home {
-  width: 80%;
+  width: 100%;
+  padding-left: 60px;
   float: left;
-  margin-top: 45px;
+  margin-top: 13px;
+  margin-bottom: 3px;
 }
 
 .home-bracket-div-mobile {
@@ -792,70 +806,75 @@ footer .half-width {
 }
 
 .about-wording-section-home {
-  width: 83%;
   display: inline-block;
+  width: 83%;
   float: left;
+  padding-left: 15px;
 }
 
 .giant-bracket-home {
   font-family:'Cochin LT W01 Roman';
   font-size: 217px;
   line-height: 125px;
-  margin-left: 0px;
+  margin-left: -30px;
   color: #bbbdc0;
 }
 
 .home-vertical {
-  font-size: 20px;
-  margin-left: 40px;
-  margin-top: -81px;
+  font-size: 18px;
+  margin-left: 13.5px;
+  margin-top: -93px;
   transform: rotate(270deg);
   white-space: nowrap;
   display: block;
   color: #fff;
 }
 
+.home-info-small-mobile {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  padding-left: 3px;
+}
+
 .home-info {
-  width: 400px;
-  height: 412px;
-  margin-top: 5px;
-  text-align: right;
-  float: right;
+  display: none;
 }
 
 /***** Wife *****/
 .green {
   color: #38B449;
-  font-size: 29.7px;
-  line-height: 30px;
+  font-size: 17px;
+  line-height: 5px;
+  margin-top: 0px;
 }
 
 /***** Mother *****/
 .blue-green {
   color: #00A79D;
-  font-size: 29.7px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 8px;
 }
 
 /***** Proud USAF Sister *****/
 .blue {
   color: #1B75BB;
-  font-size: 29.7px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 8px;
 }
 
 /***** Play *****/
 .colbalt-blue {
   color: #2A388F;
-  font-size: 29.7px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 8px;
 }
 
 /***** Creative Dreamer *****/
 .true-purple-home {
   color: #652C90;
-  font-size: 29.7px;
-  line-height: 25px;
+  font-size: 17px;
+  line-height: 8px;
 }
 
 .about-img-block-home {
@@ -983,6 +1002,198 @@ footer .half-width {
    #footer-border ul li a {
         font-size: 17px;
    }
+
+
+
+
+   .vertical {
+     padding-top: 31px;
+     padding-bottom: 7px;
+   }
+
+   #about h1 {
+     font-size: 31px;
+   }
+
+   .four-fifths-width-work {
+     width: 100%;
+     padding-left: 0px;
+     float: left;
+   }
+
+   .mobile-img-set {
+     display: inline-block;
+     width: 20%;
+     height: 100px;
+     float: left;
+     margin: 0 4% 0 5%;
+     background-color: lightgrey;
+     border: 1px solid #000000;
+   }
+
+   .giant-bracket-work {
+     font-size: 243px;
+     line-height: 150px;
+     margin-left: -30px;
+   }
+
+   .work-vertical {
+     font-size: 18px;
+     margin-left: 20px;
+     margin-top: -107px;
+   }
+
+   .about-wording-section-work {
+     display: inline;
+     width: 58%;
+     padding-left: 15px;
+   }
+
+   .work-info-small-mobile {
+     display: none;
+   }
+
+   .work-info-mobile {
+     display: inline-block;
+     width: 100%;
+     padding-left: 7px;
+   }
+
+   .work-info {
+     display: none;
+   }
+
+   #about p {
+     font-size: 10px;
+     line-height: 12px;
+   }
+
+   /***** Graphic Designer *****/
+   .dark-purple-blue {
+     line-height: 13.4px;
+   }
+
+   /***** Illustrator *****/
+   .true-purple {
+     line-height: 9.2px;
+   }
+
+   /***** Front End Developer *****/
+   .bright-purple {
+     line-height: 9.2px;
+   }
+
+   /***** Web Designer *****/
+   .warm-purple {
+     line-height: 9.2px;
+   }
+
+   /***** HTML *****/
+   .cool-red {
+     line-height: 9.2px;
+   }
+
+   /***** CSS *****/
+   .red {
+     line-height: 9.2px;
+   }
+
+   /***** Javascript *****/
+   .red-orange {
+     line-height: 9.2px;
+   }
+
+   /***** Responsive Development *****/
+   .orange {
+     line-height: 9.2px;
+   }
+
+   .about-img-block-work {
+     display: none;
+   }
+
+   .four-fifths-width-home {
+     width: 100%;
+     padding-left: 0px;
+     float: left;
+     margin-top: 25px;
+     margin-bottom: 19px;
+   }
+
+   .about-wording-section-home {
+     display: inline;
+     width: 58%;
+     padding-left: 15px;
+   }
+
+   .giant-bracket-home {
+     font-size: 243px;
+     line-height: 150px;
+     margin-left: -30px;
+   }
+
+   .home-vertical {
+     font-size: 18px;
+     margin-left: 20px;
+     margin-top: -101px;
+   }
+
+   .home-info-small-mobile {
+     display: none;
+   }
+
+   .home-info-mobile {
+     display: inline-block;
+     width: 100%;
+     padding-left: 7px;
+   }
+
+   .home-info {
+     display: none;
+   }
+
+   /***** Wife *****/
+   .green {
+     line-height: 13px;
+   }
+
+   /***** Mother *****/
+   .blue-green {
+     color: #00A79D;
+     font-size: 17px;
+     line-height: 8px;
+   }
+
+   /***** Proud USAF Sister *****/
+   .blue {
+     color: #1B75BB;
+     font-size: 17px;
+     line-height: 8px;
+   }
+
+   /***** Play *****/
+   .colbalt-blue {
+     color: #2A388F;
+     font-size: 17px;
+     line-height: 8px;
+   }
+
+   /***** Creative Dreamer *****/
+   .true-purple-home {
+     color: #652C90;
+     font-size: 17px;
+     line-height: 8px;
+   }
+
+   .about-img-block-home {
+     display: none;
+   }
+
+
+
+
+
+
 }
 
 
@@ -1074,6 +1285,8 @@ footer .half-width {
     text-align: justify;
     text-decoration: none;
   }
+
+
 
   #footer-border ul {
       margin-right: 19.5px;

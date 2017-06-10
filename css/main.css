@@ -667,7 +667,7 @@ footer .half-width {
   float: left;
 }
 
-.mobile-img-set {
+.mobile-img-set-top {
   display: none;
 }
 
@@ -792,6 +792,10 @@ footer .half-width {
   float: left;
   margin-top: 13px;
   margin-bottom: 3px;
+}
+
+.mobile-img-set-bottom {
+  display: none;
 }
 
 .home-bracket-div-mobile {
@@ -1023,12 +1027,12 @@ footer .half-width {
      float: left;
    }
 
-   .mobile-img-set {
+   .mobile-img-set-top {
      display: inline-block;
      width: 20%;
      height: 100px;
      float: left;
-     margin: 0 4% 0 5%;
+     margin: 15% 4% 0 5%;
      background-color: lightgrey;
      border: 1px solid #000000;
    }
@@ -1125,6 +1129,16 @@ footer .half-width {
      margin-bottom: 11px;
    }
 
+   .mobile-img-set-bottom {
+     display: inline-block;
+     width: 20%;
+     height: 100px;
+     float: left;
+     margin: 15% 4% 0 5%;
+     background-color: lightgrey;
+     border: 1px solid #000000;
+   }
+
    .home-bracket-div-mobile {
      padding-left: 0;
    }
@@ -1212,6 +1226,21 @@ footer .half-width {
     .little-bit-info-large-mobile {
       display: none;
     }
+
+    /*** ABOUT | min-width:375px ***/
+    .vertical {
+      padding-top: 39px;
+      padding-bottom: 11px;
+    }
+
+    #about h1 {
+      font-size: 33px;
+    }
+
+    .four-fifths-width-home {
+      margin-top: 17px;
+      margin-bottom: 15px;
+    }
 }
 
 @media screen and (min-width:412px) {
@@ -1287,7 +1316,22 @@ footer .half-width {
     text-decoration: none;
   }
 
+  /*** ABOUT | min-width: 360px ***/
+  .vertical {
+    padding-top: 53px;
+    padding-bottom: 15px;
+  }
 
+  #about h1 {
+    font-size: 37px;
+  }
+
+  .four-fifths-width-home {
+    margin-top: 17px;
+    margin-bottom: 15px;
+  }
+
+  /*** FOOTER-SECTION | min width: 412px ***/
 
   #footer-border ul {
       margin-right: 19.5px;

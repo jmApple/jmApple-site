@@ -664,7 +664,6 @@ footer .half-width {
 
 .four-fifths-width-work {
   width: 100%;
-  padding-left: 60px;
   float: left;
 }
 
@@ -674,6 +673,7 @@ footer .half-width {
 
 .work-bracket-div {
   width: 5%;
+  padding-left: 60px;
   display: inline-block;
   float: left;
 }
@@ -789,7 +789,6 @@ footer .half-width {
 
 .four-fifths-width-home {
   width: 100%;
-  padding-left: 60px;
   float: left;
   margin-top: 13px;
   margin-bottom: 3px;
@@ -797,6 +796,7 @@ footer .half-width {
 
 .home-bracket-div-mobile {
   width: 5%;
+  padding-left: 60px;
   display: inline-block;
   float: left;
 }
@@ -807,7 +807,7 @@ footer .half-width {
 
 .about-wording-section-home {
   display: inline-block;
-  width: 83%;
+  width: 64%;
   float: left;
   padding-left: 15px;
 }
@@ -835,6 +835,10 @@ footer .half-width {
   width: 100%;
   float: left;
   padding-left: 3px;
+}
+
+.home-info-mobile {
+  display: none;
 }
 
 .home-info {
@@ -1003,9 +1007,7 @@ footer .half-width {
         font-size: 17px;
    }
 
-
-
-
+   /*** ABOUT | min-width:360px ***/
    .vertical {
      padding-top: 31px;
      padding-bottom: 7px;
@@ -1029,6 +1031,10 @@ footer .half-width {
      margin: 0 4% 0 5%;
      background-color: lightgrey;
      border: 1px solid #000000;
+   }
+
+   .work-bracket-div {
+     padding-left: 0;
    }
 
    .giant-bracket-work {
@@ -1115,9 +1121,12 @@ footer .half-width {
    .four-fifths-width-home {
      width: 100%;
      padding-left: 0px;
-     float: left;
-     margin-top: 25px;
-     margin-bottom: 19px;
+     margin-top: 14px;
+     margin-bottom: 11px;
+   }
+
+   .home-bracket-div-mobile {
+     padding-left: 0;
    }
 
    .about-wording-section-home {
@@ -1159,30 +1168,22 @@ footer .half-width {
 
    /***** Mother *****/
    .blue-green {
-     color: #00A79D;
-     font-size: 17px;
-     line-height: 8px;
+     line-height: 9.2px;
    }
 
    /***** Proud USAF Sister *****/
    .blue {
-     color: #1B75BB;
-     font-size: 17px;
-     line-height: 8px;
+     line-height: 9.2px;
    }
 
    /***** Play *****/
    .colbalt-blue {
-     color: #2A388F;
-     font-size: 17px;
-     line-height: 8px;
+     line-height: 9.2px;
    }
 
    /***** Creative Dreamer *****/
    .true-purple-home {
-     color: #652C90;
-     font-size: 17px;
-     line-height: 8px;
+     line-height: 9.2px;
    }
 
    .about-img-block-home {

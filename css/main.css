@@ -1229,8 +1229,8 @@ footer .half-width {
 
     /*** ABOUT | min-width:375px ***/
     .vertical {
-      padding-top: 39px;
-      padding-bottom: 11px;
+      padding-top: 45px;
+      padding-bottom: 7px;
     }
 
     #about h1 {
@@ -1316,20 +1316,62 @@ footer .half-width {
     text-decoration: none;
   }
 
-  /*** ABOUT | min-width: 360px ***/
+  /*** ABOUT | min-width: 412px ***/
   .vertical {
-    padding-top: 53px;
-    padding-bottom: 15px;
+    padding-top: 49px;
+    padding-bottom: 11px;
   }
 
   #about h1 {
     font-size: 37px;
   }
 
-  .four-fifths-width-home {
-    margin-top: 17px;
-    margin-bottom: 15px;
+  #about p {
+    font-size: 12px;
+    line-height: 14.5px;
   }
+
+  .mobile-img-set-top, .mobile-img-set-bottom {
+    margin: 15% 3% 0 4%;
+  }
+
+  .four-fifths-width-home {
+    margin-top: 23px;
+    margin-bottom: 17px;
+  }
+
+  .giant-bracket-work {
+    font-size: 275px;
+    line-height: 166px;
+  }
+
+  .giant-bracket-home {
+    font-size: 275px;
+    line-height: 164px;
+  }
+
+  .work-vertical {
+    font-size: 21px;
+    margin-left: 25.8px;
+    margin-top: -121px;
+  }
+
+  .home-vertical {
+    font-size: 21px;
+    margin-left: 25.8px;
+    margin-top: -111px;
+  }
+
+  .work-info-mobile, .home-info-mobile {
+    padding-left: 13px;
+  }
+
+  /***** ABOUT | WORK HEADERS IN THE BRACKET *****/
+  .true-purple, .bright-purple, .warm-purple, .cool-red, .red, .red-orange, .orange {
+    line-height: 11px;
+  }
+
+
 
   /*** FOOTER-SECTION | min width: 412px ***/
 

@@ -1375,8 +1375,12 @@ footer .half-width {
 
   /*** FOOTER-SECTION | min width: 412px ***/
 
+  #footer-border .half-width .copyright {
+    padding-left: 7px;
+  }
+
   #footer-border ul {
-      margin-right: 19.5px;
+      margin-right: 7px;
   }
 }
 
@@ -1702,33 +1706,31 @@ footer .half-width {
 
   #about {
     width: auto;
-    height : 1090px;
-    border-bottom: solid;
-    border-color: #000000;
+    border-bottom: 1px solid #000000;
   }
 
   .fifth-width-about {
-    height: 880px;
-    width: 250px;
+    width: 20%;
     float: left;
   }
 
   .four-fifths-width-work {
-    height: 412px;
-    width: 950px;
+    width: 80%;
     float: left;
   }
 
   .jessica-mcintosh-vertical {
-    height: 300px;
-    width: 100px;
+    width: 8.3%;
     float: right;
+  }
+
+  .mobile-img-set-top, .mobile-img-set-bottom, .home-bracket-div-mobile {
+    display: none;
   }
 
   .work-bracket-div {
     width: 60px;
     height: 412px;
-    display: inline-block;
     float: left;
   }
 
@@ -1802,12 +1804,12 @@ footer .half-width {
     -o-transform: rotate(180deg);
     -ms-transform:rotate(1800deg);
     transform: rotate(180deg);
-    white-space:nowrap;
-    display:block;
-    bottom:0;
-    width:20px;
-    height:810px;
-    padding-top: 10px;
+    white-space: nowrap;
+    display: block;
+    bottom: 0;
+    line-height: 0px;
+    margin-top: 221px;
+    margin-left: -33px;
   }
 
   #about p {
@@ -1818,11 +1820,9 @@ footer .half-width {
   }
 
   .giant-bracket-work {
-    font-family:'Cochin LT W01 Roman';
     font-size: 455px;
     line-height: 295px;
-    margin-left: -70px;
-    color: #bbbdc0;
+    margin-left: -115px;
   }
 
   .giant-bracket-home {

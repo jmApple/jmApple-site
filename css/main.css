@@ -1452,7 +1452,75 @@ footer .half-width {
     margin-bottom: 0;
   }
 
-  #footer-border .copyright p{
+  /***** ABOUT PAGE | TABLET *****/
+
+  .mobile-img-set-top {
+    display: none;
+  }
+
+  .mobile-img-set-bottom {
+    display: none;
+  }
+
+  .work-info-mobile {
+    display: none;
+  }
+
+  .work-info {
+    display: block;
+  }
+
+  .about-wording-section-work {
+    float: left;
+  }
+
+  .about-img-block-work {
+    float: left;
+    display: block;
+    width: 50px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid #000;
+  }
+
+  .about-wording-section-home {
+    float: right;
+  }
+
+  .home-bracket-div-mobile {
+    display: none;
+  }
+
+  .home-bracket-div {
+    display: block;
+    float: right;
+  }
+
+  .home-vertical {
+    color: #000;
+  }
+
+  .home-info-mobile {
+    display: none;
+  }
+
+  .home-info {
+    display: block;
+    text-align: right;
+    float: right;
+  }
+
+  .about-img-block-home {
+    display: block;
+    float: right;
+    background-color: grey;
+    border: 1px solid #000;
+    width: 50px;
+    height: 100px;
+  }
+
+  /***** FOOTER | TABLET *****/
+  #footer-border .copyright p {
     padding-left: 19.5px;
     margin: 0;
   }
@@ -1705,23 +1773,24 @@ footer .half-width {
   /***** DESKTOP | ABOUT *****/
 
   #about {
-    width: auto;
+    width: 100%;
     border-bottom: 1px solid #000000;
   }
 
   .fifth-width-about {
-    width: 20%;
+    width: 12.5%;
     float: left;
   }
 
   .four-fifths-width-work {
-    width: 80%;
+    width: 87.5%;
     float: left;
   }
 
   .jessica-mcintosh-vertical {
-    width: 8.3%;
+    width: 8%;
     float: right;
+    padding-left: 15%;
   }
 
   .mobile-img-set-top, .mobile-img-set-bottom, .home-bracket-div-mobile {
@@ -1729,61 +1798,60 @@ footer .half-width {
   }
 
   .work-bracket-div {
-    width: 60px;
-    height: 412px;
     float: left;
   }
 
   .about-wording-section-work {
-    width: 515px;
-    height: 412px;
+    width: 50%;
     display: inline-block;
     float: left;
+    margin: 0;
   }
 
   .about-img-block-work {
-    width: 350px;
+    width: 38.3%;
     height: 390px;
     display: inline-block;
-    margin: 10px;
-    float: left;
+    margin: 0.5% 3.7% 0 1%;
+    float: right;
     background-color: lightgrey;
     border: 1px solid #000000;
   }
 
   .four-fifths-width-home {
-    height: 412px;
-    width: 950px;
+    width: 87.5%;
     float: left;
     margin-top: 45px;
   }
 
   .home-bracket-div {
-    width: 60px;
-    height: 412px;
+    width: 3%;
+    margin-right: 9.3%;
+    padding-right: 5%;
     display: inline-block;
     float: right;
   }
 
   .about-wording-section-home {
-    width: 430px;
-    height: 412px;
+    width: 37%;
+    margin: 0;
+    margin-right: -40px;
     display: inline-block;
     float: right;
+    padding-left: 0;
   }
 
-  .about-img-block-home {
-    width: 435px;
-    height: 390px;
+    .about-img-block-home {
+    width: 35%;
+    height: 445px;
     display: inline-block;
-    margin: 10px;
-    float: right;
+    margin: 7px 11px 7px 91px;
+    float: left;
     background-color: lightgrey;
     border: 1px solid #000000;
   }
 
   #about h1 {
-    font-family:'Natural Script Bold W001405414';
     font-size: 89px;
     font-weight: bold;
     color: #E6E7E8;
@@ -1802,66 +1870,74 @@ footer .half-width {
     -webkit-transform:rotate(180deg);
     -moz-transform:rotate(180deg);
     -o-transform: rotate(180deg);
-    -ms-transform:rotate(1800deg);
+    -ms-transform:rotate(180deg);
     transform: rotate(180deg);
     white-space: nowrap;
     display: block;
     bottom: 0;
     line-height: 0px;
-    margin-top: 221px;
-    margin-left: -33px;
+    margin-top: 241px;
+    margin-left: 83px;
   }
 
   #about p {
-    font-size: 15px;
-    line-height: 17px;
-    text-decoration: none;
-    color: #828282;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .giant-bracket-work {
-    font-size: 455px;
-    line-height: 295px;
-    margin-left: -115px;
+    font-size: 507px;
+    line-height: 330px;
+    margin-left: 0px;
   }
 
   .giant-bracket-home {
-    font-family:'Cochin LT W01 Roman';
-    font-size: 455px;
-    line-height: 295px;
-    margin-left: -40px;
-    color: #bbbdc0;
+    font-size: 507px;
+    line-height: 330px;
+    letter-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
   }
 
   .work-vertical {
     font-size: 40px;
-    margin-left: -15px;
-    margin-top: -207px;
+    margin-left: 105.5px;
+    margin-top: -220px;
     transform: rotate(270deg);
     white-space: nowrap;
     display: block;
-    color: #ffffff;
+    color: #fff;
   }
 
   .home-vertical {
+    width: 5%;
     font-size: 40px;
-    margin-left: 9px;
-    margin-top: -183px;
+    line-height: 0px;
+    margin: -190px 0 0 82px;
     transform: rotate(270deg);
     white-space: nowrap;
     display: block;
-    color: #ffffff;
+    color: #fff;
+  }
+
+  .work-info-mobile {
+    display: none;
   }
 
   .work-info {
-    width: 525px;
-    height: 412px;
+    display: block;
+    width: 100%;
     float: left;
+    padding-left: 71px;
+  }
+
+  .home-info-mobile {
+    display: none;
   }
 
   .home-info {
-    width: 400px;
-    height: 412px;
+    display: block;
+    width: 100%;
     margin-top: 5px;
     text-align: right;
     float: right;
@@ -1869,58 +1945,50 @@ footer .half-width {
 
   /***** Graphic Designer *****/
   .dark-purple-blue {
-    color: #262261;
     font-size: 29.7px;
-    line-height: 30px;
+    line-height: 41px;
   }
 
   /***** Illustrator *****/
   .true-purple {
-    color: #652C90;
     font-size: 29.7px;
-    line-height: 20px;
+    line-height: 25px;
   }
 
   /***** Front End Developer *****/
   .bright-purple {
-    color: #91268F;
     font-size: 29.7px;
-    line-height: 20px;
+    line-height: 25px;
   }
 
   /***** Web Designer *****/
   .warm-purple {
-    color: #9E1E62;
     font-size: 29.7px;
-    line-height: 20px;
+    line-height: 25px;
   }
 
   /***** HTML *****/
   .cool-red {
-    color: #D91B5B;
     font-size: 29.7px;
     line-height: 25px;
   }
 
   /***** CSS *****/
   .red {
-    color: #ED1C24;
     font-size: 29.7px;
-    line-height: 25px;
+    line-height: 23px;
   }
 
   /***** Javascript *****/
   .red-orange {
-    color: #F05A28;
     font-size: 29.7px;
-    line-height: 20px;
+    line-height: 23px;
   }
 
   /***** Responsive Development *****/
   .orange {
-    color: #F7931D;
     font-size: 29.7px;
-    line-height: 20px;
+    line-height: 23px;
   }
 
 
@@ -1928,7 +1996,7 @@ footer .half-width {
   .green {
     color: #38B449;
     font-size: 29.7px;
-    line-height: 30px;
+    line-height: 41px;
   }
 
   /***** Mother *****/
@@ -1953,13 +2021,13 @@ footer .half-width {
   }
 
   /***** Creative Dreamer *****/
-  .true-purple {
+  .true-purple-home {
     color: #652C90;
     font-size: 29.7px;
     line-height: 25px;
   }
 
-  /***** Portfolio *****/
+  /***** ===== DESKTOP | PORTFOLIO ===== *****/
   #portfolio .full-width {
     height: 600px;
   }

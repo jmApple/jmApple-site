@@ -369,7 +369,7 @@ hr {
 }
 
 
-/***** MOBILE HOME PAGE *****/
+/***** MOBILE 1st HOME PAGE | iPhone5*****/
 
 #home {
   height: 100%;
@@ -890,6 +890,7 @@ footer .half-width {
 }
 
 
+
 /***** END MOBILE FIRST *****/
 
 /* ==========================================================================
@@ -1203,12 +1204,6 @@ footer .half-width {
    .about-img-block-home {
      display: none;
    }
-
-
-
-
-
-
 }
 
 
@@ -1453,6 +1448,62 @@ footer .half-width {
   }
 
   /***** ABOUT PAGE | TABLET *****/
+  .fifth-width-about {
+    width: 9%;
+    float: left;
+    margin: 0;
+  }
+
+  #about h1 {
+    font-size: 83px;
+    font-weight: bold;
+    color: #E6E7E8;
+    line-height: 100px;
+  }
+
+  .jessica-mcintosh-vertical {
+    width: 8%;
+    float: left;
+    padding: 0;
+  }
+
+  .vertical {
+    writing-mode: vertical-rl;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    line-height: 0px;
+    margin-top: 367px;
+    margin-left: 69px;
+    margin-bottom: 27px;
+    padding: 0 0 7px 0;
+  }
+
+  .four-fifths-width-work {
+    float: left;
+    width: 60%;
+    margin-top: 200px;
+    }
+
+
+  .work-bracket-div {
+    padding-top: 22px;
+  }
+  .giant-bracket-work {
+    font-size: 351px;
+  }
+
+
+
+
+
+  .four-fifths-width-home {
+    width: 65%;
+  }
 
   .mobile-img-set-top {
     display: none;
@@ -1472,6 +1523,7 @@ footer .half-width {
 
   .about-wording-section-work {
     float: left;
+    padding-left: 47px;
   }
 
   .about-img-block-work {
@@ -1785,6 +1837,7 @@ footer .half-width {
   .four-fifths-width-work {
     width: 87.5%;
     float: left;
+    margin-top: 0px;
   }
 
   .jessica-mcintosh-vertical {
@@ -1851,12 +1904,17 @@ footer .half-width {
     border: 1px solid #000000;
   }
 
+
+
+
   #about h1 {
     font-size: 89px;
-    font-weight: bold;
-    color: #E6E7E8;
     line-height: 153px;
   }
+
+
+
+
 
   /***
   this is still in 'trial mode'

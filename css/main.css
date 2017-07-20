@@ -1449,7 +1449,7 @@ footer .half-width {
 
   /***** ABOUT PAGE | TABLET *****/
   .fifth-width-about {
-    width: 9%;
+    width: 10%;
     float: left;
     margin: 0;
   }
@@ -1485,19 +1485,28 @@ footer .half-width {
 
   .four-fifths-width-work {
     float: left;
-    width: 60%;
-    margin-top: 200px;
-  }
-
-  .work-bracket-div {
-    padding-top: 22px;
-  }
-  .giant-bracket-work {
-    font-size: 351px;
+    width: 90%;
+    margin-top: 125px;
   }
 
   .four-fifths-width-home {
-    width: 65%;
+    width: 90%;
+  }
+
+  .work-bracket-div {
+    padding-top: 49px;
+  }
+
+  .giant-bracket-work {
+    font-size: 405px;
+  }
+
+  .home-bracket-div {
+    padding-top: 33px;
+  }
+
+  .giant-bracket-home {
+    font-size: 405px;
   }
 
   .mobile-img-set-top {
@@ -1512,20 +1521,59 @@ footer .half-width {
     display: none;
   }
 
-  .work-info {
-    display: block;
-  }
-
   .about-wording-section-work {
     float: left;
-    padding-left: 47px;
+    padding-left: 55px;
+    width: 55%;
+  }
+
+  .work-info {
+    display: block;
+    padding-top: 9.5px;
+  }
+
+  #about p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .dark-purple-blue {
+    font-size: 23px;
+  }
+
+  .true-purple {
+    font-size: 23px;
+  }
+
+  .bright-purple {
+    font-size: 23px;
+  }
+
+  .warm-purple {
+    font-size: 23px;
+  }
+
+  .cool-red {
+    font-size: 23px;
+  }
+
+  .red {
+    font-size: 23px;
+  }
+
+  .red-orange {
+    font-size: 23px;
+  }
+
+  .orange {
+    font-size: 23px;
   }
 
   .about-img-block-work {
     float: left;
     display: block;
-    width: 50px;
-    height: 100px;
+    width: 200px;
+    height: 355px;
     background-color: grey;
     border: 1px solid #000;
   }

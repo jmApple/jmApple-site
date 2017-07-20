@@ -1449,13 +1449,13 @@ footer .half-width {
 
   /***** ABOUT PAGE | TABLET *****/
   .fifth-width-about {
-    width: 10%;
+    width: 8%;
     float: left;
     margin: 0;
   }
 
   #about h1 {
-    font-size: 83px;
+    font-size: 79px;
     font-weight: bold;
     color: #E6E7E8;
     line-height: 100px;
@@ -1464,7 +1464,7 @@ footer .half-width {
   .jessica-mcintosh-vertical {
     width: 8%;
     float: left;
-    padding: 0;
+    padding: 33px 0 0 0;
   }
 
   .vertical {
@@ -1477,10 +1477,10 @@ footer .half-width {
     white-space: nowrap;
     display: block;
     line-height: 0px;
-    margin-top: 367px;
+    margin-top: 375px;
     margin-left: 69px;
     margin-bottom: 27px;
-    padding: 0 0 7px 0;
+    padding: 0;
   }
 
   .four-fifths-width-work {

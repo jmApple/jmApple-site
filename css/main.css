@@ -1552,14 +1552,16 @@ footer .half-width {
   .about-img-block-work {
     float: left;
     display: block;
+    margin-top: 15px;
     width: 200px;
-    height: 355px;
+    height: 345px;
     background-color: grey;
     border: 1px solid #000;
   }
 
   .about-wording-section-home {
     float: right;
+    width: 50%;
   }
 
   .home-bracket-div-mobile {
@@ -1594,13 +1596,23 @@ footer .half-width {
     font-size: 22px;
   }
 
+  .home-info {
+    display: block;
+    width: 100%;
+    margin-top: -8px;
+    margin-right: -3px;
+    text-align: right;
+    float: right;
+    padding: 0;
+  }
+
   .about-img-block-home {
     display: block;
     float: right;
     background-color: grey;
     border: 1px solid #000;
-    width: 50px;
-    height: 100px;
+    width: 205px;
+    height: 350px;
   }
 
   /***** FOOTER | TABLET *****/

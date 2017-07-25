@@ -1509,6 +1509,14 @@ footer .half-width {
     font-size: 405px;
   }
 
+  .work-vertical {
+    color: #ffffff;
+    font-size: 30px;
+    padding: 0;
+    margin-top: -183px;
+    margin-left: 54px;
+  }
+
   .mobile-img-set-top {
     display: none;
   }
@@ -1529,7 +1537,7 @@ footer .half-width {
 
   .work-info {
     display: block;
-    padding-top: 9.5px;
+    padding-top: 5px;
   }
 
   #about p {
@@ -1537,36 +1545,8 @@ footer .half-width {
     line-height: 18px;
   }
 
-  .dark-purple-blue {
-    font-size: 23px;
-  }
-
-  .true-purple {
-    font-size: 23px;
-  }
-
-  .bright-purple {
-    font-size: 23px;
-  }
-
-  .warm-purple {
-    font-size: 23px;
-  }
-
-  .cool-red {
-    font-size: 23px;
-  }
-
-  .red {
-    font-size: 23px;
-  }
-
-  .red-orange {
-    font-size: 23px;
-  }
-
-  .orange {
-    font-size: 23px;
+  .dark-purple-blue, .true-purple, .bright-purple, .warm-purple, .cool-red, .red, .red-orange, .orange {
+    font-size: 22px;
   }
 
   .about-img-block-work {
@@ -1589,10 +1569,15 @@ footer .half-width {
   .home-bracket-div {
     display: block;
     float: right;
+    width: 11.25%;
   }
 
   .home-vertical {
-    color: #000;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: -205px;
+    margin-left: 0;
+    margin-right: 3px;
   }
 
   .home-info-mobile {
@@ -1603,6 +1588,10 @@ footer .half-width {
     display: block;
     text-align: right;
     float: right;
+  }
+
+  .green, .blue-green, .blue, .colbalt-blue, .true-purple-home {
+    font-size: 22px;
   }
 
   .about-img-block-home {

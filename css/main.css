@@ -1917,14 +1917,14 @@ footer .half-width {
 
   .home-bracket-div {
     width: 3%;
-    margin-right: 9.3%;
+    margin-right: 5.7%;
     padding-right: 5%;
     display: inline-block;
     float: right;
   }
 
   .about-wording-section-home {
-    width: 37%;
+    width: 30%;
     margin: 0;
     margin-right: -40px;
     display: inline-block;
@@ -1933,7 +1933,7 @@ footer .half-width {
   }
 
     .about-img-block-home {
-    width: 35%;
+    width: 50%;
     height: 445px;
     display: inline-block;
     margin: 7px 11px 7px 91px;
@@ -1943,7 +1943,7 @@ footer .half-width {
   }
 
   #about h1 {
-    font-size: 103px;
+    font-size: 102px;
     line-height: 153px;
   }
 
@@ -1983,7 +1983,7 @@ footer .half-width {
 
   .giant-bracket-home {
     font-size: 507px;
-    line-height: 330px;
+    line-height: 270px;
     letter-spacing: 0px;
     margin: 0px;
     padding: 0px;

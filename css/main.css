@@ -975,7 +975,6 @@ footer .half-width {
   font-size: 72px;
   font-weight: 600;
   line-height: 72px;
-  text-align: center;
   color: #000000;
   padding-top: 16px;
   padding-left: 15px;
@@ -1005,7 +1004,7 @@ footer .half-width {
   color: #000000;
   line-height: 30px;
   float: left;
-  padding-top: 48px;
+  padding-top: 49px;
   padding-left: 19px;
 }
 
@@ -1031,10 +1030,9 @@ footer .half-width {
   font-size: 72px;
   font-weight: 600;
   line-height: 72px;
-  text-align: center;
   color: #000000;
-  padding-top: 30px;
-  padding-left: 3px;
+  padding-top: 17px;
+  padding-left: 23px;
   float: left;
 }
 
@@ -1043,10 +1041,9 @@ footer .half-width {
   font-size: 72px;
   font-weight: 600;
   line-height: 72px;
-  text-align: center;
   color: #000000;
-  padding-top: 35px;
-  padding-left: 5px;
+  padding-top: 16px;
+  padding-left: 15px;
   float: left;
 }
 
@@ -1061,8 +1058,8 @@ footer .half-width {
   font-weight: 300;
   color: #000000;
   line-height: 30px;
-  float: right;
-  padding-top: 27px;
+  padding-top: 51px;
+  padding-left: 31px;
   float: left;
 }
 
@@ -1072,19 +1069,22 @@ footer .half-width {
   font-weight: 300;
   color: #000000;
   line-height: 30px;
-  float: right;
-  padding-top: 43px;
+  padding-top: 49px;
+  padding-left: 19px;
   float: left;
 }
 
-.digital-illustration {
+.digital-illustration-mobile {
   /*  background: url('../img/digital-image-block-gray-img.png');  */
   background-repeat: no-repeat;
   background-color: #ffffff;
 }
 
+.digital-illustration {
+  display: none;
+}
+
 .di-block-initial {
-  height: 140px;
   width: 38px;
   padding-left: 0px;
   padding-top: 0px;
@@ -1096,25 +1096,24 @@ footer .half-width {
   font-size: 72px;
   font-weight: 600;
   line-height: 72px;
-  text-align: center;
   color: #000000;
-  padding-top: 30px;
+  padding-top: 17px;
+  padding-left: 23px;
 }
 
 .di-i {
   font-family: 'Fredericka the Great', cursive;
   font-size: 72px;
   font-weight: 600;
-  line-height: 60px;
+  line-height: 72px;
   text-align: center;
   color: #000000;
-  padding-top: 35px;
+  padding-top: 16px;
   padding-left: 10px;
 }
 
 .di-block-letters{
   height: 50px;
-  width: 210px;
   float: left;
 }
 
@@ -1124,20 +1123,19 @@ footer .half-width {
   font-weight: 300;
   color: #000000;
   line-height: 30px;
-  float: right;
+  float: left;
   padding-top: 27px;
-  padding-right: 125px;
+  padding-left: 23px;
 }
 
 .d-illustration-word-continuation {
   font-family: 'Quicksand', sans-serif;
-  font-size: 38px;
+  font-size: 12px;
   font-weight: 300;
   color: #000000;
   line-height: 30px;
   float: right;
   padding-top: 43px;
-  padding-right: 29px;
 }
 
 
@@ -1455,6 +1453,104 @@ footer .half-width {
 
    .about-img-block-home {
      display: none;
+   }
+
+    /***** PORTFOLIO | min-width:360px *****/
+
+   .i {
+     font-size: 100px;
+     line-height: 80px;
+     padding-top: 40px;
+   }
+
+   .i-word-continuation {
+     font-size: 38px;
+     line-height: 12px;
+     padding-top: 77px;
+     padding-right: 21px;
+   }
+
+   .ld-l {
+     font-size: 72px;
+     line-height: 72px;
+     padding-top: 17px;
+     padding-left: 23px;
+   }
+
+   .ld-d {
+     font-size: 72px;
+     line-height: 72px;
+     padding-top: 16px;
+     padding-left: 15px;
+   }
+
+   .logo-word-continuation {
+     font-size: 38px;
+     line-height: 30px;
+     padding-top: 49px;
+     padding-left: 11px;
+   }
+
+   .l-design-word-continuation {
+     font-size: 38px;
+     line-height: 30px;
+     padding-top: 49px;
+     padding-left: 19px;
+   }
+
+   .wd-w {
+     font-size: 72px;
+     line-height: 72px;
+     padding-top: 17px;
+     padding-left: 23px;
+   }
+
+   .wd-d {
+     font-size: 72px;
+     line-height: 72px;
+     padding-top: 16px;
+     padding-left: 15px;
+   }
+
+   .web-word-continuation {
+     font-size: 38px;
+     line-height: 30px;
+     padding-top: 51px;
+     padding-left: 31px;
+   }
+
+   .w-design-word-continuation {
+     font-size: 38px;
+     line-height: 30px;
+     padding-top: 49px;
+     padding-left: 19px;
+   }
+
+   .di-d {
+     font-size: 72px;
+     line-height: 72px;
+     padding-top: 30px;
+   }
+
+   .di-i {
+     font-size: 72px;
+     line-height: 60px;
+     padding-top: 35px;
+     padding-left: 10px;
+   }
+
+   .digital-word-continuation {
+     font-size: 38px;
+     line-height: 30px;
+     padding-top: 27px;
+     padding-right: 125px;
+   }
+
+   .d-illustration-word-continuation {
+     font-size: 38px;
+     line-height: 30px;
+     padding-top: 43px;
+     padding-right: 29px;
    }
 }
 

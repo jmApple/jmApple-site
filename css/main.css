@@ -893,58 +893,78 @@ footer .half-width {
 /***** ======= MOBIlE | PORTFOLIO MAIN PAGE ======= *****/
 
 #portfolio .full-width {
-  padding-top: 133px;
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding-top: 63px;
 }
 
 #portfolio .quarter-width{
-  height: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background: #e6ffe6;
+  width: 92.5%;
+  height: 88px;
   border: solid;
   border-color: #000000;
   border-width: 2px;
-  margin: 10px;
+  margin: 1.5% 3%;
+}
+
+#portfolio .full-width a {
+  text-decoration: none;
+}
+.illustration-mobile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  /* background: url('../img/illustration-block-gray-img.png'); */
 }
 
 .illustration {
-  /* background: url('../img/illustration-block-gray-img.png'); */
-  background-repeat: no-repeat;
-  background-color: #ffffff;
+  display: none;
 }
 
 .i-block-initial {
-  width: 38px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 28px;
   padding-left: 10px;
-  padding-top: 20px;
-  float: left;
-}
-
-.i-block-letters{
-  float: left;
 }
 
 .i {
   font-family: 'Fredericka the Great', cursive;
-  font-size: 100px;
+  font-size: 69px;
+  line-height: 70px;
   font-weight: 600;
-  line-height: 80px;
   color: #000000;
-  padding-top: 40px;
+}
+
+.i-block-letters{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 195px;
 }
 
 .i-word-continuation {
   font-family: 'Quicksand', sans-serif;
   font-size: 38px;
+  line-height: 45px;
   font-weight: 300;
   color: #000000;
-  line-height: 12px;
-  float: right;
-  padding-top: 77px;
-  padding-right: 21px;
 }
 
 .logo-design-mobile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
   /* background: url('../img/logo-design-block-gray-img.png'); */
-  background-repeat: no-repeat;
-  background-color: #ffffff;
+  /* background-repeat: no-repeat;
+  height: 88px; */
 }
 
 .logo-design {
@@ -953,20 +973,20 @@ footer .half-width {
 }
 
 .ld-block-initial {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
   width: 38px;
   padding-left: 0px;
-  padding-top: 0px;
-  float: left;
 }
 
 .ld-l {
   font-family: 'Fredericka the Great', cursive;
   font-size: 72px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 77px;
   color: #000000;
-  padding-top: 17px;
-  padding-left: 23px;
+  padding-left: 13px;
   float: left;
 }
 
@@ -974,16 +994,16 @@ footer .half-width {
   font-family: 'Fredericka the Great', cursive;
   font-size: 72px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 77px;
   color: #000000;
-  padding-top: 16px;
   padding-left: 15px;
   float: left;
 }
 
 .ld-block-letters{
-  height: 50px;
-  float: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .logo-word-continuation {
@@ -991,10 +1011,7 @@ footer .half-width {
   font-size: 38px;
   font-weight: 300;
   color: #000000;
-  line-height: 30px;
-  float: left;
-  padding-top: 49px;
-  padding-left: 11px;
+  padding-left: 3px;
 }
 
 .l-design-word-continuation {
@@ -1002,16 +1019,17 @@ footer .half-width {
   font-size: 38px;
   font-weight: 300;
   color: #000000;
-  line-height: 30px;
   float: left;
-  padding-top: 49px;
   padding-left: 19px;
 }
 
 .web-design-mobile {
-  /* background: url('../img/web-design-image-block-gray-img.png');  */
+  /* background: url('../img/web-design-image-block-gray-img.png');
   background-repeat: no-repeat;
-  background-color: #ffffff;
+  background-color: #ffffff; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .web-design {
@@ -1019,21 +1037,22 @@ footer .half-width {
 }
 
 .wd-block-initial {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
   width: 38px;
   padding-left: 0px;
   padding-top: 0px;
-  float: left;
 }
 
 .wd-w {
   font-family: 'Fredericka the Great', cursive;
   font-size: 72px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 73px;
   color: #000000;
-  padding-top: 17px;
-  padding-left: 23px;
-  float: left;
+  padding-bottom: 3px;
+  padding-left: 13px;
 }
 
 .wd-d {
@@ -1044,12 +1063,12 @@ footer .half-width {
   color: #000000;
   padding-top: 16px;
   padding-left: 15px;
-  float: left;
 }
 
 .wd-block-letters{
-  height: 50px;
-  float: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .web-word-continuation {
@@ -1057,10 +1076,7 @@ footer .half-width {
   font-size: 38px;
   font-weight: 300;
   color: #000000;
-  line-height: 30px;
-  padding-top: 51px;
-  padding-left: 31px;
-  float: left;
+  padding-left: 20px;
 }
 
 .w-design-word-continuation {
@@ -1068,16 +1084,14 @@ footer .half-width {
   font-size: 38px;
   font-weight: 300;
   color: #000000;
-  line-height: 30px;
   padding-top: 49px;
   padding-left: 19px;
-  float: left;
 }
 
 .digital-illustration-mobile {
-  /*  background: url('../img/digital-image-block-gray-img.png');  */
+  /*  background: url('../img/digital-image-block-gray-img.png');
   background-repeat: no-repeat;
-  background-color: #ffffff;
+  background-color: #ffffff;  */
 }
 
 .digital-illustration {
@@ -1130,7 +1144,7 @@ footer .half-width {
 
 .d-illustration-word-continuation {
   font-family: 'Quicksand', sans-serif;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 300;
   color: #000000;
   line-height: 30px;

@@ -929,7 +929,6 @@ footer .half-width {
   background-size: 123%;
   background-position: -160% 12%;
   padding: 5px;
-
 }
 
 .illustration {
@@ -1493,7 +1492,32 @@ footer .half-width {
 
     /***** PORTFOLIO | min-width:360px *****/
 
+    #portfolio .full-width {
+      padding-top: 57px;
+    }
 
+    #portfolio .quarter-width{
+      height: 107px;
+      margin: 1.25% 3%;
+    }
+
+    .illustration-mobile {
+      height: 90.5%;
+    }
+
+    .logo-design-mobile {
+      height: 90.5%;
+    }
+
+    .web-design-mobile {
+      height: 90.5%;
+      background-size: 31%;
+      background-position: 97% 27%;
+    }
+
+    .digital-illustration-mobile {
+      height: 90.5%;
+    }
 }
 
 
@@ -1656,7 +1680,33 @@ footer .half-width {
     line-height: 11px;
   }
 
+  /***** PORTFOLIO | min-width:412px *****/
 
+  #portfolio .full-width {
+    padding-top: 110px;
+  }
+
+  #portfolio .quarter-width{
+    height: 115px;
+  }
+
+  .illustration-mobile {
+    height: 91.5%;
+  }
+
+  .logo-design-mobile {
+    height: 91.5%;
+  }
+
+  .web-design-mobile {
+    height: 90.75%;
+    background-size: 28%;
+    background-position: 97% 27%;
+  }
+
+  .digital-illustration-mobile {
+    height: 91.5%;
+  }
 
   /*** FOOTER-SECTION | min width: 412px ***/
 
@@ -1667,6 +1717,16 @@ footer .half-width {
   #footer-border ul {
       margin-right: 7px;
   }
+
+}
+
+@media screen and (min-width:414px) {
+  /***** PORTFOLIO | min-width:414px *****/
+
+  .logo-design-mobile {
+    height: 90.75%;
+  }
+
 }
 
 /***** ======= END LARGE MOBILE ======= *****/

@@ -1079,7 +1079,7 @@ footer .half-width {
   font-weight: 600;
   line-height: 57px;
   color: #000000;
-  padding-left: 6px;
+  padding-left: 11px;
 }
 
 .wd-block-letters{
@@ -1103,7 +1103,7 @@ footer .half-width {
   line-height: 31px;
   font-weight: 300;
   color: #000000;
-  padding-left: 7px;
+  padding-left: 11.5px;
 }
 
 .digital-illustration-mobile {
@@ -1136,18 +1136,18 @@ footer .half-width {
   font-family: 'Fredericka the Great', cursive;
   font-size: 63px;
   font-weight: 600;
-  line-height: 65px;
+  line-height: 57px;
   color: #000000;
-  padding-left: 11px;
+  padding-left: 6px;
 }
 
 .di-i {
   font-family: 'Fredericka the Great', cursive;
   font-size: 63px;
   font-weight: 600;
-  line-height: 65px;
+  line-height: 57px;
   color: #000000;
-  padding-left: 10px;
+  padding-left: 11px;
 }
 
 .di-block-letters{
@@ -1159,17 +1159,19 @@ footer .half-width {
 .digital-word-continuation {
   font-family: 'Quicksand', sans-serif;
   font-size: 27px;
+  line-height: 31px;
   font-weight: 300;
   color: #000000;
-  padding-left: 16px;
+  padding-left: 11px;
 }
 
 .d-illustration-word-continuation {
   font-family: 'Quicksand', sans-serif;
   font-size: 27px;
+  line-height: 31px;
   font-weight: 300;
   color: #000000;
-  padding-left: 0px;
+  padding-left: 2px;
 }
 
 

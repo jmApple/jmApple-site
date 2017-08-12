@@ -916,11 +916,20 @@ footer .half-width {
 #portfolio .full-width a {
   text-decoration: none;
 }
+
 .illustration-mobile {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  /* background: url('../img/illustration-block-gray-img.png'); */
+  height: 88.5%;
+  width: 100%;
+  background: url('../img/portfolio-illustration-mobile-owl.png');
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-size: 123%;
+  background-position: -160% 12%;
+  padding: 5px;
+
 }
 
 .illustration {
@@ -932,16 +941,15 @@ footer .half-width {
   justify-content: flex-start;
   align-items: flex-end;
   width: 28px;
-  padding-bottom: 3px;
 }
 
 .i {
   font-family: 'Fredericka the Great', cursive;
   font-size: 63px;
-  line-height: 65px;
+  line-height: 57px;
   font-weight: 600;
   color: #000000;
-  padding-left: 13px;
+  padding-left: 8px;
 }
 
 .i-block-letters{
@@ -949,16 +957,15 @@ footer .half-width {
   justify-content: flex-start;
   align-items: flex-end;
   width: 195px;
-  padding-bottom: 3px;
-
 }
 
 .i-word-continuation {
   font-family: 'Quicksand', sans-serif;
   font-size: 27px;
+  line-height: 29px;
   font-weight: 300;
   color: #000000;
-  padding-left: 10px;
+  padding-left: 6px;
 }
 
 .logo-design-mobile {
@@ -1086,7 +1093,6 @@ footer .half-width {
   font-size: 27px;
   font-weight: 300;
   color: #000000;
-  padding-top: 49px;
   padding-left: 12px;
 }
 
@@ -1471,101 +1477,7 @@ footer .half-width {
 
     /***** PORTFOLIO | min-width:360px *****/
 
-   .i {
-     font-size: 100px;
-     line-height: 80px;
-     padding-top: 40px;
-   }
 
-   .i-word-continuation {
-     font-size: 38px;
-     line-height: 12px;
-     padding-top: 77px;
-     padding-right: 21px;
-   }
-
-   .ld-l {
-     font-size: 72px;
-     line-height: 72px;
-     padding-top: 17px;
-     padding-left: 23px;
-   }
-
-   .ld-d {
-     font-size: 72px;
-     line-height: 72px;
-     padding-top: 16px;
-     padding-left: 15px;
-   }
-
-   .logo-word-continuation {
-     font-size: 38px;
-     line-height: 30px;
-     padding-top: 49px;
-     padding-left: 11px;
-   }
-
-   .l-design-word-continuation {
-     font-size: 38px;
-     line-height: 30px;
-     padding-top: 49px;
-     padding-left: 19px;
-   }
-
-   .wd-w {
-     font-size: 72px;
-     line-height: 72px;
-     padding-top: 17px;
-     padding-left: 23px;
-   }
-
-   .wd-d {
-     font-size: 72px;
-     line-height: 72px;
-     padding-top: 16px;
-     padding-left: 15px;
-   }
-
-   .web-word-continuation {
-     font-size: 38px;
-     line-height: 30px;
-     padding-top: 51px;
-     padding-left: 31px;
-   }
-
-   .w-design-word-continuation {
-     font-size: 38px;
-     line-height: 30px;
-     padding-top: 49px;
-     padding-left: 19px;
-   }
-
-   .di-d {
-     font-size: 72px;
-     line-height: 72px;
-     padding-top: 30px;
-   }
-
-   .di-i {
-     font-size: 72px;
-     line-height: 60px;
-     padding-top: 35px;
-     padding-left: 10px;
-   }
-
-   .digital-word-continuation {
-     font-size: 38px;
-     line-height: 30px;
-     padding-top: 27px;
-     padding-right: 125px;
-   }
-
-   .d-illustration-word-continuation {
-     font-size: 38px;
-     line-height: 30px;
-     padding-top: 43px;
-     padding-right: 29px;
-   }
 }
 
 

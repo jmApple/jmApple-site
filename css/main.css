@@ -972,9 +972,14 @@ footer .half-width {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  /* background: url('../img/logo-design-block-gray-img.png'); */
-  /* background-repeat: no-repeat;
-  height: 88px; */
+  height: 89%;
+  width: 100%;
+  background: url('../img/portfolio-logo-design-mobile-logo.png');
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-size: 50%;
+  background-position: 142% 35%;
+  padding: 5px;
 }
 
 .logo-design {
@@ -986,61 +991,65 @@ footer .half-width {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  width: 38px;
-  padding: 0 0 3px 0;
+  width: 31px;
+  padding: 0;
 }
 
 .ld-l {
   font-family: 'Fredericka the Great', cursive;
   font-size: 63px;
   font-weight: 600;
-  line-height: 65px;
+  line-height: 57px;
   color: #000000;
-  padding-left: 13px;
-  float: left;
+  padding-left: 8px;
 }
 
 .ld-d {
   font-family: 'Fredericka the Great', cursive;
   font-size: 63px;
   font-weight: 600;
-  line-height: 65px;
+  line-height: 57px;
   color: #000000;
-  padding-left: 11px;
-  float: left;
+  padding-left: 9px;
 }
 
 .ld-block-letters{
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  padding-bottom: 3px;
 }
 
 .logo-word-continuation {
   font-family: 'Quicksand', sans-serif;
   font-size: 27px;
+  line-height: 31px;
   font-weight: 300;
   color: #000000;
-  padding-left: 0px;
+  padding-left: 1px;
 }
 
 .l-design-word-continuation {
   font-family: 'Quicksand', sans-serif;
   font-size: 27px;
+  line-height: 31px;
   font-weight: 300;
   color: #000000;
   float: left;
-  padding-left: 11.5px;
+  padding-left: 15.5px;
 }
 
 .web-design-mobile {
-  /* background: url('../img/web-design-image-block-gray-img.png');
-  background-repeat: no-repeat;
-  background-color: #ffffff; */
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  height: 89%;
+  width: 100%;
+  background: url('../img/portfolio-web-design-mobile-web.png');
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-size: 29%;
+  background-position: 97% 30%;
+  padding: 5px;
 }
 
 .web-design {
@@ -1052,58 +1061,63 @@ footer .half-width {
   justify-content: flex-start;
   align-items: flex-end;
   width: 38px;
-  padding: 0 0 3px 0;
+  padding: 0;
 }
 
 .wd-w {
   font-family: 'Fredericka the Great', cursive;
   font-size: 63px;
   font-weight: 600;
-  line-height: 65px;
+  line-height: 57px;
   color: #000000;
-  padding-left: 13px;
+  padding-left: 8px;
 }
 
 .wd-d {
   font-family: 'Fredericka the Great', cursive;
   font-size: 63px;
   font-weight: 600;
-  line-height: 65px;
+  line-height: 57px;
   color: #000000;
-  padding-left: 11px;
+  padding-left: 6px;
 }
 
 .wd-block-letters{
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  padding-bottom: 3px;
 }
 
 .web-word-continuation {
   font-family: 'Quicksand', sans-serif;
   font-size: 27px;
+  line-height: 31px;
   font-weight: 300;
   color: #000000;
-  padding-left: 14px;
+  padding-left: 9px;
 }
 
 .w-design-word-continuation {
   font-family: 'Quicksand', sans-serif;
   font-size: 27px;
+  line-height: 31px;
   font-weight: 300;
   color: #000000;
-  padding-left: 12px;
+  padding-left: 7px;
 }
 
 .digital-illustration-mobile {
-  /*  background: url('../img/digital-image-block-gray-img.png');
-  background-repeat: no-repeat;
-  background-color: #ffffff;  */
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  padding-bottom: 3px;
+  height: 89%;
+  width: 100%;
+  background: url('../img/portfolio-digital-illustration-mobile-pattern.png');
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-size: 55%;
+  background-position: 100% 30%;
+  padding: 5px;
 }
 
 .digital-illustration {

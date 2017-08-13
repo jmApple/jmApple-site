@@ -1505,8 +1505,42 @@ footer .half-width {
       height: 90.5%;
     }
 
+    .i {
+      font-size: 67px;
+      line-height: 59px;
+    }
+
+    .i-word-continuation {
+      font-size: 31px;
+      line-height: 33px;
+      padding-left: 6px;
+    }
+
     .logo-design-mobile {
       height: 90.5%;
+    }
+
+    .ld-l {
+      font-size: 67px;
+      line-height: 59px;
+    }
+
+    .ld-d {
+      font-size: 67px;
+      line-height: 59px;
+      padding-left: 11px;
+    }
+
+    .logo-word-continuation {
+      font-size: 31px;
+      line-height: 33px;
+      padding-left: 2.5px;
+    }
+
+    .l-design-word-continuation {
+      font-size: 31px;
+      line-height: 33px;
+      padding-left: 20.5px;
     }
 
     .web-design-mobile {
@@ -1515,8 +1549,52 @@ footer .half-width {
       background-position: 97% 27%;
     }
 
+    .wd-w {
+      font-size: 67px;
+      line-height: 59px;
+    }
+
+    .wd-d {
+      font-size: 67px;
+      line-height: 59px;
+    }
+
+    .web-word-continuation {
+      font-size: 31px;
+      line-height: 33px;
+      padding-left: 12px;
+    }
+
+    .w-design-word-continuation {
+      font-size: 31px;
+      line-height: 33px;
+      padding-left: 13.5px;
+    }
+
     .digital-illustration-mobile {
       height: 90.5%;
+    }
+
+    .di-d {
+      font-size: 67px;
+      line-height: 59px;
+    }
+
+    .di-i {
+      font-size: 67px;
+      line-height: 59px;
+    }
+
+    .digital-word-continuation {
+      font-size: 31px;
+      line-height: 33px;
+      padding-left: 13.5px;
+    }
+
+    .d-illustration-word-continuation {
+      font-size: 31px;
+      line-height: 33px;
+      padding-left: 3px;
     }
 }
 
@@ -1549,6 +1627,20 @@ footer .half-width {
     .four-fifths-width-home {
       margin-top: 17px;
       margin-bottom: 15px;
+    }
+
+    /***** PORTFOLIO | min-width:375px *****/
+
+    #portfolio .full-width {
+      padding-top: 89px;
+    }
+
+    #portfolio .quarter-width{
+      height: 105px;
+    }
+
+    .web-design-mobile {
+      background-size: 29%;
     }
 }
 
@@ -1719,6 +1811,7 @@ footer .half-width {
   }
 
 }
+
 
 @media screen and (min-width:414px) {
   /***** PORTFOLIO | min-width:414px *****/

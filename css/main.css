@@ -1173,6 +1173,31 @@ footer .half-width {
   padding-left: 2px;
 }
 
+/***** PORTFOLIO THUMBNAIL PAGES | MOBILE FIRST min width 320px *****/
+
+#portfolio-illustration {
+  padding-top: 130px;
+}
+
+#portfolio-illustration .full-width {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+}
+
+.porfolio-thumb {
+  display: flex;
+  border: 2px solid #000;
+  margin: 5px;
+  width: 27%;
+}
+
+.porfolio-thumb a img{
+  width: 100%;
+  height: auto;
+}
+
 
 
 
@@ -2824,6 +2849,8 @@ footer .half-width {
   }
 
   /***** PORTFOLIO | 5 by infinite layout system *****/
+
+/***
   .porfolio-thumb-col-1 {
     width: 220px;
     height: 220px;
@@ -2863,6 +2890,8 @@ footer .half-width {
     border: solid 1px;
     float: left;
   }
+
+  ***/
 
   /***** Portfolio Individual page layout system *****/
   .portfolio-width-description {

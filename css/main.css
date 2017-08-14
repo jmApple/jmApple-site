@@ -2155,8 +2155,8 @@ footer .half-width {
     background: url('../img/portfolio-logo-design-mobile-logo.png');
     background-repeat: no-repeat;
     background-color: #ffffff;
-    background-size: 50%;
-    background-position: 142% 35%;
+    background-size: 95%;
+    background-position: 800% 240%;
     padding: 5px;
   }
 
@@ -2169,51 +2169,50 @@ footer .half-width {
 
   .ld-logo p {
     margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .ld-l {
     font-size: 77px;
     line-height: 87px;
-    padding-left: 8px;
-  }
-  /***
-  .ld-d {
-    font-size: 77px;
-    line-height: 87px;
-    padding-left: 9px;
+    padding-left: 20px;
   }
 
-  .ld-block-letters{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+  .ld-d {
+    font-size: 77px;
+    line-height: 3px;
+    padding-left: 7px;
   }
 
   .logo-word-continuation {
     font-size: 35px;
     line-height: 118px;
-    padding-left: 1px;
+    padding-left: 4.5px;
   }
 
   .l-design-word-continuation {
     font-size: 35px;
-    line-height: 118px;
-    padding-left: 15.5px;
+    line-height: 35px;
+    padding-left: 3.5px;
   }
 
-  ***/
-
   .web-design-mobile {
+    display: none;
+  }
+
+  .web-design-tablet {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
-    height: 89%;
+    align-items: flex-start;
+    height: 97%;
     width: 100%;
     background: url('../img/portfolio-web-design-mobile-web.png');
     background-repeat: no-repeat;
     background-color: #ffffff;
-    background-size: 29%;
-    background-position: 97% 30%;
+    background-size: 47%;
+    background-position: 95% 86%;
     padding: 5px;
   }
 
@@ -2221,54 +2220,35 @@ footer .half-width {
     display: none;
   }
 
-  .wd-block-initial {
+  .wd-web-design p {
+    margin: 0;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
-    width: 38px;
-    padding: 0;
+    align-items: flex-start;
   }
 
   .wd-w {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 63px;
-    font-weight: 600;
-    line-height: 57px;
-    color: #000000;
-    padding-left: 8px;
+    font-size: 77px;
+    line-height: 87px;
+    padding-left: 13px;
   }
 
   .wd-d {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 63px;
-    font-weight: 600;
-    line-height: 57px;
-    color: #000000;
-    padding-left: 11px;
-  }
-
-  .wd-block-letters{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    font-size: 77px;
+    line-height: 3px;
+    padding-left: 15px;
   }
 
   .web-word-continuation {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 27px;
-    line-height: 31px;
-    font-weight: 300;
-    color: #000000;
-    padding-left: 9px;
+    font-size: 35px;
+    line-height: 118px;
+    padding-left: 0px;
   }
 
   .w-design-word-continuation {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 27px;
-    line-height: 31px;
-    font-weight: 300;
-    color: #000000;
-    padding-left: 11.5px;
+    font-size: 35px;
+    line-height: 35px;
+    padding-left: 3.5px;
   }
 
   .digital-illustration-mobile {

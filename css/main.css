@@ -2216,10 +2216,6 @@ footer .half-width {
     padding: 5px;
   }
 
-  .web-design {
-    display: none;
-  }
-
   .wd-web-design p {
     margin: 0;
     display: flex;
@@ -2252,34 +2248,33 @@ footer .half-width {
   }
 
   .digital-illustration-mobile {
+    display: none;
+  }
+
+  .digital-illustration-tablet {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    height: 89%;
+    height: 97%;
     width: 100%;
     background: url('../img/portfolio-digital-illustration-mobile-pattern.png');
     background-repeat: no-repeat;
     background-color: #ffffff;
-    background-size: 55%;
+    background-size: 100%;
     background-position: 100% 30%;
     padding: 5px;
   }
 
-  .digital-illustration {
-    display: none;
-  }
-
-  .di-block-initial {
+  .di-digital-illustration p {
+    margin: 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    width: 34px;
-    padding-left: 0px;
   }
 
   .di-d {
     font-family: 'Fredericka the Great', cursive;
-    font-size: 63px;
+    font-size: 77px;
     font-weight: 600;
     line-height: 57px;
     color: #000000;
@@ -2288,22 +2283,16 @@ footer .half-width {
 
   .di-i {
     font-family: 'Fredericka the Great', cursive;
-    font-size: 63px;
+    font-size: 77px;
     font-weight: 600;
     line-height: 57px;
     color: #000000;
     padding-left: 11px;
   }
 
-  .di-block-letters{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-  }
-
   .digital-word-continuation {
     font-family: 'Quicksand', sans-serif;
-    font-size: 27px;
+    font-size: 35px;
     line-height: 31px;
     font-weight: 300;
     color: #000000;
@@ -2312,7 +2301,7 @@ footer .half-width {
 
   .d-illustration-word-continuation {
     font-family: 'Quicksand', sans-serif;
-    font-size: 27px;
+    font-size: 35px;
     line-height: 31px;
     font-weight: 300;
     color: #000000;

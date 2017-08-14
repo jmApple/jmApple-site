@@ -2143,6 +2143,10 @@ footer .half-width {
   }
 
   .logo-design-mobile {
+    display: none;
+  }
+
+  .logo-design-tablet {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -2156,10 +2160,15 @@ footer .half-width {
     padding: 5px;
   }
 
-  .ld-block-initial {
+  .ld-logo-design {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    width: 100%;
+  }
+
+  .ld-logo p {
+    margin: 0;
   }
 
   .ld-l {
@@ -2167,7 +2176,7 @@ footer .half-width {
     line-height: 87px;
     padding-left: 8px;
   }
-
+  /***
   .ld-d {
     font-size: 77px;
     line-height: 87px;
@@ -2191,6 +2200,8 @@ footer .half-width {
     line-height: 118px;
     padding-left: 15.5px;
   }
+
+  ***/
 
   .web-design-mobile {
     display: flex;

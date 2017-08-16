@@ -2109,18 +2109,18 @@ footer .half-width {
     align-items: flex-start;
     height: 97%;
     width: 100%;
-    background: url('../img/portfolio-illustration-mobile-owl.png');
+    background: url('../img/portfolio-illustration-tablet-faded.png');
     background-repeat: no-repeat;
     background-color: #ffffff;
-    background-size: 123%;
-    background-position: -160% 12%;
+    background-size: 105%;
+    background-position: 20% 12%;
     padding: 5px;
   }
 
   .i-block-initial {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
   }
 
   .i {
@@ -2163,7 +2163,7 @@ footer .half-width {
   .ld-logo-design {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
     width: 100%;
   }
 
@@ -2171,7 +2171,7 @@ footer .half-width {
     margin: 0;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
   }
 
   .ld-l {
@@ -2182,19 +2182,19 @@ footer .half-width {
 
   .ld-d {
     font-size: 77px;
-    line-height: 3px;
+    line-height: 63px;
     padding-left: 7px;
   }
 
   .logo-word-continuation {
     font-size: 35px;
-    line-height: 118px;
+    line-height: 55px;
     padding-left: 4.5px;
   }
 
   .l-design-word-continuation {
     font-size: 35px;
-    line-height: 35px;
+    line-height: 31px;
     padding-left: 3.5px;
   }
 
@@ -2220,7 +2220,7 @@ footer .half-width {
     margin: 0;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
   }
 
   .wd-w {
@@ -2231,20 +2231,20 @@ footer .half-width {
 
   .wd-d {
     font-size: 77px;
-    line-height: 3px;
+    line-height: 63px;
     padding-left: 15px;
   }
 
   .web-word-continuation {
     font-size: 35px;
-    line-height: 118px;
+    line-height: 55px;
     padding-left: 0px;
   }
 
   .w-design-word-continuation {
     font-size: 35px;
-    line-height: 35px;
-    padding-left: 3.5px;
+    line-height: 31px;
+    padding-left: 4px;
   }
 
   .digital-illustration-mobile {
@@ -2254,7 +2254,7 @@ footer .half-width {
   .digital-illustration-tablet {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
     height: 97%;
     width: 100%;
     background: url('../img/portfolio-digital-illustration-mobile-pattern.png');
@@ -2273,30 +2273,21 @@ footer .half-width {
   }
 
   .di-d {
-    font-family: 'Fredericka the Great', cursive;
     font-size: 77px;
-    font-weight: 600;
-    line-height: 57px;
-    color: #000000;
+    line-height: 87px;
     padding-left: 6px;
   }
 
   .di-i {
-    font-family: 'Fredericka the Great', cursive;
     font-size: 77px;
-    font-weight: 600;
-    line-height: 57px;
-    color: #000000;
-    padding-left: 11px;
+    line-height: 63px;
+    padding-left: 16.5px;
   }
 
   .digital-word-continuation {
-    font-family: 'Quicksand', sans-serif;
     font-size: 35px;
-    line-height: 31px;
-    font-weight: 300;
-    color: #000000;
-    padding-left: 11px;
+    line-height: 55px;
+    padding-left: 5px;
   }
 
   .d-illustration-word-continuation {
@@ -2305,7 +2296,7 @@ footer .half-width {
     line-height: 31px;
     font-weight: 300;
     color: #000000;
-    padding-left: 2px;
+    padding-left: 4px;
   }
 
 

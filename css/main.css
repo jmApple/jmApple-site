@@ -986,6 +986,10 @@ footer .half-width {
   display: none;
 }
 
+.logo-design-tablet {
+  display: none;
+}
+
 .ld-block-initial {
   display: flex;
   justify-content: flex-start;
@@ -1033,7 +1037,6 @@ footer .half-width {
   line-height: 31px;
   font-weight: 300;
   color: #000000;
-  float: left;
   padding-left: 15.5px;
 }
 
@@ -1049,6 +1052,10 @@ footer .half-width {
   background-size: 29%;
   background-position: 97% 30%;
   padding: 5px;
+}
+
+.web-design-tablet {
+  display: none;
 }
 
 .web-design {
@@ -1120,6 +1127,10 @@ footer .half-width {
 }
 
 .digital-illustration {
+  display: none;
+}
+
+.digital-illustration-tablet {
   display: none;
 }
 
@@ -2298,13 +2309,6 @@ footer .half-width {
     color: #000000;
     padding-left: 4px;
   }
-
-
-
-
-
-
-
 
   /***** FOOTER | TABLET min width 768px *****/
   #footer-border .copyright p {

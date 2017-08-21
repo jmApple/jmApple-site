@@ -2885,7 +2885,12 @@ footer .half-width {
   }
 
   /***** portfolio text and misc. styling *****/
+  .illustration-mobile {
+    display: none;
+  }
+
   .illustration {
+    display: block;
     height: 590px;
     background: url('../img/illustration-block-gray-img.png');
     background-repeat: no-repeat;
@@ -2893,41 +2898,11 @@ footer .half-width {
     padding: 5px;
   }
 
-  .i-block-initial {
-    height: 140px;
-    width: 38px;
-    padding-left: 10px;
-    padding-top: 20px;
-    float: left;
-  }
-
-  .i-block-letters{
-    height: 140px;
-    width: 210px;
-    float: left;
-  }
-
-  .i {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 144px;
-    font-weight: 600;
-    line-height: 100px;
-    color: #000000;
-    padding-top: 40px;
-  }
-
-  .i-word-continuation {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 38px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 30px;
-    float: right;
-    padding-top: 80px;
-    padding-right: 21px;
-  }
-
   .logo-design-mobile {
+    display: none;
+  }
+
+  .logo-design-tablet {
     display: none;
   }
 
@@ -2940,65 +2915,11 @@ footer .half-width {
     padding: 5px;
   }
 
-  .ld-block-initial {
-    height: 140px;
-    width: 38px;
-    padding-left: 0px;
-    padding-top: 0px;
-    float: left;
-  }
-
-  .ld-l {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 72px;
-    text-align: center;
-    color: #000000;
-    padding-top: 30px;
-    padding-left: 18px;
-  }
-
-  .ld-d {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 60px;
-    text-align: center;
-    color: #000000;
-    padding-top: 35px;
-    padding-left: 5px;
-  }
-
-  .ld-block-letters{
-    height: 50px;
-    width: 210px;
-    float: left;
-  }
-
-  .logo-word-continuation {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 38px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 30px;
-    float: right;
-    padding-top: 27px;
-    padding-right: 140px;
-  }
-
-  .l-design-word-continuation {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 38px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 30px;
-    float: right;
-    padding-top: 43px;
-    padding-right: 111px;
-  }
-
   .web-design-mobile {
+    display: none;
+  }
+
+  .web-design-tablet {
     display: none;
   }
 
@@ -3011,127 +2932,21 @@ footer .half-width {
     padding: 5px;
   }
 
-  .wd-block-initial {
-    height: 140px;
-    width: 38px;
-    padding-left: 0px;
-    padding-top: 0px;
-    float: left;
+  .digital-illustration-mobile {
+    display: none;
   }
 
-  .wd-w {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 72px;
-    text-align: center;
-    color: #000000;
-    padding-top: 30px;
-    padding-left: 3px;
-  }
-
-  .wd-d {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 60px;
-    text-align: center;
-    color: #000000;
-    padding-top: 35px;
-    padding-left: 5px;
-  }
-
-  .wd-block-letters{
-    height: 50px;
-    width: 210px;
-    float: left;
-  }
-
-  .web-word-continuation {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 38px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 30px;
-    float: right;
-    padding-top: 27px;
-    padding-right: 152px;
-  }
-
-  .w-design-word-continuation {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 38px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 30px;
-    float: right;
-    padding-top: 43px;
-    padding-right: 111px;
+  .digital-illustration-tablet {
+    display: none;
   }
 
   .digital-illustration {
+    display: block;
     height: 590px;
     background: url('../img/digital-image-block-gray-img.png');
     background-repeat: no-repeat;
     background-color: #ffffff;
     padding: 5px;
-  }
-
-  .di-block-initial {
-    height: 140px;
-    width: 38px;
-    padding-left: 0px;
-    padding-top: 0px;
-    float: left;
-  }
-
-  .di-d {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 72px;
-    text-align: center;
-    color: #000000;
-    padding-top: 30px;
-  }
-
-  .di-i {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 60px;
-    text-align: center;
-    color: #000000;
-    padding-top: 35px;
-    padding-left: 10px;
-  }
-
-  .di-block-letters{
-    height: 50px;
-    width: 210px;
-    float: left;
-  }
-
-  .digital-word-continuation {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 38px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 30px;
-    float: right;
-    padding-top: 27px;
-    padding-right: 125px;
-  }
-
-  .d-illustration-word-continuation {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 38px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 30px;
-    float: right;
-    padding-top: 43px;
-    padding-right: 29px;
   }
 
   #portfolio h1 {

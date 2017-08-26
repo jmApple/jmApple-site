@@ -1860,6 +1860,245 @@ footer .half-width {
 
 /***** ======= END LARGE MOBILE ======= *****/
 
+/***** MID RANGE LAYOUT FIX *****/
+@media screen and (min-width: 520px) {
+  hr {
+    border-top: 2px solid #808080;
+  	border-bottom: 1px solid #fff;
+    width: 43px;
+    margin-bottom: -10px;
+  }
+
+  /***** PORTFOLIO PAGE *****/
+  #portfolio .full-width {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding-top: 155px;
+    height: 100%;
+    width: 100%;
+  }
+
+  #portfolio .quarter-width{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 232.5px;
+    height: 226px;
+    margin: 11px 17px 11px 0px;
+  }
+
+  .illustration-mobile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 95.5%;
+    width: 100%;
+    background: url('../img/portfolio-illustration-tablet-faded.png');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 105%;
+    background-position: 20% 12%;
+    padding: 5px;
+  }
+
+  .i-block-initial {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .i {
+    font-size: 57px;
+    line-height: 63px;
+    padding-left: 4px;
+  }
+
+  .i-block-letters{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 195px;
+  }
+
+  .i-word-continuation {
+    font-size: 21px;
+    line-height: 90px;
+    padding-left: 0px;
+  }
+
+  .logo-design-mobile {
+    display: none;
+  }
+
+  .logo-design-tablet {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 95.5%;
+    width: 100%;
+    background: url('../img/portfolio-logo-design-mobile-logo.png');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 91%;
+    background-position: 490% 230%;
+    padding: 5px;
+  }
+
+  .ld-logo-design {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .ld-logo p {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .ld-l {
+    font-size: 57px;
+    line-height: 63px;
+    padding-left: 15px;
+  }
+
+  .ld-d {
+    font-size: 57px;
+    line-height: 43px;
+    padding-left: 4px;
+  }
+
+  .logo-word-continuation {
+    font-size: 21px;
+    line-height: 36px;
+    padding-left: 4.5px;
+  }
+
+  .l-design-word-continuation {
+    font-size: 21px;
+    line-height: 17px;
+    padding-left: 3.5px;
+  }
+
+  .web-design-mobile {
+    display: none;
+  }
+
+  .web-design-tablet {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 95.5%;
+    width: 100%;
+    background: url('../img/portfolio-web-design-mobile-web.png');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 47%;
+    background-position: 95% 86%;
+    padding: 5px;
+  }
+
+  .wd-web-design p {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .wd-w {
+    font-size: 57px;
+    line-height: 63px;
+    padding-left: 5px;
+  }
+
+  .wd-d {
+    font-size: 57px;
+    line-height: 43px;
+    padding-left: 6px;
+  }
+
+  .web-word-continuation {
+    font-size: 21px;
+    line-height: 36px;
+    padding-left: 0px;
+  }
+
+  .w-design-word-continuation {
+    font-size: 21px;
+    line-height: 17px;
+    padding-left: 3.5px;
+  }
+
+  .digital-illustration-mobile {
+    display: none;
+  }
+
+  .digital-illustration-tablet {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 95.5%;
+    width: 100%;
+    background: url('../img/portfolio-digital-illustration-mobile-pattern.png');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 100%;
+    background-position: 100% 30%;
+    padding: 5px;
+  }
+
+  .di-digital-illustration p {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .di-d {
+    font-size: 57px;
+    line-height: 63px;
+    padding-left: 4px;
+  }
+
+  .di-i {
+    font-size: 57px;
+    line-height: 43px;
+    padding-left: 12.5px;
+  }
+
+  .digital-word-continuation {
+    font-size: 21px;
+    line-height: 36px;
+    padding-left: 5px;
+  }
+
+  .d-illustration-word-continuation {
+    font-size: 21px;
+    line-height: 16px;
+    padding-left: 5px;
+  }
+
+}
+
+@media screen and (min-width: 758px) {
+
+  #portfolio .full-width {
+    padding-top: 171px;
+  }
+
+  #portfolio .quarter-width{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 250px;
+    height: 251px;
+    margin: 11px 17px 11px 0px;
+  }
+
+}
+
 /***** ======= TABLETS ======= *****/
 @media screen and (min-width: 768px) {
   .home-body {
@@ -2098,11 +2337,7 @@ footer .half-width {
 
   /***** PORTFOLIO MAIN PAGE | TABLET min width 768px *****/
   #portfolio .full-width {
-    flex-flow: row wrap;
-    justify-content: center;
     padding-top: 165px;
-    height: 100%;
-    width: 100%;
   }
 
   #portfolio .quarter-width{
@@ -2115,23 +2350,11 @@ footer .half-width {
   }
 
   .illustration-mobile {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     height: 97%;
     width: 100%;
-    background: url('../img/portfolio-illustration-tablet-faded.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
     background-size: 105%;
     background-position: 20% 12%;
     padding: 5px;
-  }
-
-  .i-block-initial {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
   }
 
   .i {
@@ -2140,49 +2363,18 @@ footer .half-width {
     padding-left: 8px;
   }
 
-  .i-block-letters{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    width: 195px;
-  }
-
   .i-word-continuation {
     font-size: 35px;
     line-height: 118px;
     padding-left: 9px;
   }
 
-  .logo-design-mobile {
-    display: none;
-  }
-
   .logo-design-tablet {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     height: 97%;
     width: 100%;
-    background: url('../img/portfolio-logo-design-mobile-logo.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
     background-size: 95%;
     background-position: 800% 240%;
     padding: 5px;
-  }
-
-  .ld-logo-design {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .ld-logo p {
-    margin: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
   }
 
   .ld-l {
@@ -2209,29 +2401,12 @@ footer .half-width {
     padding-left: 3.5px;
   }
 
-  .web-design-mobile {
-    display: none;
-  }
-
   .web-design-tablet {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     height: 97%;
     width: 100%;
-    background: url('../img/portfolio-web-design-mobile-web.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
     background-size: 47%;
     background-position: 95% 86%;
     padding: 5px;
-  }
-
-  .wd-web-design p {
-    margin: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
   }
 
   .wd-w {
@@ -2258,29 +2433,12 @@ footer .half-width {
     padding-left: 4px;
   }
 
-  .digital-illustration-mobile {
-    display: none;
-  }
-
   .digital-illustration-tablet {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     height: 97%;
     width: 100%;
-    background: url('../img/portfolio-digital-illustration-mobile-pattern.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
     background-size: 100%;
     background-position: 100% 30%;
     padding: 5px;
-  }
-
-  .di-digital-illustration p {
-    margin: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
   }
 
   .di-d {
@@ -2302,11 +2460,8 @@ footer .half-width {
   }
 
   .d-illustration-word-continuation {
-    font-family: 'Quicksand', sans-serif;
     font-size: 35px;
     line-height: 31px;
-    font-weight: 300;
-    color: #000000;
     padding-left: 4px;
   }
 
@@ -2392,12 +2547,6 @@ footer .half-width {
 
   .third-width {
     width: calc(1/3);
-    float: left;
-  }
-
-  .quarter-width {
-    width: 25%;
-    margin: 0 5px 0 5px;
     float: left;
   }
 
@@ -2811,17 +2960,159 @@ footer .half-width {
     line-height: 25px;
   }
 
+
   /***** ===== DESKTOP | PORTFOLIO ===== *****/
+
   #portfolio .full-width {
-    height: 600px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-top: 103px;
   }
 
   #portfolio .quarter-width{
-    height: 600px;
-    border: solid;
-    border-color: #000000;
-    border-width: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 330px;
+    height: 300px;
+    margin: 5px;
   }
+
+  .illustration-mobile {
+    display: none;
+  }
+
+  .illustration {
+    display: flex;
+    height: 97%;
+    width: 100%;
+    background: url('../img/illustration-block-gray-img.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 0%;
+    padding: 5px;
+  }
+
+  .logo-design-mobile {
+    display: none;
+  }
+
+  .logo-design-tablet {
+    display: none;
+  }
+
+  .logo-design {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 97%;
+    width: 100%;
+    background: url('../img/logo-design-block-gray-img.png');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 100%;
+    background-position: 0% 0%;
+    padding: 5px;
+  }
+
+  .web-design-mobile {
+    display: none;
+  }
+
+  .web-design-tablet {
+    display: none;
+  }
+
+  .web-design {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 97%;
+    width: 100%;
+    background: url('../img/web-design-image-block-gray-img.png');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 100%;
+    background-position: 0% 0%;
+    padding: 5px;
+  }
+
+  .digital-illustration-mobile {
+    display: none;
+  }
+
+  .digital-illustration-tablet {
+    display: none;
+  }
+
+  .digital-illustration {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 97%;
+    width: 100%;
+    background: url('../img/digital-image-block-gray-img.png');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 100%;
+    background-position: 0% 0%;
+    padding: 5px;
+
+  }
+
+  #portfolio h1 {
+    font-size: 27px;
+    line-height: 29px;
+    color: #808285;
+    text-align: right;
+  }
+
+  #portfolio h2 {
+    font-size: 38px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #portfolio h3 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 33px;
+    font-weight: 300;
+    color: #000000;
+    line-height: normal;
+    text-align: right;
+    text-decoration: none;
+  }
+
+  #portfolio p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #828282;
+    line-height: normal;
+    text-align: right;
+    text-decoration: none;
+  }
+
+
+    /***** Portfolio Individual page layout system *****/
+    .portfolio-width-description {
+      width: 540px;
+      float: left;
+      padding-right: 25px;
+    }
+
+    .portfolio-width-img {
+      width: 635px;
+      float: left;
+    }
+
+    .project-height {
+      height: 20px;
+    }
 
   /***** PORTFOLIO | 5 by infinite layout system *****/
 
@@ -2867,123 +3158,6 @@ footer .half-width {
   }
 
   ***/
-
-  /***** Portfolio Individual page layout system *****/
-  .portfolio-width-description {
-    width: 540px;
-    float: left;
-    padding-right: 25px;
-  }
-
-  .portfolio-width-img {
-    width: 635px;
-    float: left;
-  }
-
-  .project-height {
-    height: 20px;
-  }
-
-  /***** portfolio text and misc. styling *****/
-  .illustration-mobile {
-    display: none;
-  }
-
-  .illustration {
-    display: block;
-    height: 590px;
-    background: url('../img/illustration-block-gray-img.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    padding: 5px;
-  }
-
-  .logo-design-mobile {
-    display: none;
-  }
-
-  .logo-design-tablet {
-    display: none;
-  }
-
-  .logo-design {
-    display: block;
-    height: 590px;
-    background: url('../img/logo-design-block-gray-img.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    padding: 5px;
-  }
-
-  .web-design-mobile {
-    display: none;
-  }
-
-  .web-design-tablet {
-    display: none;
-  }
-
-  .web-design {
-    display: block;
-    height: 590px;
-    background: url('../img/web-design-image-block-gray-img.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    padding: 5px;
-  }
-
-  .digital-illustration-mobile {
-    display: none;
-  }
-
-  .digital-illustration-tablet {
-    display: none;
-  }
-
-  .digital-illustration {
-    display: block;
-    height: 590px;
-    background: url('../img/digital-image-block-gray-img.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    padding: 5px;
-  }
-
-  #portfolio h1 {
-    font-size: 27px;
-    line-height: 29px;
-    color: #808285;
-    text-align: right;
-  }
-
-  #portfolio h2 {
-    font-size: 38px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 30px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  #portfolio h3 {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 33px;
-    font-weight: 300;
-    color: #000000;
-    line-height: normal;
-    text-align: right;
-    text-decoration: none;
-  }
-
-  #portfolio p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 23px;
-    font-weight: 300;
-    color: #828282;
-    line-height: normal;
-    text-align: right;
-    text-decoration: none;
-  }
 
   /***** CONTACT *****/
   #contact {

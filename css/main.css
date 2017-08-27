@@ -899,9 +899,14 @@ footer .half-width {
 #portfolio .full-width {
   display: flex;
   width: 100%;
-  flex-flow: column nowrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: center;
-  padding-top: 63px;
+  padding-top: 23%;
+}
+
+.portfolio-quarter {
+  display: none;
 }
 
 #portfolio .quarter-width{
@@ -1532,11 +1537,11 @@ footer .half-width {
     /***** PORTFOLIO | min-width:360px *****/
 
     #portfolio .full-width {
-      padding-top: 57px;
+      padding-top: 23%;
     }
 
     #portfolio .quarter-width{
-      height: 107px;
+      height: 105px;
       margin: 1.25% 3%;
     }
 
@@ -1671,7 +1676,7 @@ footer .half-width {
     /***** PORTFOLIO | min-width:375px *****/
 
     #portfolio .full-width {
-      padding-top: 89px;
+      padding-top: 27%;
     }
 
     #portfolio .quarter-width{
@@ -1814,11 +1819,12 @@ footer .half-width {
   /***** PORTFOLIO | min-width:412px *****/
 
   #portfolio .full-width {
-    padding-top: 110px;
+    padding-top: 28%;
   }
 
   #portfolio .quarter-width{
     height: 115px;
+    margin-top: 7.5px;
   }
 
   .illustration-mobile {
@@ -1874,11 +1880,20 @@ footer .half-width {
 
   /***** PORTFOLIO PAGE *****/
   #portfolio .full-width {
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    padding-top: 155px;
-    height: 100%;
+    display: flex;
     width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 23%;
+  }
+
+  .mobile {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
   #portfolio .quarter-width {
@@ -2088,7 +2103,7 @@ footer .half-width {
 @media screen and (min-width: 758px) {
 
   #portfolio .full-width {
-    padding-top: 171px;
+    padding-top: 30%;
   }
 
   #portfolio .quarter-width{
@@ -2340,7 +2355,7 @@ footer .half-width {
 
   /***** PORTFOLIO MAIN PAGE | TABLET min width 768px *****/
   #portfolio .full-width {
-    padding-top: 165px;
+    padding-top: 21%;
   }
 
   #portfolio .quarter-width{
@@ -2984,159 +2999,46 @@ footer .half-width {
 
 
   /***** ===== DESKTOP | PORTFOLIO ===== *****/
+
+
   #portfolio {
     padding-top: 7%;
   }
 
   #portfolio .full-width {
     display: flex;
-    flex-flow: row nowrap;
     justify-content: center;
+    flex-flow: row wrap;
     padding-top: 0;
   }
 
-  #portfolio .quarter-width {
-    display: flex;
-    background: #e6ffe6;
-    width: 95%;
-    height: auto;
-    margin: 10px;
-  }
-
-
-/**
-  #portfolio .quarter-width{
+  .portfolio-quarter {
     display: flex;
     border: 2px solid #000;
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 10px;
+    margin: 5px;
+    width: 23%;
+    height: inherit;
   }
-**/
 
-/**
-========HTML
-<main>
-  <section id="portfolio-illustration">
-    <div class="full-width">
+  .portfolio-quarter img {
+    width: 100%;
+    height: inherit;
+  }
 
-        <div class="porfolio-thumb">
-          <a href="illustration/portfolio-illustration-owl1-page.html"><img src="../img/illustration-owl1-thumb.png" alt="Owl 1 portfolio illustration"></a>
-        </div>
-
-=========CSS
-#portfolio-illustration {
-  padding-top: 41%;
-}
-
-#portfolio-illustration .full-width {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-
-}
-
-.porfolio-thumb {
-  display: flex;
-  border: 2px solid #000;
-  margin: 5px;
-  width: 27%;
-  height: auto;
-}
-
-.porfolio-thumb a img{
-  width: 100%;
-  height: auto;
-}
-**/
-
-  .illustration-mobile {
+  .mobile {
     display: none;
-  }
-
-  .illustration {
-    display: flex;
-    border: 2px solid #000;
-    width: 100%;
-    height: auto;
-  }
-
-  .illustration img {
-    width: 100%;
-    height: auto;
   }
 
   .i-llustration {
     position: absolute;
   }
 
-  .logo-design-mobile {
-    display: none;
-  }
-
-  .logo-design-tablet {
-    display: none;
-  }
-
-  .logo-design {
-    display: flex;
-    border: 2px solid #000;
-    width: 100%;
-    height: auto;
-  }
-
-  .logo-design img {
-    width: 100%;
-    height: auto;
-  }
-
   .ld-logo {
     position: absolute;
   }
 
-  .web-design-mobile {
-    display: none;
-  }
-
-  .web-design-tablet {
-    display: none;
-  }
-
-  .web-design {
-    display: flex;
-    border: 2px solid #000;
-    width: 100%;
-    height: auto;
-  }
-
-  .web-design img {
-    width: 100%;
-    height: auto;
-  }
-
   .wd-web-design {
     position: absolute;
-  }
-
-  .digital-illustration-mobile {
-    display: none;
-  }
-
-  .digital-illustration-tablet {
-    display: none;
-  }
-
-  .digital-illustration {
-    display: flex;
-    border: 2px solid #000;
-    width: 100%;
-    height: auto;
-  }
-
-  .digital-illustration img {
-    width: 100%;
-    height: auto;
   }
 
   .di-digital-illustration {

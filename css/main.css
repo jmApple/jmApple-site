@@ -1250,7 +1250,7 @@ footer .half-width {
 }
 
 .project-title {
-  height: 20px;
+  margin: 15px 0 2.5px 0;
 }
 
 #individual-portfolio-page h1 {
@@ -1951,7 +1951,7 @@ footer .half-width {
     margin-bottom: -10px;
   }
 
-  /***** PORTFOLIO PAGE *****/
+  /***** PORTFOLIO PAGE INTERIM RANGE TWEAKS *****/
   #portfolio .full-width {
     display: flex;
     width: 100%;
@@ -2173,6 +2173,21 @@ footer .half-width {
 
 }
 
+/***** ======= Interim size TWAEKS ======= *****/
+@media screen and (min-width: 610px) {
+  /***** PORTFOLIO INDIVIDUAL PAGES | INTERIM SIZE TWEAKS*****/
+  #individual-portfolio-page {
+    padding-top: 27%;
+  }
+
+  .portfolio-img {
+    width: 80%;
+  }
+
+
+}
+
+/***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width: 758px) {
 
   #portfolio .full-width {
@@ -2563,40 +2578,23 @@ footer .half-width {
   }
 
   /***** PORTFOLIO INDIVIDUAL PAGES | TABLETS *****/
-  #individual-portfolio-page h1 {
-    font-size: 27px;
-    line-height: 29px;
-    color: #808285;
-    text-align: right;
+  #individual-portfolio-page {
+    padding-top: 20%;
   }
 
-  #individual-portfolio-page h2 {
-    font-size: 38px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 30px;
-    text-align: center;
-    text-decoration: none;
+  .project-title {
+    margin: 15px 0 0 0;
   }
 
   #individual-portfolio-page h3 {
-    font-family: 'Fredericka the Great', cursive;
     font-size: 33px;
-    font-weight: 300;
-    color: #000000;
     line-height: normal;
-    text-align: right;
-    text-decoration: none;
   }
 
   #individual-portfolio-page p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 23px;
-    font-weight: 300;
-    color: #828282;
-    line-height: normal;
-    text-align: right;
-    text-decoration: none;
+    font-size: 21px;
+    margin: 1px 0 11px 0;
+
   }
 
   /***** FOOTER | TABLET min width 768px *****/
@@ -2627,10 +2625,9 @@ footer .half-width {
   }
 }
 
-/***** ======= Interim size for portfolio thumbnails ======= *****/
-
-/***** PORTFOLIO THUMBNAIL PAGES | min width 810px *****/
+/***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width:810px) {
+  /***** PORTFOLIO THUMBNAIL PAGES | min width 810px *****/
   #portfolio-illustration {
     padding-top: 33%;
   }
@@ -2638,7 +2635,15 @@ footer .half-width {
   .porfolio-thumb {
     width: 15%;
   }
+
+  /***** INDIVIDUAL PORTFOLIO PAGE TWAEKS *****/
+  .portfolio-img {
+    width: 67%;
+  }
+
 }
+
+
 
 /***** ======= BEGIN DESKTOPS ======= *****/
 @media screen and (min-width:940px) {
@@ -3205,60 +3210,29 @@ footer .half-width {
 
     #individual-portfolio-page .full-width {
       display: flex;
-      justify-content: center;
       flex-flow: row wrap;
-      padding-top: 0;
     }
 
     .portfolio-description {
-      width: 540px;
-      float: left;
-      padding-right: 25px;
+      width: 47%;
     }
 
     .portfolio-img {
-      width: 635px;
-      float: left;
+      width: 47%;
     }
 
     .project-title {
-      height: 20px;
-    }
-
-    #individual-portfolio-page h1 {
-      font-size: 27px;
-      line-height: 29px;
-      color: #808285;
-      text-align: right;
-    }
-
-    #individual-portfolio-page h2 {
-      font-size: 38px;
-      font-weight: 300;
-      color: #000000;
-      line-height: 30px;
-      text-align: center;
-      text-decoration: none;
+      margin: 40px 0 0 0;
     }
 
     #individual-portfolio-page h3 {
-      font-family: 'Fredericka the Great', cursive;
       font-size: 33px;
-      font-weight: 300;
-      color: #000000;
       line-height: normal;
-      text-align: right;
-      text-decoration: none;
     }
 
     #individual-portfolio-page p {
-      font-family: 'Quicksand', sans-serif;
       font-size: 23px;
-      font-weight: 300;
-      color: #828282;
-      line-height: normal;
-      text-align: right;
-      text-decoration: none;
+      line-height: 27px;
     }
 
   /***** PORTFOLIO | 5 by infinite layout system *****/
@@ -3518,14 +3492,50 @@ footer .half-width {
 }
 
 
-/***** ======= Interim size for portfolio thumbnails ======= *****/
+/***** ======= Interim size TWEAKS ======= *****/
 
-/***** PORTFOLIO THUMBNAIL PAGES | min width 14200px *****/
+/***** INDIVIDUAL PORTFOLIO PAGES *****/
+@media screen and (min-width:1200px) {
+  #individual-portfolio-page {
+    padding-top: 4%;
+  }
+}
+
+@media screen and (min-width:1335px) {
+  #individual-portfolio-page {
+    padding-top: 0%;
+  }
+}
+
+
+
 @media screen and (min-width:1420px) {
-
+/***** PORTFOLIO THUMBNAIL PAGES | min width 14200px *****/
   .porfolio-thumb {
     width: 12.5%;
   }
+
+/***** INDIVIDUAL PORTFOLIO PAGES *****/
+  .portfolio-description {
+    width: 47%;
+  }
+
+  .portfolio-img {
+    width: 40%;
+  }
+
+}
+
+@media screen and (min-width:1615px) {
+/***** INDIVIDUAL PORTFOLIO PAGES *****/
+  .portfolio-description {
+    width: 50%;
+  }
+
+  .portfolio-img {
+    width: 37.5%;
+  }
+
 }
 
 /***** ======= END DESKTOP ======= *****/

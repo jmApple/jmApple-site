@@ -191,6 +191,10 @@ html, body {
   margin: 0;
 }
 
+.full-width {
+  width: 100%
+}
+
 .home-body {
   font-family: 'Quicksand', sans-serif;
   background: url('../img/logo-green.gif'), url('../img/corner-sketch.gif');
@@ -1187,7 +1191,7 @@ footer .half-width {
 /***** PORTFOLIO THUMBNAIL PAGES | MOBILE FIRST min width 320px *****/
 
 #portfolio-illustration {
-  padding-top: 130px;
+  padding-top: 41%;
 }
 
 #portfolio-illustration .full-width {
@@ -1202,14 +1206,13 @@ footer .half-width {
   border: 2px solid #000;
   margin: 5px;
   width: 27%;
+  height: auto;
 }
 
 .porfolio-thumb a img{
   width: 100%;
   height: auto;
 }
-
-
 
 
 /***** END MOBILE FIRST *****/
@@ -1878,7 +1881,7 @@ footer .half-width {
     width: 100%;
   }
 
-  #portfolio .quarter-width{
+  #portfolio .quarter-width {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -2465,6 +2468,12 @@ footer .half-width {
     padding-left: 4px;
   }
 
+  /***** PORTFOLIO THUMBNAIL PAGES | TABLETS *****/
+
+  #portfolio-illustration {
+    padding-top: 33%;
+  }
+
   /***** FOOTER | TABLET min width 768px *****/
   #footer-border .copyright p {
     padding-left: 19.5px;
@@ -2490,6 +2499,19 @@ footer .half-width {
 
   #footer-no-border ul li a {
     font-size: 17px;
+  }
+}
+
+/***** ======= Interim size for portfolio thumbnails ======= *****/
+
+/***** PORTFOLIO THUMBNAIL PAGES | min width 810px *****/
+@media screen and (min-width:810px) {
+  #portfolio-illustration {
+    padding-top: 33%;
+  }
+
+  .porfolio-thumb {
+    width: 15%;
   }
 }
 
@@ -2962,22 +2984,72 @@ footer .half-width {
 
 
   /***** ===== DESKTOP | PORTFOLIO ===== *****/
+  #portfolio {
+    padding-top: 7%;
+  }
 
   #portfolio .full-width {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    padding-top: 103px;
+    padding-top: 0;
   }
 
+  #portfolio .quarter-width {
+    display: flex;
+    background: #e6ffe6;
+    width: 95%;
+    height: auto;
+    margin: 10px;
+  }
+
+
+/**
   #portfolio .quarter-width{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 330px;
-    height: 300px;
-    margin: 5px;
+    border: 2px solid #000;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 10px;
   }
+**/
+
+/**
+========HTML
+<main>
+  <section id="portfolio-illustration">
+    <div class="full-width">
+
+        <div class="porfolio-thumb">
+          <a href="illustration/portfolio-illustration-owl1-page.html"><img src="../img/illustration-owl1-thumb.png" alt="Owl 1 portfolio illustration"></a>
+        </div>
+
+=========CSS
+#portfolio-illustration {
+  padding-top: 41%;
+}
+
+#portfolio-illustration .full-width {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+}
+
+.porfolio-thumb {
+  display: flex;
+  border: 2px solid #000;
+  margin: 5px;
+  width: 27%;
+  height: auto;
+}
+
+.porfolio-thumb a img{
+  width: 100%;
+  height: auto;
+}
+**/
 
   .illustration-mobile {
     display: none;
@@ -2985,13 +3057,18 @@ footer .half-width {
 
   .illustration {
     display: flex;
-    height: 97%;
+    border: 2px solid #000;
     width: 100%;
-    background: url('../img/illustration-block-gray-img.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0% 0%;
-    padding: 5px;
+    height: auto;
+  }
+
+  .illustration img {
+    width: 100%;
+    height: auto;
+  }
+
+  .i-llustration {
+    position: absolute;
   }
 
   .logo-design-mobile {
@@ -3004,16 +3081,18 @@ footer .half-width {
 
   .logo-design {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 97%;
+    border: 2px solid #000;
     width: 100%;
-    background: url('../img/logo-design-block-gray-img.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 100%;
-    background-position: 0% 0%;
-    padding: 5px;
+    height: auto;
+  }
+
+  .logo-design img {
+    width: 100%;
+    height: auto;
+  }
+
+  .ld-logo {
+    position: absolute;
   }
 
   .web-design-mobile {
@@ -3026,16 +3105,18 @@ footer .half-width {
 
   .web-design {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 97%;
+    border: 2px solid #000;
     width: 100%;
-    background: url('../img/web-design-image-block-gray-img.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 100%;
-    background-position: 0% 0%;
-    padding: 5px;
+    height: auto;
+  }
+
+  .web-design img {
+    width: 100%;
+    height: auto;
+  }
+
+  .wd-web-design {
+    position: absolute;
   }
 
   .digital-illustration-mobile {
@@ -3048,17 +3129,18 @@ footer .half-width {
 
   .digital-illustration {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 97%;
+    border: 2px solid #000;
     width: 100%;
-    background: url('../img/digital-image-block-gray-img.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 100%;
-    background-position: 0% 0%;
-    padding: 5px;
+    height: auto;
+  }
 
+  .digital-illustration img {
+    width: 100%;
+    height: auto;
+  }
+
+  .di-digital-illustration {
+    position: absolute;
   }
 
   #portfolio h1 {
@@ -3096,6 +3178,12 @@ footer .half-width {
     text-align: right;
     text-decoration: none;
   }
+
+  /***** PORTFOLIO THUMBS PAGES | DESKTOP *****/
+  #portfolio-illustration {
+    padding-top: 8%;
+  }
+
 
 
     /***** Portfolio Individual page layout system *****/
@@ -3367,6 +3455,17 @@ footer .half-width {
     padding-left: 5px;
     padding-right: 5px;
     text-decoration: none;
+  }
+}
+
+
+/***** ======= Interim size for portfolio thumbnails ======= *****/
+
+/***** PORTFOLIO THUMBNAIL PAGES | min width 14200px *****/
+@media screen and (min-width:1420px) {
+
+  .porfolio-thumb {
+    width: 12.5%;
   }
 }
 

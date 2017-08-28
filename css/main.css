@@ -1225,6 +1225,24 @@ footer .half-width {
   padding-top: 37%;
 }
 
+.page-thru-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-top: 69.75%;
+  position: absolute;
+  width: inherit;
+}
+
+.back-button {
+  width: 30px;
+  margin-top: .75%;
+}
+
+.next-button {
+  width: 50px;
+}
+
 #individual-portfolio-page .full-width {
   display: flex;
   flex-flow: column-reverse nowrap;
@@ -2641,10 +2659,6 @@ footer .half-width {
     width: 67%;
   }
 
-}
-
-
-
 /***** ======= BEGIN DESKTOPS ======= *****/
 @media screen and (min-width:940px) {
   /*desktop styles*/
@@ -3219,6 +3233,14 @@ footer .half-width {
 
     .portfolio-img {
       width: 47%;
+    }
+
+    .page-thru-buttons {
+      margin-top: 35.25%;
+    }
+
+    .next-button {
+      margin-top: .5%;
     }
 
     .project-title {

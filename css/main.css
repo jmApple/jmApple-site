@@ -191,6 +191,26 @@ html, body {
   margin: 0;
 }
 
+.spacing-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: inherit;
+  height: inherit;
+}
+
+header {
+  display: inline-block;
+}
+
+main {
+  display: inline-block;
+  justify-content: flex-start;
+  flex-flow: column;
+  width: inherit;
+  flex: 1;
+}
+
 .full-width {
   width: 100%
 }
@@ -378,7 +398,7 @@ hr {
 #home {
   height: 100%;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 0;
   border-bottom: 1px solid #000000;
 }
 
@@ -533,10 +553,14 @@ hr {
 }
 
 footer {
+  display: inline-block;
+  width: 100%;
+}
+
+footer .full-width {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  width: 100%;
 }
 
 footer .half-width {
@@ -1196,7 +1220,7 @@ footer .half-width {
 /***** PORTFOLIO THUMBNAIL PAGES | MOBILE FIRST min width 320px *****/
 
 #portfolio-illustration {
-  padding-top: 41%;
+  padding-top: 21%;
 }
 
 #portfolio-illustration .full-width {
@@ -2242,6 +2266,8 @@ footer .half-width {
 /***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width: 610px) {
   /***** PORTFOLIO INDIVIDUAL PAGES | INTERIM SIZE TWEAKS*****/
+
+
   #individual-portfolio-page {
     padding-top: 27%;
   }
@@ -2640,7 +2666,7 @@ footer .half-width {
   /***** PORTFOLIO THUMBNAIL PAGES | TABLETS *****/
 
   #portfolio-illustration {
-    padding-top: 33%;
+    padding-top: 21%;
   }
 
   /***** PORTFOLIO INDIVIDUAL PAGES | TABLETS *****/

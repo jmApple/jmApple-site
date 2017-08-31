@@ -2022,10 +2022,16 @@ footer .half-width {
 
 
 @media screen and (min-width:414px) {
-  /***** PORTFOLIO | min-width:414px *****/
+  /***** PORTFOLIO | min-width: 414px *****/
 
   .logo-design-mobile {
     height: 90.75%;
+  }
+
+  /***** UNDER CONSTRUCTION | min width: 414px *****/
+
+  #under-construction-page {
+    padding-top: 43%;
   }
 
 }
@@ -2715,6 +2721,45 @@ footer .half-width {
   #footer-no-border ul li a {
     font-size: 17px;
   }
+
+
+
+
+  /***** UNDER CONSTRUCTION PAGE | TABLET min width 768px *****/
+
+  #under-construction-page {
+    padding-top: 33%;
+  }
+
+  #under-construction-page .full-width {
+    justify-content: center;
+    padding-top: 0;
+  }
+
+  #under-construction-page .under-construction-title h3 {
+    font-size: 65px;
+    line-height: 19px;
+  }
+
+  #under-construction-page .text-block p {
+    font-size: 37.5px;
+    margin: 13px 0 7px 0;
+  }
+
+  #under-construction-page .portfolio-description {
+    width: 84%;
+  }
+
+  #under-construction-page .portfolio-img {
+    width: 84%;
+  }
+
+  #under-construction-page .page-construction-title h1 {
+    font-size: 93px;
+    padding: 0;
+    margin: 90px 0 0px 9px;
+  }
+
 }
 
 /***** ======= Interim size TWAEKS ======= *****/
@@ -3435,6 +3480,19 @@ footer .half-width {
     text-decoration: none;
   }
 
+/***** UNDER CONSTRUCTION | DESKTOP min width 940px *****/
+  #under-construction-page {
+    padding-top: 11%;
+  }
+
+  #under-construction-page .portfolio-description {
+    width: 60%;
+  }
+
+  #under-construction-page .portfolio-img {
+    width: 66.5%;
+  }
+
   /*****  DESKTOP | FOOTER *****/
 
   .footer-border {
@@ -3594,6 +3652,14 @@ footer .half-width {
 @media screen and (min-width:1200px) {
   #individual-portfolio-page {
     padding-top: 4%;
+  }
+
+  #under-construction-page .portfolio-description {
+    width: 50%;
+  }
+
+  #under-construction-page .portfolio-img {
+    width: 50%;
   }
 }
 

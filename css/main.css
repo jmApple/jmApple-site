@@ -1333,6 +1333,78 @@ footer .half-width {
   margin: 1px 0 7px 0;
 }
 
+
+
+
+
+
+/***** CONTACT PAGE | MOBILE FIRST min width 320px *****/
+#contact {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  border-bottom: 1px solid;
+  border-color: #000000;
+}
+
+#contact .full-width {
+  padding-top: 31%;
+}
+
+#contact .half-width {
+  width: 95%;
+}
+
+#contact h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 53px;
+  line-height: normal;
+  color: #dfcde4;
+  padding-left: 47px;
+  padding-top: 55px;
+  margin: 0;
+}
+
+#contact h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 30px;
+  text-align: right;
+  text-decoration: none;
+  margin: 0;
+}
+
+#contact p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 13px;
+  text-align: right;
+  text-decoration: none;
+}
+
+
+.email {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 20px;
+  text-align: right;
+  text-decoration: none;
+  word-spacing: 1.5px;
+}
+
+.address {
+  color: #000000;
+  font-size: 20px;
+  text-align: right;
+  text-decoration: none;
+}
+
 /***** UNDER CONSTRUCTION PAGE | MOBILE FIRST min width 320px *****/
 
 #under-construction-page {
@@ -2921,7 +2993,7 @@ footer .half-width {
 
   #home {
     height : 0;
-    padding-bottom: 49.55%;
+    padding-bottom: 50.75%;
   }
 
   #home .full-width {

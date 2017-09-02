@@ -191,6 +191,14 @@ html, body {
   margin: 0;
 }
 
+.spacing-container-home {
+  display: flex;
+  flex-flow: column;
+  width: inherit;
+  height: inherit;
+
+}
+
 .spacing-container {
   display: flex;
   flex-flow: column;
@@ -205,8 +213,6 @@ header {
 
 main {
   display: inline-block;
-  justify-content: flex-start;
-  flex-flow: column;
   width: inherit;
   flex: 1;
 }
@@ -260,13 +266,6 @@ main {
   background-attachment: scroll;
   background-size: 94%;
   background-position: -62px 25px;
-}
-
-.background {
-  height: 830px;
-  background: url('../img/corner-sketch.gif');
-  background-repeat: no-repeat;
-  background-color: #ffffff;
 }
 
 /***** Special class's and id's *****/
@@ -478,37 +477,37 @@ hr {
 }
 
 .developer-designer-illustrator-mobile {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .developer-designer-illustrator-mobile-text {
-    display: flex;
-    writing-mode: vertical-rl;
-    -webkit-transform:rotate(180deg);
-    -moz-transform:rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform:rotate(1800deg);
-    transform: rotate(180deg);
-    white-space: nowrap;
-    bottom: 0;
-    width: 20px;
-    padding-top: 2px;
-    padding-left: 13.3px;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 25.5px;
-    font-weight: 300;
-    color: #fec769;
-    line-height: 0px;
-    text-align: left;
-    text-decoration: none;
-    word-spacing: 1.5px;
+  display: flex;
+  writing-mode: vertical-rl;
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform:rotate(1800deg);
+  transform: rotate(180deg);
+  white-space: nowrap;
+  bottom: 0;
+  width: 20px;
+  padding-top: 2px;
+  padding-left: 13.3px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25.5px;
+  font-weight: 300;
+  color: #fec769;
+  line-height: 0px;
+  text-align: left;
+  text-decoration: none;
+  word-spacing: 1.5px;
 }
 
 .little-bit-info {
@@ -517,17 +516,17 @@ hr {
 }
 
 #home .little-bit-info .email-homepage {
-    float: right;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    color: #1b1464;
-    line-height: 18px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: -3px;
-    text-align: right;
-    text-decoration: none;
+  float: right;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #1b1464;
+  line-height: 18px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: -3px;
+  text-align: right;
+  text-decoration: none;
 }
 
 #home .little-bit-info p {
@@ -1470,14 +1469,14 @@ footer .half-width {
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 /*
@@ -1488,12 +1487,12 @@ footer .half-width {
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 /*
@@ -1501,7 +1500,7 @@ footer .half-width {
  */
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /*
@@ -1518,12 +1517,12 @@ footer .half-width {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /* ==========================================================================
@@ -2940,13 +2939,13 @@ footer .half-width {
 @media screen and (min-width:940px) {
   /*desktop styles*/
 
+  /***** CORNER OPTIONS | DESKTOP: min width 940px *****/
   .home-body {
       background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
       background-repeat: no-repeat, no-repeat;
       background-attachment: scroll, scroll;
       background-size: 30.5%, 47.3%;
       background-position: -29px 0px;
-      height: 100%;
   }
 
   .corner-body {
@@ -2955,17 +2954,9 @@ footer .half-width {
       background-attachment: scroll;
       background-size: 30.5%;
       background-position: -29px 0px;
-      height: 100%;
   }
 
-  .background {
-      height: 830px;
-      background: url('../img/corner-sketch.gif');
-      background-repeat: no-repeat;
-      background-color: #ffffff;
-  }
-
-  /***** DESKTOP Grid *****/
+  /***** GRID OPTIONS | DESKTOP: min width 940px *****/
 
   .full-width {
     width: 100%;
@@ -3002,7 +2993,7 @@ footer .half-width {
     height: 140px;
   }
 
-  /***** DESKTOP HEADER | NAVIGATION *****/
+  /***** HEADER & NAVIGATION | DESKTOP: min width 940px *****/
   header {
     display: flex;
     flex-flow: row;
@@ -3031,14 +3022,12 @@ footer .half-width {
 
   .horizontal-nav {
     display: flex;
-    height: 100%;
     width: 65%;
     margin: 0;
   }
 
   .horizontal-nav nav {
     display: flex;
-    height: 100%;
     width: 100%;
     padding: 0 5% 0 10%;
     margin: 0;
@@ -3075,7 +3064,7 @@ footer .half-width {
     color: #72b648;
   }
 
-  /***** DESKTOP | HOME *****/
+  /***** HOME PAGE | DESKTOP: min width 940px *****/
 
   #home {
     height : 0;
@@ -3153,7 +3142,7 @@ footer .half-width {
     word-spacing: 1.5px;
   }
 
-  /***** DESKTOP | ABOUT *****/
+  /***** ABOUT PAGE | DESKTOP: min width 940px *****/
 
   .fifth-width-about {
     width: 11.5%;
@@ -3404,9 +3393,7 @@ footer .half-width {
   }
 
 
-  /***** ===== DESKTOP | PORTFOLIO ===== *****/
-
-
+  /***** PORTFOLIO PAGE | DESKTOP: min width 940px *****/
   #portfolio {
     padding-top: 7%;
   }
@@ -3487,52 +3474,50 @@ footer .half-width {
     text-decoration: none;
   }
 
-  /***** PORTFOLIO THUMBS PAGES | DESKTOP *****/
+  /***** PORTFOLIO THUMBNAIL PAGES | DESKTOP: min width 940px *****/
   #portfolio-illustration {
     padding-top: 8%;
   }
 
+  /***** PORTFOLIO INDIVIDUAL PAGES | DESKTOP: min width 940px *****/
+  #individual-portfolio-page {
+    padding-top: 7%;
+  }
 
+  #individual-portfolio-page .full-width {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
-    /***** Portfolio Individual page layout system *****/
-    #individual-portfolio-page {
-      padding-top: 7%;
-    }
+  .portfolio-description {
+    width: 47%;
+  }
 
-    #individual-portfolio-page .full-width {
-      display: flex;
-      flex-flow: row wrap;
-    }
+  .portfolio-img {
+    width: 47%;
+  }
 
-    .portfolio-description {
-      width: 47%;
-    }
+  .page-thru-buttons {
+    margin-top: 35.25%;
+  }
 
-    .portfolio-img {
-      width: 47%;
-    }
+  .next-button {
+    margin-top: .5%;
+  }
 
-    .page-thru-buttons {
-      margin-top: 35.25%;
-    }
+  .project-title {
+    margin: 40px 0 0 0;
+  }
 
-    .next-button {
-      margin-top: .5%;
-    }
+  #individual-portfolio-page h3 {
+    font-size: 33px;
+    line-height: normal;
+  }
 
-    .project-title {
-      margin: 40px 0 0 0;
-    }
-
-    #individual-portfolio-page h3 {
-      font-size: 33px;
-      line-height: normal;
-    }
-
-    #individual-portfolio-page p {
-      font-size: 23px;
-      line-height: 27px;
-    }
+  #individual-portfolio-page p {
+    font-size: 23px;
+    line-height: 27px;
+  }
 
   /***** PORTFOLIO | 5 by infinite layout system *****/
 
@@ -3579,7 +3564,7 @@ footer .half-width {
 
   ***/
 
-  /***** CONTACT | DESKTOP  *****/
+  /***** CONTACT PAGE | DESKTOP: min width 940px *****/
   #contact {
     display: flex;
     align-items: center;
@@ -3644,7 +3629,7 @@ footer .half-width {
   }
 
 
-  /*****  DESKTOP | FOOTER *****/
+  /***** FOOTER | DESKTOP: min width 940px *****/
 
   #footer-border .copyright {
     padding-top: 0px;

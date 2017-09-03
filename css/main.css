@@ -2449,7 +2449,7 @@ footer .half-width {
 
 }
 
-/***** ======= TABLETS ======= *****/
+/***** ======= TABLETS | min width 768px ======= *****/
 @media screen and (min-width: 768px) {
   .home-body {
     background-size: 19%, 45.5%;
@@ -2515,8 +2515,8 @@ footer .half-width {
     margin-bottom: 0;
   }
 
-  /***** ABOUT PAGE | TABLET min width 768px *****/
 
+  /***** ABOUT PAGE | TABLET min width 768px *****/
   #about .full-width-about {
     display: flex;
     flex-flow: row nowrap;
@@ -2646,7 +2646,7 @@ footer .half-width {
     flex-flow: row-reverse nowrap;
     justify-content: space-between;
     width: 100%;
-    margin: 33px 0 0 0;
+    margin: 3.5% 0 0 0;
   }
 
   .about-wording-section-home {
@@ -2656,7 +2656,7 @@ footer .half-width {
   .home-bracket-div {
     display: block;
     width: 11.25%;
-    padding: 47px 19px 0 0;
+    padding: 53px 19px 0 0;
   }
 
   .giant-bracket-home {
@@ -2676,10 +2676,9 @@ footer .half-width {
   .home-info {
     display: block;
     width: 100%;
-    margin-top: -8px;
+    margin-top: -2px;
     margin-right: -3px;
     text-align: right;
-    float: right;
     padding: 0;
   }
 
@@ -2692,7 +2691,7 @@ footer .half-width {
     background-color: grey;
     border: 1px solid #000;
     width: 213px;
-    height: 343px;
+    height: 351px;
     margin: 0 0 7px 39px;
   }
 
@@ -2850,9 +2849,7 @@ footer .half-width {
   #individual-portfolio-page p {
     font-size: 21px;
     margin: 1px 0 11px 0;
-
   }
-
 
 
   /***** UNDER CONSTRUCTION PAGE | TABLET min width 768px *****/
@@ -2936,7 +2933,7 @@ footer .half-width {
 @media screen and (min-width:940px) {
   /*desktop styles*/
 
-  /***** CORNER OPTIONS | DESKTOP: min width 940px *****/
+  /***** CORNER OPTIONS | DESKTOP min width 940px *****/
   .home-body {
       background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
       background-repeat: no-repeat, no-repeat;
@@ -2953,7 +2950,7 @@ footer .half-width {
       background-position: -29px 0px;
   }
 
-  /***** GRID OPTIONS | DESKTOP: min width 940px *****/
+  /***** GRID OPTIONS | DESKTOP min width 940px *****/
 
   .full-width {
     width: 100%;
@@ -2990,7 +2987,7 @@ footer .half-width {
     height: 140px;
   }
 
-  /***** HEADER & NAVIGATION | DESKTOP: min width 940px *****/
+  /***** HEADER & NAVIGATION | DESKTOP min width 940px *****/
   header {
     display: flex;
     flex-flow: row;
@@ -3061,7 +3058,7 @@ footer .half-width {
     color: #72b648;
   }
 
-  /***** HOME PAGE | DESKTOP: min width 940px *****/
+  /***** HOME PAGE | DESKTOP min width 940px *****/
 
   #home {
     height : 0;
@@ -3140,10 +3137,84 @@ footer .half-width {
     word-spacing: 1.5px;
   }
 
-  /***** ABOUT PAGE | DESKTOP: min width 940px *****/
-  
+  /***** ABOUT PAGE | DESKTOP min width 940px *****/
+  .fifth-width-about {
+    width: 13.5%;
+  }
 
+  .vertical {
+    margin: 343px 0 0 17px;
+  }
 
+  .about-work-home-sections {
+    width: 85.5%;
+    margin: 1.5% 1.1% 1% 0;
+  }
+
+  .four-fifths-width-work {
+    width: 100%;
+    margin: 14% 0 0 0;
+  }
+
+  .work-bracket-div {
+    padding-top: 49px;
+  }
+
+  .giant-bracket-work {
+    font-size: 405px;
+  }
+
+  .work-vertical {
+    margin-top: -183px;
+    margin-left: 123%;
+  }
+
+  .work-info {
+    display: block;
+    padding-top: 1.8%;
+  }
+
+  .about-wording-section-work {
+    padding: 0.1% 2% 0 5.5%;
+    width: 50%;
+  }
+
+  #about p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .about-img-block-work {
+    margin: 1.93% 2.8% 0 0;
+    width: 50%;
+    height: 345px;
+  }
+
+  .four-fifths-width-home {
+    margin: 3% 0 0 0;
+  }
+
+  .about-wording-section-home {
+    width: 40%;
+  }
+
+  .home-bracket-div {
+    padding: 5.4% 0 0 0;
+  }
+
+  .home-vertical {
+    margin-right: 21.5%;
+    }
+
+  .home-info {
+    margin-top: -1.7%;
+  }
+
+  .about-img-block-home {
+    width: 45%;
+    height: 346px;
+    margin: 0 0 1.5% 4.5%;
+  }
 
   /***** PORTFOLIO PAGE | DESKTOP: min width 940px *****/
   #portfolio {

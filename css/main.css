@@ -194,9 +194,8 @@ html, body {
 .spacing-container-home {
   display: flex;
   flex-flow: column;
+  justify-content: space-between;
   width: inherit;
-  height: inherit;
-
 }
 
 .spacing-container {
@@ -213,6 +212,8 @@ header {
 
 main {
   display: inline-block;
+  justify-content: flex-start;
+  flex-flow: column;
   width: inherit;
   flex: 1;
 }
@@ -551,115 +552,10 @@ hr {
   display: none;
 }
 
-footer {
-  display: inline-block;
-  width: 100%;
-}
-
-footer .full-width {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
-
-footer .half-width {
-  display: flex;
-  align-items: center;
-}
-
-#footer-border {
-  margin: 0;
-}
-
-#footer-no-border {
-  margin: 0;
-}
-
-#footer-border .copyright {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-#footer-no-border .copyright {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-#footer-border .copyright p {
-  font-size: 14px;
-  line-height: 16px;
-  padding: 7.5px 0 0 3px;
-  margin: 0;
-}
-
-#footer-no-border .copyright p {
-  font-size: 14px;
-  line-height: 16px;
-  padding: 7.5px 0 0 3px;
-  margin: 0;
-}
-
-.social-media {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-#footer-border ul {
-  display: inline-block;
-  float: right;
-  margin: 10px 0;
-  padding: 0;
-}
-
-#footer-no-border ul {
-  display: inline-block;
-  float: right;
-  margin: 10px 0;
-  padding: 0;
-}
-
-#footer-border ul li {
-  float: right;
-  display: inline-block;
-}
-
-#footer-no-border ul li {
-  float: right;
-  display: inline-block;
-}
-
-#footer-border ul li a {
-  font-size: 14.3px;
-  color: #000000;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-decoration: none;
-}
-
-#footer-no-border ul li a {
-  font-size: 14.3px;
-  color: #000000;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-decoration: none;
-}
-
-#footer-border .email {
-  display: none;
-}
-
-#footer-no-border .email {
-  display: none;
-}
-
 /***** ======= MOBIlE | ABOUT PAGE ======= *****/
 
 #about {
   width: 100%;
-  border-bottom: 1px solid #000000;
 }
 
 .fifth-width-about {
@@ -1447,6 +1343,115 @@ footer .half-width {
   margin: 90px 0 0px 9px;
 }
 
+/***** FOOTER | MOBILE FIRST min width 320px *****/
+footer {
+  display: inline-block;
+  width: 100%;
+}
+
+footer .full-width {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+footer .half-width {
+  display: flex;
+  align-items: center;
+}
+
+.spacing-container-home #footer-border {
+  margin: 0;
+}
+
+.spacing-container #footer-border {
+  margin: 0;
+  border-top: 1px solid #000;
+}
+
+#footer-no-border {
+  margin: 0;
+}
+
+#footer-border .copyright {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#footer-no-border .copyright {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#footer-border .copyright p {
+  font-size: 14px;
+  line-height: 16px;
+  padding: 7.5px 0 0 3px;
+  margin: 0;
+}
+
+#footer-no-border .copyright p {
+  font-size: 14px;
+  line-height: 16px;
+  padding: 7.5px 0 0 3px;
+  margin: 0;
+}
+
+.social-media {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#footer-border ul {
+  display: inline-block;
+  float: right;
+  margin: 10px 0;
+  padding: 0;
+}
+
+#footer-no-border ul {
+  display: inline-block;
+  float: right;
+  margin: 10px 0;
+  padding: 0;
+}
+
+#footer-border ul li {
+  float: right;
+  display: inline-block;
+}
+
+#footer-no-border ul li {
+  float: right;
+  display: inline-block;
+}
+
+#footer-border ul li a {
+  font-size: 14.3px;
+  color: #000000;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+#footer-no-border ul li a {
+  font-size: 14.3px;
+  color: #000000;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+#footer-border .email {
+  display: none;
+}
+
+#footer-no-border .email {
+  display: none;
+}
 
 
 /***** END MOBILE FIRST *****/
@@ -2509,23 +2514,32 @@ footer .half-width {
 
   /***** ABOUT PAGE | TABLET min width 768px *****/
 
+  #about .full-width-about {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+  }
+
   .fifth-width-about {
     width: 8%;
-    float: left;
     margin: 0;
+    padding: 0;
   }
 
   #about h1 {
     font-size: 79px;
+    line-height: 0;
     font-weight: bold;
     color: #E6E7E8;
-    line-height: 100px;
+    margin: 0;
   }
 
   .jessica-mcintosh-vertical {
     width: 8%;
-    float: left;
-    padding: 33px 0 0 0;
+    padding: 0;
+    margin: 0;
   }
 
   .vertical {
@@ -2536,22 +2550,28 @@ footer .half-width {
     -ms-transform:rotate(180deg);
     transform: rotate(180deg);
     white-space: nowrap;
-    display: block;
+    display: flex;
     line-height: 0px;
-    margin-top: 375px;
-    margin-left: 69px;
-    margin-bottom: 27px;
+    margin: 333px 0 0 13px;
     padding: 0;
   }
 
-  .four-fifths-width-work {
-    float: left;
-    width: 90%;
-    margin-top: 125px;
+  .about-work-home-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 97%;
+    margin: 0;
+    overflow: hidden;
   }
 
-  .four-fifths-width-home {
-    width: 90%;
+  .four-fifths-width-work {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 125px 0 0 0;
+    padding: 0;
   }
 
   .work-bracket-div {
@@ -2559,14 +2579,6 @@ footer .half-width {
   }
 
   .giant-bracket-work {
-    font-size: 405px;
-  }
-
-  .home-bracket-div {
-    padding-top: 33px;
-  }
-
-  .giant-bracket-home {
     font-size: 405px;
   }
 
@@ -2591,9 +2603,8 @@ footer .half-width {
   }
 
   .about-wording-section-work {
-    float: left;
-    padding-left: 55px;
-    width: 55%;
+    padding: 0 15px 0 55px;
+    width: 60%;
   }
 
   .work-info {
@@ -2611,51 +2622,53 @@ footer .half-width {
   }
 
   .about-img-block-work {
-    float: left;
     display: block;
-    margin-top: 15px;
-    width: 200px;
+    margin: 15px 25px 0 0;
+    width: 225px;
     height: 345px;
     background-color: grey;
     border: 1px solid #000;
-  }
-
-  .about-wording-section-home {
-    float: right;
-    width: 50%;
   }
 
   .home-bracket-div-mobile {
     display: none;
   }
 
+  .home-info-mobile {
+    display: none;
+  }
+
+  .four-fifths-width-home {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 33px 0 0 0;
+  }
+
+  .about-wording-section-home {
+    width: 50%;
+  }
+
   .home-bracket-div {
     display: block;
-    float: right;
     width: 11.25%;
+    padding: 47px 19px 0 0;
+  }
+
+  .giant-bracket-home {
+    font-size: 405px;
   }
 
   .home-vertical {
     color: #ffffff;
     font-size: 30px;
-    margin-top: -205px;
+    line-height: 0;
+    margin-top: -153px;
     margin-left: 0;
     margin-right: 3px;
-  }
+    }
 
-  .home-info-mobile {
-    display: none;
-  }
-
-  .home-info {
-    display: block;
-    text-align: right;
-    float: right;
-  }
-
-  .green, .blue-green, .blue, .colbalt-blue, .true-purple-home {
-    font-size: 22px;
-  }
 
   .home-info {
     display: block;
@@ -2667,13 +2680,17 @@ footer .half-width {
     padding: 0;
   }
 
+  .green, .blue-green, .blue, .colbalt-blue, .true-purple-home {
+    font-size: 22px;
+  }
+
   .about-img-block-home {
     display: block;
-    float: right;
     background-color: grey;
     border: 1px solid #000;
-    width: 205px;
-    height: 350px;
+    width: 213px;
+    height: 343px;
+    margin: 0 0 7px 39px;
   }
 
 
@@ -2834,6 +2851,7 @@ footer .half-width {
   }
 
   /***** FOOTER | TABLET min width 768px *****/
+
   #footer-border .copyright p {
     padding-left: 19.5px;
     margin: 0;
@@ -3069,6 +3087,7 @@ footer .half-width {
   #home {
     height : 0;
     padding-bottom: 50.75%;
+    border: none;
   }
 
   #home .full-width {
@@ -3630,6 +3649,11 @@ footer .half-width {
 
 
   /***** FOOTER | DESKTOP: min width 940px *****/
+  .home-body footer {
+    background-color: #fff;
+    border-top: 1px solid #000;
+  }
+
 
   #footer-border .copyright {
     padding-top: 0px;

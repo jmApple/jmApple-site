@@ -3218,7 +3218,9 @@ footer .half-width {
 
   /***** PORTFOLIO PAGE | DESKTOP: min width 940px *****/
   #portfolio {
-    padding-top: 7%;
+    padding-top: 15%;
+    margin-left: 10%;
+    margin-right: 2%;
   }
 
   #portfolio .full-width {
@@ -3237,8 +3239,9 @@ footer .half-width {
   }
 
   .portfolio-quarter img {
-    width: 100%;
-    height: inherit;
+    width: auto;
+    height: auto;
+    max-height: 430px;
   }
 
   .mobile {
@@ -3579,13 +3582,34 @@ footer .half-width {
 
 
 /***** ======= Interim size TWEAKS ======= *****/
+@media screen and (min-width:1030px) {
+  /***** MAIN PORTFOLIO PAGE *****/
+  .portfolio-quarter img {
+    max-height: 450px;
+  }
+}
 
-/***** INDIVIDUAL PORTFOLIO PAGES *****/
+@media screen and (min-width:1030px) {
+  /***** MAIN PORTFOLIO PAGE *****/
+  .portfolio-quarter img {
+    max-height: 470px;
+  }
+}
+
+
+
 @media screen and (min-width:1200px) {
+  /***** MAIN PORTFOLIO PAGE *****/
+  .portfolio-quarter img {
+    max-height: 520px;
+  }
+
+  /***** INDIVIDUAL PORTFOLIO PAGES *****/
   #individual-portfolio-page {
     padding-top: 4%;
   }
 
+  /***** UNDER CONSTRUCTION PAGE *****/
   #under-construction-page .portfolio-description {
     width: 50%;
   }
@@ -3596,10 +3620,16 @@ footer .half-width {
 }
 
 @media screen and (min-width:1335px) {
+  /***** MAIN PORTFOLIO PAGE *****/
   main #portfolio {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 16%;
+    margin-right: 2%;
   }
+
+  .portfolio-quarter img {
+    max-height: 570px;
+  }
+
 
   #individual-portfolio-page {
     padding-top: 0%;
@@ -3609,7 +3639,7 @@ footer .half-width {
 
 
 @media screen and (min-width:1420px) {
-
+  /***** MAIN PORTFOLIO PAGE *****/
   main #portfolio {
     margin-left: 20%;
     margin-right: 2%;
@@ -3630,6 +3660,19 @@ footer .half-width {
     width: 40%;
   }
 
+}
+
+
+@media screen and (min-width:1555px) {
+/***** MAIN PORTFOLIO PAGE *****/
+  main #portfolio {
+    margin-left: 24%;
+    margin-right: 1.5%;
+  }
+
+  .portfolio-quarter img {
+    max-height: 600px;
+  }
 }
 
 @media screen and (min-width:1615px) {

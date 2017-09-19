@@ -198,6 +198,14 @@ html, body {
   width: inherit;
 }
 
+.about-spacing-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: inherit;
+  height: inherit;
+}
+
 .spacing-container {
   display: flex;
   flex-flow: column;
@@ -1364,6 +1372,11 @@ footer .half-width {
   margin: 0;
 }
 
+.about-spacing-container #footer-border {
+  margin: 0;
+  border-top: 1px solid #000;
+}
+
 .spacing-container #footer-border {
   margin: 0;
   border-top: 1px solid #000;
@@ -1580,9 +1593,10 @@ footer .half-width {
    }
 
    /*** ABOUT | min-width:360px ***/
+
    .vertical {
      padding-top: 31px;
-     padding-bottom: 7px;
+     padding-bottom: 4px;
    }
 
    #about h1 {
@@ -1707,6 +1721,9 @@ footer .half-width {
      border: 1px solid #000000;
    }
 
+   .four-fifths-width-home {
+     margin-bottom:  7px;
+   }
    .home-bracket-div-mobile {
      padding-left: 0;
    }
@@ -1908,8 +1925,8 @@ footer .half-width {
 
     /*** ABOUT | min-width:375px ***/
     .vertical {
-      padding-top: 45px;
-      padding-bottom: 7px;
+      padding-top: 47px;
+      padding-bottom: 8px;
     }
 
     #about h1 {
@@ -2070,6 +2087,7 @@ footer .half-width {
   }
 
   /***** ABOUT | WORK HEADERS IN THE BRACKET *****/
+
   .true-purple, .bright-purple, .warm-purple, .cool-red, .red, .red-orange, .orange {
     line-height: 11px;
   }
@@ -2113,7 +2131,7 @@ footer .half-width {
       margin-right: 7px;
   }
 
- /*** CONTACT | min-width: 414px ***/
+ /*** CONTACT | min-width: 412px ***/
   #contact .full-width {
     padding-top: 42%;
   }
@@ -2138,6 +2156,22 @@ footer .half-width {
 
 
 @media screen and (min-width:414px) {
+
+  /***** ABOUT | min-width: 414px *****/
+  .vertical {
+    padding-top: 44px;
+    padding-bottom: 9px;
+  }
+
+  .fifth-width-about {
+    margin-top: 10px;
+  }
+
+  .four-fifths-width-home {
+    margin-bottom: 7px;
+
+  }
+
   /***** PORTFOLIO | min-width: 414px *****/
 
   .logo-design-mobile {
@@ -2165,7 +2199,16 @@ footer .half-width {
     margin-bottom: -10px;
   }
 
-  /***** PORTFOLIO PAGE INTERIM RANGE TWEAKS *****/
+  /***** ABOUT PAGE | min-width: 520px *****/
+  .vertical {
+    padding-top: 70px;
+  }
+
+  .four-fifths-width-home {
+    margin-bottom: 20px;
+  }
+
+  /***** PORTFOLIO PAGE | min-width: 520px *****/
   #portfolio .full-width {
     display: flex;
     width: 100%;
@@ -2419,10 +2462,87 @@ footer .half-width {
 
 }
 
+
+/***** ======= Interim size TWAEKS ======= *****/
+@media screen and (min-width: 640px) {
+
+  /*** ABOUT | min-width: 640px ***/
+
+  .about-work-home-sections {
+    margin-top: 30px;
+  }
+
+  .mobile-img-set-top, .mobile-img-set-bottom {
+    margin: 11.5% 3% 0 4%;
+  }
+
+  .work-vertical {
+    margin-left: 19.9px;
+    margin-top: -127px;
+  }
+
+  .home-vertical {
+    margin-left: 19.9px;
+    margin-top: -121px;
+  }
+
+  .home-vertical {
+  }
+
+
+  .work-info-mobile, .home-info-mobile {
+    padding-left: 5px;
+  }
+}
+
+/***** ======= Interim size TWAEKS ======= *****/
+@media screen and (min-width: 680px) {
+  /***NEXUS 5X horizontal size****/
+
+  /*** ABOUT | min-width: 680px ***/
+  .vertical {
+    padding-top: 60px;
+  }
+}
+
+/***** ======= Interim size TWAEKS ======= *****/
+@media screen and (min-width: 732px) {
+  /*** ABOUT | min-width: 732px ***/
+  .vertical {
+    padding-top: 90px;
+    padding-bottom: 7px;
+  }
+
+  .mobile-img-set-top, .mobile-img-set-bottom {
+    margin: 9.5% 3% 0 4%;
+  }
+
+  .work-vertical {
+    margin-left: 15.9px;
+    margin-top: -127px;
+  }
+
+  .home-vertical {
+    margin-left: 15.9px;
+    margin-top: -121px;
+  }
+
+  .work-info-mobile, .home-info-mobile {
+    padding-left: 0px;
+  }
+}
+
+
 /***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width: 736px) {
+  /*** ABOUT | min-width: 736px ***/
+  .vertical {
+    padding-top: 90px;
+    padding-bottom: 5px;
+  }
 
-  /*** CONTACT | min-width: 610px ***/
+
+  /*** CONTACT | min-width: 736px ***/
   #contact .half-width {
     width: 52.8%;
     margin-left: 27%;
@@ -2517,6 +2637,10 @@ footer .half-width {
 
 
   /***** ABOUT PAGE | TABLET min width 768px *****/
+  .about-spacing-container {
+    min-height: 975px;
+  }
+
   #about .full-width-about {
     display: flex;
     flex-flow: row nowrap;
@@ -2697,6 +2821,7 @@ footer .half-width {
 
 
   /***** PORTFOLIO MAIN PAGE | TABLET min width 768px *****/
+
   #portfolio .full-width {
     padding-top: 21%;
   }
@@ -3138,12 +3263,13 @@ footer .half-width {
   }
 
   /***** ABOUT PAGE | DESKTOP min width 940px *****/
+
   .fifth-width-about {
     width: 13.5%;
   }
 
   .vertical {
-    margin: 343px 0 0 17px;
+    margin: 227px 0 0 17px;
   }
 
   .about-work-home-sections {
@@ -3153,7 +3279,7 @@ footer .half-width {
 
   .four-fifths-width-work {
     width: 100%;
-    margin: 14% 0 0 0;
+    margin: 0;
   }
 
   .work-bracket-div {
@@ -3637,6 +3763,13 @@ footer .half-width {
 
   #individual-portfolio-page {
     padding-top: 0%;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  /***** ABOUT | min-width: 1366px *****/
+
+   {
   }
 }
 

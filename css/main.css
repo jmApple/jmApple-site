@@ -400,6 +400,7 @@ hr {
   padding: 10px auto;
 }
 
+
 .horizontal-nav nav {
   display: none;
 }
@@ -3123,6 +3124,7 @@ footer .half-width {
     width: 100%;
     margin: 0;
     justify-content: space-between;
+    overflow: visible;
   }
 
   .logo {
@@ -3145,7 +3147,7 @@ footer .half-width {
 
   .horizontal-nav {
     display: flex;
-    width: 65%;
+    width: 50%;
     margin: 0;
   }
 
@@ -3347,10 +3349,10 @@ footer .half-width {
   }
 
   /***** PORTFOLIO PAGE | DESKTOP: min width 940px *****/
+
   #portfolio {
     margin-left: 10%;
-    margin-right: 2%;
-    margin-top: 7%;
+    margin-right: 0%;
     align-items: center;
   }
 
@@ -3358,13 +3360,11 @@ footer .half-width {
     display: flex;
     justify-content: space-around;
     flex-flow: row nowrap;
-    padding-top: 0;
   }
 
   .portfolio-quarter {
     display: flex;
     border: 2px solid #000;
-    margin: 5px;
     width: auto;
     height: auto;
   }

@@ -2956,13 +2956,13 @@ footer .half-width {
     padding-left: 4px;
   }
 
-  /***** PORTFOLIO THUMBNAIL PAGES | TABLETS *****/
+  /***** PORTFOLIO THUMBNAIL PAGES | TABLETS min width 768px *****/
 
   #portfolio-illustration {
     padding-top: 21%;
   }
 
-  /***** PORTFOLIO INDIVIDUAL PAGES | TABLETS *****/
+  /***** PORTFOLIO INDIVIDUAL PAGES | TABLETS min width 768px *****/
   #individual-portfolio-page {
     padding-top: 20%;
   }
@@ -3149,6 +3149,7 @@ footer .half-width {
     display: flex;
     width: 50%;
     margin: 0;
+    overflow: visible;
   }
 
   .horizontal-nav nav {
@@ -3350,13 +3351,19 @@ footer .half-width {
 
   /***** PORTFOLIO PAGE | DESKTOP: min width 940px *****/
 
+  .horizontal-nav {
+    overflow: visible;
+  }
+
   #portfolio {
     margin-left: 10%;
     margin-right: 0%;
     align-items: center;
+    padding-bottom: 0;
   }
 
   #portfolio .full-width {
+    padding-top: 5%;
     display: flex;
     justify-content: space-around;
     flex-flow: row nowrap;

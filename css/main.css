@@ -3861,7 +3861,7 @@ footer .half-width {
   }
 
   .portfolio-quarter img {
-    max-height: 640px;
+    height: 100%;
   }
 
 
@@ -3894,10 +3894,17 @@ footer .half-width {
 @media screen and (min-width:1420px) {
   /***** MAIN PORTFOLIO PAGE *****/
   main #portfolio {
-    margin-left: 20%;
-    margin-right: 2%;
+    margin-left: 12%;
+    margin-right: 1%;
     padding-top: 0;
+    padding-left: 7%
   }
+
+  main #portfolio .full-width {
+    padding-top: .5%;
+
+  }
+
 
 /***** PORTFOLIO THUMBNAIL PAGES | min width 14200px *****/
   .porfolio-thumb {

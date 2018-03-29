@@ -3357,9 +3357,8 @@ footer .half-width {
 
   #portfolio {
     margin-left: 10%;
-    margin-right: 0%;
+    margin-right: 1.2%;
     align-items: center;
-    padding-bottom: 0;
   }
 
   #portfolio .full-width {
@@ -3390,16 +3389,111 @@ footer .half-width {
     position: absolute;
   }
 
+  .i-llustration p {
+    margin-top: 13px;
+  }
+
+  .i {
+    font-size: 57px;
+    line-height: 57px;
+    padding-left: 8px;
+  }
+
+  .i-word-continuation {
+    font-size: 30px;
+    line-height: 30px;
+    padding-left: 0px;
+  }
+
   .ld-logo {
     position: absolute;
+  }
+
+  .ld-l {
+    font-size: 57px;
+    line-height: 57px;
+    padding-left: 17px;
+    padding-top: 5px;
+  }
+
+  .ld-d {
+    font-size: 57px;
+    line-height: 33px;
+    padding-left: 7px;
+    padding-top: 5px;
+  }
+
+  .logo-word-continuation {
+    font-size: 30px;
+    line-height: 45px;
+    padding-left: 4.5px;
+  }
+
+  .l-design-word-continuation {
+    font-size: 30px;
+    line-height: 22px;
+    padding-left: 3.5px;
   }
 
   .wd-web-design {
     position: absolute;
   }
 
+  .wd-w {
+    font-size: 57px;
+    line-height: 57px;
+    padding-left: 13px;
+    padding-top: 2px;
+  }
+
+  .wd-d {
+    font-size: 57px;
+    line-height: 33px;
+    padding-left: 15px;
+    padding-top: 7px;
+  }
+
+  .web-word-continuation {
+    font-size: 35px;
+    line-height: 37px;
+    padding-left: 0px;
+  }
+
+  .w-design-word-continuation {
+    font-size: 30px;
+    line-height: 15px;
+    padding-left: 3px;
+  }
+
+
   .di-digital-illustration {
     position: absolute;
+  }
+
+  .di-d {
+    font-size: 56px;
+    line-height: 57px;
+    padding-left: 6px;
+    padding-top: 5px;
+  }
+
+  .di-i {
+    font-size: 57px;
+    line-height: 33px;
+    padding-left: 16.5px;
+    padding-top: 5px;
+  }
+
+  .digital-word-continuation {
+    font-size: 30px;
+    line-height: 36px;
+    padding-left: 3px;
+  }
+
+  .d-illustration-word-continuation {
+    font-size: 30px;
+    line-height: 13px;
+    padding-left: 3px;
   }
 
   #portfolio h1 {

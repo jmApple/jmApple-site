@@ -3060,8 +3060,9 @@ footer .half-width {
   }
 
 /***** ======= BEGIN DESKTOPS ======= *****/
-@media screen and (min-width:940px) {
+@media screen and (min-width:1367px) {
   /*desktop styles*/
+
 
   /***** CORNER OPTIONS | DESKTOP min width 940px *****/
   .home-body {
@@ -3078,6 +3079,10 @@ footer .half-width {
       background-attachment: scroll;
       background-size: 30.5%;
       background-position: -29px 0px;
+  }
+
+  .spacing-container {
+      min-height: 700px;
   }
 
   /***** GRID OPTIONS | DESKTOP min width 940px *****/
@@ -3902,7 +3907,6 @@ footer .half-width {
 
   main #portfolio .full-width {
     padding-top: .5%;
-
   }
 
 

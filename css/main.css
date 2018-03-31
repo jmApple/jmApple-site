@@ -3046,6 +3046,11 @@ footer .half-width {
 /***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width:810px) {
   /***** PORTFOLIO THUMBNAIL PAGES | min width 810px *****/
+
+  .home-vertical {
+    margin-right:13%;
+  }
+
   #portfolio-illustration {
     padding-top: 33%;
   }
@@ -3059,10 +3064,31 @@ footer .half-width {
     width: 67%;
   }
 
-/***** ======= BEGIN DESKTOPS ======= *****/
-@media screen and (min-width:1367px) {
-  /*desktop styles*/
+/***** ======= Interim size TWAEKS ======= *****/
+@media screen and (min-width:841px) {
+    /***** logo corner piece | min width 841px *****/
+    .corner-body {
+      background-size: 17%, 41%;
+      background-position: 5% 3.5%, -29px 0px;
+    }
 
+    .home-vertical {
+      margin-right:17%;
+    }
+  }
+
+  @media screen and (min-width:900px) {
+    /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+
+    .home-vertical {
+      margin-right:19%;
+    }
+  }
+
+
+/***** ======= BEGIN DESKTOPS ======= *****/
+@media screen and (min-width:940px) {
+  /*desktop styles*/
 
   /***** CORNER OPTIONS | DESKTOP min width 940px *****/
   .home-body {
@@ -3318,7 +3344,7 @@ footer .half-width {
   }
 
   #about p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 18px;
   }
 
@@ -3819,23 +3845,78 @@ footer .half-width {
 
 /***** ======= Interim size TWEAKS ======= *****/
 @media screen and (min-width:1030px) {
-  /***** MAIN PORTFOLIO PAGE *****/
-  .portfolio-quarter img {
-    max-height: 450px;
+  /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  #about p {
+    font-size: 15px;
   }
-}
 
-@media screen and (min-width:1030px) {
-  /***** MAIN PORTFOLIO PAGE *****/
+  .about-wording-section-work {
+    padding-left: 5%;
+  }
+
+  .work-vertical {
+    margin-left: 120%;
+  }
+
+  .home-vertical {
+    margin-right:25%;
+  }
+
+  /***** MAIN PORTFOLIO PAGE portfolio sections TWEAKS *****/
   .portfolio-quarter img {
     max-height: 470px;
   }
 }
 
+@media screen and (min-width:1090px) {
+  /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  .work-vertical {
+    margin-left: 115%;
+  }
+
+  .about-wording-section-work {
+    padding-left: 4.5%;
+  }
+
+  .dark-purple-blue {
+    margin-top: 0;
+  }
+
+  .home-vertical {
+    margin-right:29%;
+  }
+}
+
+@media screen and (min-width:1160px) {
+  /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  .work-vertical {
+    margin-left: 110%;
+  }
+
+  .about-wording-section-work {
+    padding-left: 4.2%;
+  }
+
+  .home-vertical {
+    margin-right:35%;
+  }
+}
 
 
 @media screen and (min-width:1200px) {
   /***** MAIN PORTFOLIO PAGE *****/
+  .work-vertical {
+    margin-left: 105%;
+  }
+
+  .home-vertical {
+    margin-right: 38%;
+  }
+
+  .about-wording-section-home {
+    padding-top: .75%;
+  }
+
   .portfolio-quarter img {
     max-height: 520px;
   }
@@ -3855,8 +3936,36 @@ footer .half-width {
   }
 }
 
+@media screen and (min-width:1250px) {
+  /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  .about-wording-section-work {
+    padding-left: 4%;
+  }
+
+  .work-vertical {
+    margin-left: 99%;
+  }
+
+  .home-vertical {
+    margin-right: 41%;
+  }
+
+}
+
+@media screen and (min-width:1310px) {
+  /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+
+  .work-vertical {
+    margin-left: 94%;
+  }
+}
+
 @media screen and (min-width:1334px) {
   /***** MAIN PORTFOLIO PAGE *****/
+  .about-wording-section-work {
+    padding-left: 3.5%;
+  }
+
   main #portfolio {
     margin-left: 10%;
     margin-right: 2%;

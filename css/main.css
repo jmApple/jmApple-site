@@ -1638,6 +1638,11 @@ footer .half-width {
      border: 1px solid #000000;
    }
 
+   .mobile-img-set-top img{
+     width: 100%;
+     height: 100%;
+   }
+
    .work-bracket-div {
      padding-left: 0;
    }
@@ -2227,6 +2232,7 @@ footer .half-width {
     margin-bottom: 20px;
   }
 
+
   /***** PORTFOLIO PAGE | min-width: 520px *****/
   #portfolio .full-width {
     display: flex;
@@ -2775,6 +2781,26 @@ footer .half-width {
     background-color: grey;
     border: 1px solid #000;
   }
+
+  .about-img-block-work img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* NOTE:
+  .porfolio-thumb {
+    display: flex;
+    border: 2px solid #000;
+    margin: 5px;
+    width: 27%;
+    height: auto;
+  }
+
+  .porfolio-thumb a img{
+    width: 100%;
+    height: 100%;
+  }
+ */
 
   .home-bracket-div-mobile {
     display: none;

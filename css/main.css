@@ -1158,7 +1158,7 @@ hr {
 /***** PORTFOLIO INDIVIDUAL PAGES | MOBILE FIRST min width 320px *****/
 
 #individual-portfolio-page {
-  padding-top: 37%;
+  padding-top: 31%;
 }
 
 #individual-portfolio-page .full-width {
@@ -1175,6 +1175,7 @@ hr {
 
 .portfolio-img, .portfolio-img-outlined {
   display: flex;
+  flex-flow: column-reverse;
   width: 95%;
   height: inherit;
   margin: auto;
@@ -1194,18 +1195,10 @@ hr {
 }
 
 .page-thru-buttons {
-  display: none;
-}
-
-
-
-.page-thru-buttons {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin-top: 69.75%;
-  position: absolute;
-  width: inherit;
+  width: 92%;
 }
 
 .back-button {
@@ -1245,7 +1238,7 @@ hr {
   line-height: 19px;
   text-align: right;
   text-decoration: none;
-  margin: 30px 0 0 0;
+  margin: 2% 0 0 0;
 }
 
 #individual-portfolio-page p {
@@ -3625,7 +3618,7 @@ footer .half-width {
   }
 
   .page-thru-buttons {
-    margin-top: 35.25%;
+    margin-top: 2%;
   }
 
   .next-button {

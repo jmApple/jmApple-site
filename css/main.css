@@ -1262,14 +1262,12 @@ hr {
 /***** CONTACT PAGE | MOBILE FIRST min width 320px *****/
 #contact {
   display: flex;
-  justify-content: center;
-  height: 100%;
-  border-bottom: 1px solid;
-  border-color: #000000;
+  min-height: 300px;
+  height: 80vh;
+  align-items: center;
 }
 
 #contact .full-width {
-  padding-top: 31%;
 }
 
 #contact .half-width {
@@ -1927,9 +1925,6 @@ footer .half-width {
 
 
     /*** CONTACT | min-width: 360px ***/
-    #contact .full-width {
-      padding-top: 36%;
-    }
 
     #contact .half-width {
       width: 93%;
@@ -1982,9 +1977,6 @@ footer .half-width {
     }
 
     /*** CONTACT | min-width: 375px ***/
-    #contact .full-width {
-      padding-top: 41%;
-    }
 
     #contact .half-width {
       width: 89%;
@@ -1992,7 +1984,7 @@ footer .half-width {
     }
 }
 
-@media screen and (min-width:412px) {
+@media screen and (min-width:411px) {
   /*larger mobile styles set 3 & Nexus 5x Nexus 6P & iPhone 6 Plus (414 screen width) */
   .owl-mobile {
       display: none;
@@ -2065,7 +2057,7 @@ footer .half-width {
     text-decoration: none;
   }
 
-  /*** ABOUT | min-width: 412px ***/
+  /*** ABOUT | min-width: 411px ***/
   .vertical {
     padding-top: 49px;
     padding-bottom: 11px;
@@ -2121,7 +2113,7 @@ footer .half-width {
     line-height: 11px;
   }
 
-  /***** PORTFOLIO | min-width:412px *****/
+  /***** PORTFOLIO | min-width:411px *****/
 
   #portfolio .full-width {
     padding-top: 28%;
@@ -2150,7 +2142,7 @@ footer .half-width {
     height: 91.5%;
   }
 
-  /*** FOOTER-SECTION | min width: 412px ***/
+  /*** FOOTER-SECTION | min width: 411px ***/
 
   #footer-border .half-width .copyright {
     padding-left: 7px;
@@ -2160,10 +2152,7 @@ footer .half-width {
       margin-right: 7px;
   }
 
- /*** CONTACT | min-width: 412px ***/
-  #contact .full-width {
-    padding-top: 42%;
-  }
+ /*** CONTACT | min-width: 411px ***/
 
   #contact .half-width {
     width: 94%;
@@ -2459,14 +2448,13 @@ footer .half-width {
   }
 
   /*** CONTACT | min-width: 520px ***/
-  #contact .full-width {
-    padding-top: 22%;
-    padding-bottom: 13%;
+  #contact {
+    min-height: 350px;
   }
 
   #contact .half-width {
     width: 68%;
-    margin-left: 15%;
+    margin-left: 27%;
   }
 
 }
@@ -2487,7 +2475,7 @@ footer .half-width {
   /*** CONTACT | min-width: 610px ***/
   #contact .half-width {
     width: 56.5%;
-    margin-left: 21%;
+    margin-left: 33%;
   }
 
 }
@@ -2523,6 +2511,16 @@ footer .half-width {
   .work-info-mobile, .home-info-mobile {
     padding-left: 5px;
   }
+
+
+  /*** CONTACT | min-width: 640px ***/
+  #contact {
+    min-height: 400px;
+  }
+
+  #contact .half-width {
+    margin-left: 39%;
+  }
 }
 
 /***** ======= Interim size TWAEKS ======= *****/
@@ -2536,8 +2534,8 @@ footer .half-width {
 }
 
 /***** ======= Interim size TWAEKS ======= *****/
-@media screen and (min-width: 732px) {
-  /*** ABOUT | min-width: 732px ***/
+@media screen and (min-width: 731px) {
+  /*** ABOUT | min-width: 731px ***/
   .vertical {
     padding-top: 90px;
     padding-bottom: 7px;
@@ -2560,7 +2558,9 @@ footer .half-width {
   .work-info-mobile, .home-info-mobile {
     padding-left: 0px;
   }
-}
+
+  /*** CONTACT | min-width: 731px ***/
+
 
 
 /***** ======= Interim size TWAEKS ======= *****/
@@ -2575,7 +2575,6 @@ footer .half-width {
   /*** CONTACT | min-width: 736px ***/
   #contact .half-width {
     width: 52.8%;
-    margin-left: 27%;
   }
 
 
@@ -3063,9 +3062,6 @@ footer .half-width {
   }
 
   /*** CONTACT | TABLET min-width: 768px ***/
-   #contact .full-width {
-     padding-top: 42%;
-   }
 
    #contact .half-width {
      width: 49%;
@@ -3689,17 +3685,10 @@ footer .half-width {
   ***/
 
   /***** CONTACT PAGE | DESKTOP: min width 940px *****/
-  #contact {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid;
-    border-color: #000000;
-    height: 100%;
-  }
 
-  #contact .full-width {
-    padding-top: 0;
-    padding-bottom: 5%;
+
+  #contact {
+    height: 70vh;
   }
 
   #contact .height-140 {
@@ -3957,6 +3946,11 @@ footer .half-width {
 
   .home-vertical {
     margin-right:35%;
+  }
+
+  /***** CONTACT PAGE | DESKTOP: min width 1160px *****/
+  #contact {
+    height: 60vh;
   }
 }
 

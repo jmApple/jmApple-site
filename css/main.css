@@ -415,8 +415,7 @@ hr {
   display: none;
 }
 
-
-/***** MOBILE 1st HOME PAGE | iPhone5*****/
+/***** HOME PAGE | MOBILE 1st (iPhone5) *****/
 
 #home {
   height: 100%;
@@ -575,7 +574,7 @@ hr {
   display: none;
 }
 
-/***** ======= MOBIlE | ABOUT PAGE ======= *****/
+/***** ======= ABOUT PAGE | MOBIlE 1st======= *****/
 
 #about {
   width: 100%;
@@ -840,7 +839,7 @@ hr {
 }
 
 
-/***** ======= MOBIlE | PORTFOLIO MAIN PAGE ======= *****/
+/***** ======= PORTFOLIO MAIN PAGE | MOBIlE 1st ======= *****/
 
 #portfolio .full-width {
   display: flex;
@@ -1139,7 +1138,7 @@ hr {
   padding-left: 2px;
 }
 
-/***** PORTFOLIO THUMBNAIL PAGES | MOBILE FIRST min width 320px *****/
+/***** PORTFOLIO THUMBNAIL PAGES | MOBILE 1st *****/
 .corner-body #portfolio-illustration {
   padding-top: 25%;
 }
@@ -1158,7 +1157,7 @@ hr {
   height: auto;
 }
 
-/***** PORTFOLIO INDIVIDUAL PAGES | MOBILE FIRST min width 320px *****/
+/***** PORTFOLIO INDIVIDUAL PAGES | MOBILE 1st *****/
 
 #individual-portfolio-page {
   padding-top: 31%;
@@ -1255,7 +1254,7 @@ hr {
   margin: 1px 0 7px 0;
 }
 
-/***** CONTACT PAGE | MOBILE FIRST min width 320px *****/
+/***** CONTACT PAGE | MOBILE 1st *****/
 #contact {
   display: flex;
   min-height: 300px;
@@ -1320,7 +1319,7 @@ hr {
   text-decoration: none;
 }
 
-/***** UNDER CONSTRUCTION PAGE | MOBILE FIRST min width 320px *****/
+/***** UNDER CONSTRUCTION PAGE | MOBILE 1st *****/
 
 #under-construction-page {
   padding-top: 37%;
@@ -1368,7 +1367,7 @@ hr {
   margin: 90px 0 0px 9px;
 }
 
-/***** FOOTER | MOBILE FIRST min width 320px *****/
+/***** FOOTER | MOBILE 1st *****/
 footer {
   display: inline-block;
   width: 100%;

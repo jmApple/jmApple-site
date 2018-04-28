@@ -4047,9 +4047,18 @@ footer .half-width {
     width: 47%;
   }
 
+  .link-to-site-project img {
+    width: 17px;
+    height: auto;
+    padding-bottom: 5px;
+
+  }
+
   .portfolio-img, .portfolio-img-outlined {
     width: 40%;
   }
+
+
 
 }
 

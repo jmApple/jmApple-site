@@ -1254,6 +1254,13 @@ hr {
   margin: 1px 0 7px 0;
 }
 
+.link-to-site-project img {
+  width: 13px;
+  height: auto;
+  padding-bottom: 5px;
+}
+
+
 /***** CONTACT PAGE | MOBILE 1st *****/
 #contact {
   display: flex;
@@ -2995,6 +3002,12 @@ footer .half-width {
   #individual-portfolio-page p {
     font-size: 21px;
     margin: 1px 0 11px 0;
+  }
+
+  .link-to-site-project img {
+    width: 17px;
+    height: auto;
+    padding-bottom: 5px;
   }
 
 

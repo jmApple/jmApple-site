@@ -3443,26 +3443,28 @@ footer .half-width {
   }
 
   #portfolio {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 2%;
     align-items: center;
   }
 
   #portfolio .full-width {
-    padding-top: 5%;
+    padding-top: 7%;
     display: flex;
-    justify-content: space-around;
     flex-flow: row nowrap;
   }
 
   .portfolio-quarter {
     display: flex;
-    border: 2px solid #000;
+    width: 100%;
+    height: auto;
     margin-left: 2%;
+    border: 2px solid #000;
   }
 
   .portfolio-quarter img {
-    max-height: 430px;
+    width: 100%;
+    height: auto;
   }
 
   .mobile {
@@ -3913,10 +3915,7 @@ footer .half-width {
   }
 
   /***** MAIN PORTFOLIO PAGE portfolio sections TWEAKS *****/
-  .portfolio-quarter img {
-    max-height: 470px;
-  }
-}
+
 
 @media screen and (min-width:1090px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
@@ -4003,9 +4002,7 @@ footer .half-width {
     padding-top: .75%;
   }
 
-  .portfolio-quarter img {
-    max-height: 520px;
-  }
+
 
   /***** INDIVIDUAL PORTFOLIO PAGES *****/
   #individual-portfolio-page {
@@ -4052,18 +4049,10 @@ footer .half-width {
     padding-left: 3.5%;
   }
 
-  main #portfolio {
+  #portfolio {
     margin-left: 10%;
     margin-right: 2%;
   }
-
-  #portfolio .full-width {
-  }
-
-  .portfolio-quarter img {
-    height: 100%;
-  }
-
 
   #individual-portfolio-page {
     padding-top: 0%;
@@ -4093,14 +4082,14 @@ footer .half-width {
 
 @media screen and (min-width:1420px) {
   /***** MAIN PORTFOLIO PAGE *****/
-  main #portfolio {
+ #portfolio {
     margin-left: 12%;
-    margin-right: 1%;
+    margin-right: 2%;
     padding-top: 0;
     padding-left: 7%
   }
 
-  main #portfolio .full-width {
+ #portfolio .full-width {
     padding-top: .5%;
   }
 
@@ -4133,14 +4122,12 @@ footer .half-width {
 
 @media screen and (min-width:1555px) {
 /***** MAIN PORTFOLIO PAGE *****/
-  main #portfolio {
+  #portfolio {
     margin-left: 24%;
     margin-right: 1.5%;
   }
 
-  .portfolio-quarter img {
-    max-height: 600px;
-  }
+
 }
 
 @media screen and (min-width:1615px) {

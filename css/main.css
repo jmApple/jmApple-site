@@ -1635,12 +1635,22 @@ footer .half-width {
 
    .mobile-img-set-top {
      display: inline-block;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
      width: 20%;
      height: 100px;
      float: left;
      margin: 15% 4% 0 5%;
      background-color: lightgrey;
      border: 1px solid #000000;
+   }
+
+   #mobile-image-work {
+     background: lightgrey url('../img/jessica-work-mobile-pic.png');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
    }
 
    .work-bracket-div {
@@ -1737,12 +1747,22 @@ footer .half-width {
 
    .mobile-img-set-bottom {
      display: inline-block;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
      width: 20%;
      height: 100px;
      float: left;
      margin: 15% 4% 0 5%;
      background-color: lightgrey;
      border: 1px solid #000000;
+   }
+
+   #mobile-image-home {
+     background: lightgrey url('../img/jessica-home-mobile-pic.png');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
    }
 
    .four-fifths-width-home {
@@ -2774,12 +2794,23 @@ footer .half-width {
 
   .about-img-block-work-tablet {
     display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 15px 25px 0 0;
-    width: 225px;
+    width: 35%;
     height: 345px;
-    background-color: grey;
+    background-color: lightgrey;
     border: 1px solid #000;
   }
+
+  #mobile-image-work-tablet {
+    background: lightgrey url('../img/jessica-work-tablet-pic.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
 
   .home-bracket-div-mobile {
     display: none;
@@ -2836,12 +2867,16 @@ footer .half-width {
 
   .about-img-block-home {
     display: block;
-    background-color: grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightgrey;
     border: 1px solid #000;
-    width: 213px;
+    width: 33%;
     height: 351px;
     margin: 0 0 7px 39px;
   }
+
 
 
   /***** PORTFOLIO MAIN PAGE | TABLET min width 768px *****/
@@ -3394,6 +3429,13 @@ footer .half-width {
     margin: 0 0 1.5% 4.5%;
   }
 
+  #mobile-image-home {
+    background: lightgrey url('../img/jessica-work-desktop-pic.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   /***** PORTFOLIO PAGE | DESKTOP: min width 940px *****/
 
   .horizontal-nav {
@@ -3935,6 +3977,19 @@ footer .half-width {
 
 
 @media screen and (min-width:1200px) {
+
+  /***** ABOUT PAGE *****/
+  #mobile-image-home {
+    background: lightgrey url('../img/jessica-work-desktop-wide-pic.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #mobile-image-work-tablet {
+    background-position: 0% 25%;
+  }
+
   /***** MAIN PORTFOLIO PAGE *****/
   .work-vertical {
     margin-left: 105%;

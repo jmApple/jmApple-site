@@ -2708,6 +2708,7 @@ footer .half-width {
   }
 
   .jessica-mcintosh-vertical {
+    display: flex;
     width: 8%;
     padding: 0;
     margin: 0;
@@ -3358,11 +3359,22 @@ footer .half-width {
   /***** ABOUT PAGE | DESKTOP min width 940px *****/
 
   .fifth-width-about {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
     width: 13.5%;
   }
 
+  .jessica-mcintosh-vertical {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 15% 0;
+  }
+
   .vertical {
-    margin: 227px 0 0 17px;
+    line-height: 15px;
+    margin: 0px;
+    padding: 0px;
   }
 
   .about-work-home-sections {
@@ -4064,6 +4076,18 @@ footer .half-width {
 
   .fifth-width-about {
     margin-left: 10%;
+  }
+
+  .about-work-home-sections {
+    margin-top: -20px;
+  }
+
+  .work-info {
+    margin-top: .5%;
+  }
+
+  .work-info p {
+    margin: 3% 0;
   }
 
   .work-vertical {

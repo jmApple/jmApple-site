@@ -1638,10 +1638,10 @@ footer .half-width {
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
-     width: 20%;
-     height: 100px;
+     width: 25%;
+     height: 150px;
      float: left;
-     margin: 15% 4% 0 5%;
+     margin: 8% 3% 0 3%;
      background-color: lightgrey;
      border: 1px solid #000000;
    }
@@ -1750,10 +1750,10 @@ footer .half-width {
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
-     width: 20%;
-     height: 100px;
+     width: 25%;
+     height: 150px;
      float: left;
-     margin: 15% 4% 0 5%;
+     margin: 8% 3% 0 3%;
      background-color: lightgrey;
      border: 1px solid #000000;
    }
@@ -2075,6 +2075,10 @@ footer .half-width {
   }
 
   /*** ABOUT | min-width: 411px ***/
+  .mobile-img-set-top, .mobile-img-set-bottom {
+    margin: 11% 3% 0 3%;
+  }
+
   .vertical {
     padding-top: 49px;
     padding-bottom: 11px;
@@ -2085,12 +2089,8 @@ footer .half-width {
   }
 
   #about p {
-    font-size: 12px;
-    line-height: 14.5px;
-  }
-
-  .mobile-img-set-top, .mobile-img-set-bottom {
-    margin: 15% 3% 0 4%;
+    font-size: 11px;
+    line-height: 14px;
   }
 
   .four-fifths-width-home {
@@ -2127,7 +2127,11 @@ footer .half-width {
   /***** ABOUT | WORK HEADERS IN THE BRACKET *****/
 
   .true-purple, .bright-purple, .warm-purple, .cool-red, .red, .red-orange, .orange {
-    line-height: 11px;
+    line-height: 14px;
+  }
+
+  .green, .blue-green, .blue, .colbalt-blue, .true-purple-home {
+    line-height: 14px;
   }
 
   /***** PORTFOLIO | min-width:411px *****/
@@ -2235,6 +2239,22 @@ footer .half-width {
   }
 
   /***** ABOUT PAGE | min-width: 520px *****/
+  .corner-body {
+    background-size: 23%, 55%;
+    background-position: 20px 20px, -29px 0px;
+  }
+
+  #about {
+    max-width: 530px;
+  }
+
+  .mobile-img-set-top, .mobile-img-set-bottom {
+  width: 25%;
+  height: 175px;
+  float: left;
+  margin: 8% 3% 0 3%;
+}
+
   .vertical {
     padding-top: 70px;
   }
@@ -2500,33 +2520,9 @@ footer .half-width {
 
 /***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width: 640px) {
-
-  /*** ABOUT | min-width: 640px ***/
-
-  .about-work-home-sections {
-    margin-top: 30px;
-  }
-
-  .mobile-img-set-top, .mobile-img-set-bottom {
-    margin: 11.5% 3% 0 4%;
-  }
-
-  .work-vertical {
-    margin-left: 19.9px;
-    margin-top: -127px;
-  }
-
-  .home-vertical {
-    margin-left: 19.9px;
-    margin-top: -121px;
-  }
-
-  .home-vertical {
-  }
-
-
-  .work-info-mobile, .home-info-mobile {
-    padding-left: 5px;
+  .corner-body {
+    background-size: 22%, 47%;
+    background-position: 20px 10px, -29px 0px;
   }
 
 
@@ -2540,55 +2536,9 @@ footer .half-width {
   }
 }
 
-/***** ======= Interim size TWAEKS ======= *****/
-@media screen and (min-width: 680px) {
-  /***NEXUS 5X horizontal size****/
-
-  /*** ABOUT | min-width: 680px ***/
-  .vertical {
-    padding-top: 60px;
-  }
-}
-
-/***** ======= Interim size TWAEKS ======= *****/
-@media screen and (min-width: 731px) {
-  /*** ABOUT | min-width: 731px ***/
-  .vertical {
-    padding-top: 90px;
-    padding-bottom: 7px;
-  }
-
-  .mobile-img-set-top, .mobile-img-set-bottom {
-    margin: 9.5% 3% 0 4%;
-  }
-
-  .work-vertical {
-    margin-left: 15.9px;
-    margin-top: -127px;
-  }
-
-  .home-vertical {
-    margin-left: 15.9px;
-    margin-top: -121px;
-  }
-
-  .work-info-mobile, .home-info-mobile {
-    padding-left: 0px;
-  }
-
-  /*** CONTACT | min-width: 731px ***/
-
-
 
 /***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width: 736px) {
-  /*** ABOUT | min-width: 736px ***/
-  .vertical {
-    padding-top: 90px;
-    padding-bottom: 5px;
-  }
-
-
   /*** CONTACT | min-width: 736px ***/
   #contact .half-width {
     width: 52.8%;
@@ -2682,7 +2632,12 @@ footer .half-width {
 
   /***** ABOUT PAGE | TABLET min width 768px *****/
   .about-spacing-container {
-    min-height: 975px;
+    min-height: 1024px;
+  }
+
+  #about {
+    max-width: 935px;
+    width: 100%;
   }
 
   #about .full-width-about {
@@ -2701,6 +2656,14 @@ footer .half-width {
 
   #about h1 {
     font-size: 79px;
+    line-height: 0;
+    font-weight: bold;
+    color: #E6E7E8;
+    margin: 0;
+  }
+
+  _:-moz-tree-row(hover), #about h1 {
+    font-size: 77px;
     line-height: 0;
     font-weight: bold;
     color: #E6E7E8;
@@ -2836,7 +2799,7 @@ footer .half-width {
   .home-bracket-div {
     display: block;
     width: 11.25%;
-    padding: 53px 19px 0 0;
+    padding: 53px 13px 0 0;
   }
 
   .giant-bracket-home {
@@ -3132,6 +3095,10 @@ footer .half-width {
     .corner-body {
       background-size: 17%, 41%;
       background-position: 5% 3.5%, -29px 0px;
+    }
+
+    .four-fifths-width-work {
+      margin-top: 140px;
     }
 
     .home-vertical {

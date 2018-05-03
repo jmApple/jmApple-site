@@ -1281,21 +1281,46 @@ hr {
   align-items: center;
 }
 
-#contact .full-width {
-}
-
 #contact .half-width {
   width: 95%;
+  margin: 0 2.5%;
 }
+
+.contact-img-block {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 
 #contact h1 {
   font-family: 'Fredericka the Great', cursive;
   font-size: 53px;
-  line-height: normal;
+  line-height: 53px;
   color: #dfcde4;
-  padding-left: 47px;
-  padding-top: 55px;
+  display: inline-block;
   margin: 0;
+}
+
+.contact-page-img {
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 70px;
+  background-color: lightgrey;
+  border: 1px solid #000000;
+  margin: 0 0 6px 13px;
+}
+
+#mobile-contact-image {
+  background: lightgrey url('../img/jessica-work-mobile-pic.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
 }
 
 #contact h2 {

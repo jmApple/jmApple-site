@@ -1291,8 +1291,13 @@ hr {
   width: 100%;
   justify-content: flex-end;
   align-items: flex-end;
+  margin-top: 20%;
 }
 
+.height-140 {
+  display: flex;
+  justify-content: flex-end;
+}
 
 #contact h1 {
   font-family: 'Fredericka the Great', cursive;
@@ -1308,16 +1313,16 @@ hr {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 30%;
-  height: 70px;
+  width: 25%;
+  height: 140px;
   background-color: lightgrey;
   border: 1px solid #000000;
   margin: 0 0 6px 13px;
 }
 
 #mobile-contact-image {
-  background: lightgrey url('../img/jessica-work-mobile-pic.png');
-  background-position: center;
+  background: lightgrey url('../img/contact-img-hair-heart.jpg');
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
   display: inline-block;
@@ -1343,7 +1348,6 @@ hr {
   text-align: right;
   text-decoration: none;
 }
-
 
 .email {
   font-family: 'Quicksand', sans-serif;

@@ -3351,91 +3351,24 @@ footer .half-width {
 
   /***** ABOUT PAGE | DESKTOP min width 940px *****/
   #about {
-    max-width: 1620
-  }
-
-  .fifth-width-about {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 13.5%;
-  }
-
-  .jessica-mcintosh-vertical {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 0 15% 0;
-  }
-
-  .vertical {
-    line-height: 15px;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .about-work-home-sections {
-    width: 85.5%;
-    margin: 1.5% 1.1% 1% 0;
-    overflow: hidden;
+    max-width: 1620px;
+    margin-top: 3%;
   }
 
   .four-fifths-width-work {
-    width: 100%;
-    margin: 0;
+    margin-top: 0;
   }
 
-  .work-bracket-div {
-    padding-top: 49px;
+  .vertical {
+    margin: 207px 0 0 15px;
   }
 
-  .giant-bracket-work {
-    font-size: 405px;
-  }
-
-  .work-vertical {
-    margin-top: -183px;
-    margin-left: 123%;
-  }
-
-  .work-info {
-    display: block;
-    padding-top: 1.8%;
-  }
-
-  .about-wording-section-work {
-    padding: 0.1% 2% 0 5.5%;
-    width: 50%;
-  }
-
-  #about p {
-    font-size: 14px;
-    line-height: 18px;
+  .about-work-home-sections {
+    height: auto;
   }
 
   .four-fifths-width-home {
-    margin: 3% 0 0 0;
-  }
-
-  .about-wording-section-home {
-    width: 40%;
-  }
-
-  .home-bracket-div {
-    padding: 5.4% 0 0 0;
-  }
-
-  .home-vertical {
-    margin-right: 21.5%;
-    }
-
-  .home-info {
-    margin-top: -1.7%;
-  }
-
-  .about-img-block-home {
-    width: 45%;
-    height: 346px;
-    margin: 0 0 1.5% 4.5%;
+    margin: 20px 0 0 0;
   }
 
   #mobile-image-home {
@@ -3903,8 +3836,6 @@ footer .half-width {
   }
 }
 
-
-/***** ======= Interim size TWEAKS ======= *****/
 @media screen and (min-width:1030px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
   #about p {
@@ -3922,6 +3853,7 @@ footer .half-width {
   .home-vertical {
     margin-right:25%;
   }
+}
 
   /***** MAIN PORTFOLIO PAGE portfolio sections TWEAKS *****/
 
@@ -3987,6 +3919,10 @@ footer .half-width {
 @media screen and (min-width:1200px) {
 
   /***** ABOUT PAGE *****/
+  .fifth-width-about {
+     margin-left: 4%;
+  }
+
   #mobile-image-home {
     background: lightgrey url('../img/jessica-work-desktop-wide-pic.png');
     background-position: center;
@@ -4011,8 +3947,6 @@ footer .half-width {
     padding-top: .75%;
   }
 
-
-
   /***** INDIVIDUAL PORTFOLIO PAGES *****/
   #individual-portfolio-page {
     padding-top: 4%;
@@ -4030,6 +3964,14 @@ footer .half-width {
 
 @media screen and (min-width:1250px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  #about {
+    margin-top: 0;
+  }
+
+  .fifth-width-about {
+     margin-left: 7%;
+  }
+
   .about-wording-section-work {
     padding-left: 4%;
   }
@@ -4054,6 +3996,7 @@ footer .half-width {
 
 @media screen and (min-width:1334px) {
   /***** MAIN PORTFOLIO PAGE *****/
+
   .about-wording-section-work {
     padding-left: 3.5%;
   }
@@ -4072,7 +4015,7 @@ footer .half-width {
   /***** ABOUT | min-width: 1366px *****/
 
   .fifth-width-about {
-    margin-left: 10%;
+    margin-left: 15%;
   }
 
   .about-work-home-sections {
@@ -4095,14 +4038,11 @@ footer .half-width {
   .home-vertical {
     margin-right: 38.5%;
   }
-
-
 }
-
-
 
 @media screen and (min-width:1420px) {
   /***** MAIN PORTFOLIO PAGE *****/
+
  #portfolio {
     margin-left: 12%;
     margin-right: 2%;
@@ -4113,7 +4053,6 @@ footer .half-width {
  #portfolio .full-width {
     padding-top: .5%;
   }
-
 
 /***** PORTFOLIO THUMBNAIL PAGES | min width 1420px *****/
   .porfolio-thumb {
@@ -4135,9 +4074,6 @@ footer .half-width {
   .portfolio-img, .portfolio-img-outlined {
     width: 40%;
   }
-
-
-
 }
 
 
@@ -4147,8 +4083,6 @@ footer .half-width {
     margin-left: 24%;
     margin-right: 1.5%;
   }
-
-
 }
 
 @media screen and (min-width:1615px) {

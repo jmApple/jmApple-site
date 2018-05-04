@@ -1321,7 +1321,7 @@ hr {
 }
 
 #mobile-contact-image {
-  background: lightgrey url('../img/contact-img-hair-heart.jpg');
+  background: lightgrey url('../img/contact-img-hair-heart.png');
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2289,8 +2289,6 @@ footer .half-width {
     padding-top: 43%;
   }
 
-
-
 }
 
 /***** ======= END LARGE MOBILE ======= *****/
@@ -2555,11 +2553,9 @@ footer .half-width {
     min-height: 350px;
   }
 
-  #contact .half-width {
-    width: 68%;
-    margin-left: 27%;
+  .contact-page-img {
+    width: 21%;
   }
-
 }
 
 /***** ======= Interim size TWAEKS ======= *****/
@@ -2574,13 +2570,6 @@ footer .half-width {
   .portfolio-img, .portfolio-img-outlined {
     width: 80%;
   }
-
-  /*** CONTACT | min-width: 610px ***/
-  #contact .half-width {
-    width: 56.5%;
-    margin-left: 33%;
-  }
-
 }
 
 
@@ -2596,21 +2585,6 @@ footer .half-width {
   #contact {
     min-height: 400px;
   }
-
-  #contact .half-width {
-    margin-left: 39%;
-  }
-}
-
-
-/***** ======= Interim size TWAEKS ======= *****/
-@media screen and (min-width: 736px) {
-  /*** CONTACT | min-width: 736px ***/
-  #contact .half-width {
-    width: 52.8%;
-  }
-
-
 }
 
 /***** ======= Interim size TWAEKS ======= *****/
@@ -3116,8 +3090,8 @@ footer .half-width {
   /*** CONTACT | TABLET min-width: 768px ***/
 
    #contact .half-width {
-     width: 49%;
-     margin-left: 45%;
+     margin-left: auto;
+     margin-right: 19px;
    }
 
    #contact h1 {
@@ -3126,10 +3100,17 @@ footer .half-width {
 
    #contact h2 {
      font-size: 39px;
+     margin: 13px 0 0 0;
    }
 
    #contact p {
      font-size: 29px;
+   }
+
+   .contact-page-img {
+     width: 19%;
+     height: 167px;
+     margin: 0 0 5px 13px;
    }
 
    /***** FOOTER | TABLET min width 768px *****/
@@ -3707,6 +3688,14 @@ footer .half-width {
     height: auto;
   }
 
+  .contact-img-block {
+    margin-top: 0%;
+  }
+
+  #contact .half-width {
+    width: 97.5%;
+  }
+
   #contact h1 {
     font-size: 144px;
     padding-left: 47px;
@@ -3737,6 +3726,11 @@ footer .half-width {
     font-size: 24px;
     text-align: right;
     text-decoration: none;
+  }
+
+  .contact-page-img {
+    width: 19%;
+    height: 253px;
   }
 
 /***** UNDER CONSTRUCTION | DESKTOP min width 940px *****/

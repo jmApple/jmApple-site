@@ -1294,7 +1294,7 @@ hr {
   margin-top: 20%;
 }
 
-.height-140 {
+#contact .height-140 {
   display: flex;
   justify-content: flex-end;
 }
@@ -4104,7 +4104,6 @@ footer .half-width {
     width: 17px;
     height: auto;
     padding-bottom: 5px;
-
   }
 
   .portfolio-img, .portfolio-img-outlined {

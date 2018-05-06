@@ -2588,6 +2588,7 @@ footer .half-width {
 }
 
 /***** ======= Interim size TWAEKS ======= *****/
+
 @media screen and (min-width: 758px) {
 
   #portfolio .full-width {
@@ -2695,19 +2696,12 @@ footer .half-width {
   }
 
   #about h1 {
-    font-size: 79px;
+    font-size: 78px;
     line-height: 0;
     font-weight: bold;
     color: #E6E7E8;
     margin: 0;
-  }
-
-  _:-moz-tree-row(hover), #about h1 {
-    font-size: 77px;
-    line-height: 0;
-    font-weight: bold;
-    color: #E6E7E8;
-    margin: 0;
+    font-weight: 400;
   }
 
   .jessica-mcintosh-vertical {
@@ -2727,7 +2721,7 @@ footer .half-width {
     white-space: nowrap;
     display: flex;
     line-height: 0px;
-    margin: 339px 0 0 13px;
+    margin: 337px 0 0 13px;
     padding: 0;
 
   }
@@ -2735,11 +2729,11 @@ footer .half-width {
   .about-work-home-sections {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-content: space-between;
     width: 97%;
     margin: 0;
     overflow: hidden;
-    height: 910px;
+    height: 907px;
   }
 
   .four-fifths-width-work {
@@ -2786,12 +2780,13 @@ footer .half-width {
 
   .work-info {
     display: block;
-    padding-top: 5px;
+    padding-top: 7px;
   }
 
   #about p {
     font-size: 15px;
     line-height: 18px;
+    margin: 13.5px 0;
   }
 
   .dark-purple-blue, .true-purple, .bright-purple, .warm-purple, .cool-red, .red, .red-orange, .orange {
@@ -2831,7 +2826,7 @@ footer .half-width {
     flex-flow: row-reverse nowrap;
     justify-content: space-between;
     width: 100%;
-    margin: 2.8% 0 0 0;
+    margin: auto 0 0 0;
   }
 
   .about-wording-section-home {
@@ -3115,7 +3110,10 @@ footer .half-width {
 
    /***** FOOTER | TABLET min width 768px *****/
 
+
 }
+
+
 
 /***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width:810px) {

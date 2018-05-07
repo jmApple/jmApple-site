@@ -3118,6 +3118,9 @@ footer .half-width {
 /***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width:810px) {
   /***** PORTFOLIO THUMBNAIL PAGES | min width 810px *****/
+  .about-wording-section-work {
+    padding: 0 15px 0 50px;
+  }
 
   .home-vertical {
     margin-right:13%;
@@ -3135,6 +3138,7 @@ footer .half-width {
   .portfolio-img, .portfolio-img-outlined {
     width: 67%;
   }
+}
 
 /***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width:841px) {
@@ -3148,6 +3152,10 @@ footer .half-width {
       margin-top: 140px;
     }
 
+    .about-wording-section-work {
+      padding: 0 15px 0 47px;
+    }
+
     .home-vertical {
       margin-right:17%;
     }
@@ -3155,6 +3163,9 @@ footer .half-width {
 
   @media screen and (min-width:900px) {
     /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+    .home-bracket-div {
+      padding-right: 0.75%;
+    }
 
     .home-vertical {
       margin-right:19%;
@@ -3390,6 +3401,14 @@ footer .half-width {
 
   .four-fifths-width-home {
     margin: 20px 0 0 0;
+  }
+
+  .home-bracket-div {
+    width: 10%;
+  }
+
+  .about-wording-section-home {
+    margin-left: auto;
   }
 
   #mobile-image-home {
@@ -3870,6 +3889,28 @@ footer .half-width {
   }
 }
 
+@media screen and (min-width:1000px) {
+
+  .about-wording-section-work {
+    padding: 0 15px 0 43px;
+  }
+
+  .about-wording-section-home {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  #about {
+    margin-top: 2.5%;
+  }
+
+  .fifth-width-about {
+    margin-left: 7%;
+  }
+}
+
 @media screen and (min-width:1030px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
   #about p {
@@ -3877,11 +3918,11 @@ footer .half-width {
   }
 
   .about-wording-section-work {
-    padding-left: 5%;
+    padding-left: 4%;
   }
 
   .work-vertical {
-    margin-left: 120%;
+    margin-left: 114%;
   }
 
   .home-vertical {
@@ -3891,19 +3932,28 @@ footer .half-width {
 
   /***** MAIN PORTFOLIO PAGE portfolio sections TWEAKS *****/
 
+  @media screen and (min-width:1060px) {
+    /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+    .work-vertical {
+      margin-left: 110%;
+    }
+  }
+
 
 @media screen and (min-width:1090px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
   .work-vertical {
-    margin-left: 115%;
-  }
-
-  .about-wording-section-work {
-    padding-left: 4.5%;
+    margin-left: 106%;
   }
 
   .dark-purple-blue {
     margin-top: 0;
+  }
+
+  .home-bracket-div {
+    width: 8.3%;
+    margin-right: 2.3%;
+    padding-right: 0;
   }
 
   .home-vertical {
@@ -3913,8 +3963,16 @@ footer .half-width {
 
 @media screen and (min-width: 1120px) {
 
+  .work-vertical {
+    margin-left: 102%;
+  }
+
   .about-img-block-work-tablet {
     display: none;
+  }
+
+  .about-wording-section-work {
+    padding-left: 3.25%;
   }
 
   .about-img-block-work {
@@ -3932,11 +3990,11 @@ footer .half-width {
 @media screen and (min-width:1160px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
   .work-vertical {
-    margin-left: 110%;
+    margin-left: 98%;
   }
 
   .about-wording-section-work {
-    padding-left: 4.2%;
+    padding-left: 3%;
   }
 
   .home-vertical {
@@ -3944,9 +4002,7 @@ footer .half-width {
   }
 
   /***** CONTACT PAGE | DESKTOP: min width 1160px *****/
-  #contact {
-    height: 60vh;
-  }
+
 }
 
 
@@ -3968,22 +4024,26 @@ footer .half-width {
     background-position: 0% 25%;
   }
 
-  /***** MAIN PORTFOLIO PAGE *****/
   .work-vertical {
-    margin-left: 105%;
+    margin-left: 101%;
   }
 
   .home-vertical {
     margin-right: 38%;
   }
 
-  .about-wording-section-home {
-    padding-top: .75%;
-  }
-
   /***** INDIVIDUAL PORTFOLIO PAGES *****/
   #individual-portfolio-page {
     padding-top: 4%;
+  }
+
+  /***** CONTACT PAGE *****/
+  .contact-page-img {
+    width: 15%;
+  }
+
+  .contact-img-block {
+    margin: 10% 0;
   }
 
   /***** UNDER CONSTRUCTION PAGE *****/
@@ -4006,10 +4066,6 @@ footer .half-width {
      margin-left: 7%;
   }
 
-  .about-wording-section-work {
-    padding-left: 4%;
-  }
-
   .work-vertical {
     margin-left: 99%;
   }
@@ -4026,14 +4082,14 @@ footer .half-width {
   .work-vertical {
     margin-left: 94%;
   }
+
+  .about-wording-section-work {
+    padding-left: 2.75%;
+  }
 }
 
 @media screen and (min-width:1334px) {
   /***** MAIN PORTFOLIO PAGE *****/
-
-  .about-wording-section-work {
-    padding-left: 3.5%;
-  }
 
   #portfolio {
     margin-left: 10%;
@@ -4050,10 +4106,15 @@ footer .half-width {
 
   .fifth-width-about {
     margin-left: 15%;
+    margin-top: -10px;
   }
 
   .about-work-home-sections {
     margin-top: -20px;
+  }
+
+  .about-wording-section-work {
+    padding-left: 3.25%;
   }
 
   .work-info {
@@ -4066,7 +4127,11 @@ footer .half-width {
 
   .work-vertical {
     margin-top: -183px;
-    margin-left: 103%;
+    margin-left: 100%;
+  }
+
+  .home-bracket-div {
+    width: 7.7%;
   }
 
   .home-vertical {
@@ -4076,8 +4141,11 @@ footer .half-width {
 
 @media screen and (min-width:1420px) {
   /***** MAIN PORTFOLIO PAGE *****/
+  .work-vertical {
+    margin-left: 96%;
+  }
 
- #portfolio {
+  #portfolio {
     margin-left: 12%;
     margin-right: 2%;
     padding-top: 0;

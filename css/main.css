@@ -195,6 +195,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
+  max-width: 1725px;
 }
 
 .spacing-container-home {
@@ -3091,32 +3092,42 @@ footer .half-width {
 
   /*** CONTACT | TABLET min-width: 768px ***/
 
-   #contact .half-width {
-     margin-left: auto;
-     margin-right: 19px;
-   }
+  #contact {
+  }
 
-   #contact h1 {
-     font-size: 73px;
-   }
+  #contact .height-140 {
+    height: auto;
+  }
 
-   #contact h2 {
-     font-size: 39px;
-     margin: 13px 0 0 0;
-   }
+  .contact-img-block {
+    margin-top: 0%;
+  }
 
-   #contact p {
-     font-size: 29px;
-   }
+  #contact .half-width {
+    margin-top: 10%;
+  }
 
-   .contact-page-img {
-     width: 19%;
-     height: 167px;
-     margin: 0 0 5px 13px;
-   }
+  #contact h1 {
+    font-size: 113px;
+    padding-left: 47px;
+    line-height: 114px;
+  }
 
-   /***** FOOTER | TABLET min width 768px *****/
+  #contact h2 {
+    font-size: 38px;
+    line-height: 30px;
+  }
 
+  #contact p {
+    font-size: 23px;
+    line-height: 13px;
+    text-align: right;
+  }
+
+  .contact-page-img {
+    width: 25%;
+    height: 207px;
+  }
 
 }
 
@@ -3140,6 +3151,10 @@ footer .half-width {
   /***** INDIVIDUAL PORTFOLIO PAGE TWAEKS *****/
   .portfolio-img, .portfolio-img-outlined {
     width: 67%;
+  }
+
+  .contact-page-img {
+    width: 21%;
   }
 }
 
@@ -3433,20 +3448,24 @@ footer .half-width {
   }
 
   #portfolio {
-    margin-left: 5%;
-    margin-right: 2%;
+    width: 97.5%;
+    margin-left: auto;
+    margin-right: 2.5%;
     align-items: center;
   }
 
   #portfolio .full-width {
-    padding-top: 7%;
     display: flex;
+    padding-top: 7%;
+    width: 95%;
+    margin-left: auto;
     flex-flow: row nowrap;
   }
 
   .portfolio-quarter {
     display: flex;
     width: 100%;
+    max-width: 280px;
     height: auto;
     margin-left: 2%;
     border: 2px solid #000;
@@ -3470,7 +3489,7 @@ footer .half-width {
   }
 
   .i {
-    font-size: 57px;
+    font-size: 51px;
     line-height: 57px;
     padding-left: 8px;
   }
@@ -3486,15 +3505,15 @@ footer .half-width {
   }
 
   .ld-l {
-    font-size: 57px;
-    line-height: 57px;
+    font-size: 51px;
+    line-height: 51px;
     padding-left: 17px;
     padding-top: 5px;
   }
 
   .ld-d {
-    font-size: 57px;
-    line-height: 33px;
+    font-size: 51px;
+    line-height: 28px;
     padding-left: 7px;
     padding-top: 5px;
   }
@@ -3516,22 +3535,22 @@ footer .half-width {
   }
 
   .wd-w {
-    font-size: 57px;
-    line-height: 57px;
+    font-size: 51px;
+    line-height: 51px;
     padding-left: 13px;
     padding-top: 2px;
   }
 
   .wd-d {
-    font-size: 57px;
-    line-height: 33px;
+    font-size: 51px;
+    line-height: 28px;
     padding-left: 15px;
     padding-top: 7px;
   }
 
   .web-word-continuation {
-    font-size: 35px;
-    line-height: 37px;
+    font-size: 30px;
+    line-height: 32.5px;
     padding-left: 0px;
   }
 
@@ -3547,15 +3566,15 @@ footer .half-width {
   }
 
   .di-d {
-    font-size: 56px;
-    line-height: 57px;
+    font-size: 51px;
+    line-height: 51px;
     padding-left: 6px;
     padding-top: 5px;
   }
 
   .di-i {
-    font-size: 57px;
-    line-height: 33px;
+    font-size: 51px;
+    line-height: 28px;
     padding-left: 16.5px;
     padding-top: 5px;
   }
@@ -3738,6 +3757,10 @@ footer .half-width {
     text-align: right;
   }
 
+  .contact-page-img {
+    width: 19%;
+    height: 253px;
+  }
 
   .email {
     font-size: 25px;
@@ -3753,10 +3776,7 @@ footer .half-width {
     text-decoration: none;
   }
 
-  .contact-page-img {
-    width: 19%;
-    height: 253px;
-  }
+
 
 /***** UNDER CONSTRUCTION | DESKTOP min width 940px *****/
   #under-construction-page {
@@ -3908,6 +3928,11 @@ footer .half-width {
   .fifth-width-about {
     margin-left: auto;
   }
+
+  #contact .half-width {
+    padding: 5% 0 0 0;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width:1030px) {
@@ -3917,8 +3942,6 @@ footer .half-width {
   }
 
 }
-
-  /***** MAIN PORTFOLIO PAGE portfolio sections TWEAKS *****/
 
 @media screen and (min-width:1090px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
@@ -3952,6 +3975,7 @@ footer .half-width {
     background-color: grey;
     border: 1px solid #000;
   }
+
 }
 
 @media screen and (min-width:1160px) {
@@ -3960,7 +3984,9 @@ footer .half-width {
     margin-right:35%;
   }
 
-  /***** CONTACT PAGE | DESKTOP: min width 1160px *****/
+  #portfolio .full-width {
+    width: 90%;
+  }
 
 }
 
@@ -3994,10 +4020,6 @@ footer .half-width {
     width: 15%;
   }
 
-  .contact-img-block {
-    margin: 10% 0;
-  }
-
   /***** UNDER CONSTRUCTION PAGE *****/
   #under-construction-page .portfolio-description {
     width: 50%;
@@ -4018,22 +4040,35 @@ footer .half-width {
       width: 92%;
   }
 
-  .fifth-width-about {
-  }
-
   .home-vertical {
     margin-right: 41%;
   }
+
+    /***** PORTFOLIO PAGE *****/
+    #portfolio .full-width {
+      padding-top: 5%;
+      width: 85%;
+    }
+
+    /***** CONTACT PAGE *****/
+    #contact .half-width {
+      padding: 0;
+    }
+
+    .contact-page-img {
+      width: 14%;
+    }
+
 }
 
 
 @media screen and (min-width:1334px) {
   /***** MAIN PORTFOLIO PAGE *****/
 
-  #portfolio {
-    margin-left: 10%;
-    margin-right: 2%;
+  #portfolio .full-width {
+    padding-top: 4%;
   }
+
 
   #individual-portfolio-page {
     padding-top: 0%;
@@ -4047,19 +4082,61 @@ footer .half-width {
     max-width: 1177px;
   }
 
+  /***** PORTFOLIO PAGE *****/
+  #portfolio .full-width {
+    padding-top: 8%;
+    width: 90%;
+  }
+
+  .i {
+    font-size: 57px;
+    line-height: 57px;
+  }
+
+  .ld-l {
+    font-size: 57px;
+    line-height: 57px;
+  }
+
+  .ld-d {
+    font-size: 57px;
+    line-height: 33px;
+  }
+
+  .wd-w {
+    font-size: 57px;
+    line-height: 57px;
+  }
+
+  .wd-d {
+    font-size: 57px;
+    line-height: 33px;
+  }
+
+  .di-d {
+    font-size: 56px;
+    line-height: 57px;
+  }
+
+  .di-i {
+    font-size: 57px;
+    line-height: 33px;
+  }
+
+}
+
+@media screen and (min-width:1370px) {
+  #portfolio .full-width {
+    padding-top: 4%;
+    width: 80%;
+  }
+
 }
 
 @media screen and (min-width:1420px) {
   /***** MAIN PORTFOLIO PAGE *****/
-  #portfolio {
-    margin-left: 12%;
-    margin-right: 2%;
-    padding-top: 0;
-    padding-left: 7%
-  }
-
- #portfolio .full-width {
-    padding-top: .5%;
+  #portfolio .full-width {
+    padding-top: 3%;
   }
 
 /***** PORTFOLIO THUMBNAIL PAGES | min width 1420px *****/
@@ -4083,16 +4160,39 @@ footer .half-width {
   }
 }
 
-
-@media screen and (min-width:1555px) {
+@media screen and (min-width:1475px) {
 /***** MAIN PORTFOLIO PAGE *****/
-  #portfolio {
-    margin-left: 24%;
-    margin-right: 2.5%;
+  #portfolio .full-width {
+    padding-top: 1%;
+    width: 77%;
   }
 }
 
+
+@media screen and (min-width:1575px) {
+/***** MAIN PORTFOLIO PAGE *****/
+  #portfolio .full-width {
+    padding-top: 0;
+    width: 75%;
+  }
+
+  #contact {
+    height: 60vh;
+  }
+
+  .contact-page-img {
+    width: 13%;
+  }
+
+}
+
 @media screen and (min-width:1615px) {
+  /***** MAIN PORTFOLIO PAGE *****/
+  #portfolio .full-width {
+    padding-top: -1%;
+    width: 72%;
+  }
+  }
 /***** INDIVIDUAL PORTFOLIO PAGES *****/
   .portfolio-description {
     width: 50%;

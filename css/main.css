@@ -211,6 +211,7 @@ html, body {
   justify-content: space-between;
   width: inherit;
   height: inherit;
+  overflow: hidden;
 }
 
 .spacing-container {
@@ -233,11 +234,11 @@ main {
   display: inline-block;
   justify-content: flex-start;
   flex-flow: column;
-  width: inherit;
+  flex: 1;
 }
 
 .full-width {
-  width: 100%
+  width: 100%;
 }
 
 .home-body {
@@ -1275,16 +1276,16 @@ hr {
 
 /***** CONTACT PAGE | MOBILE 1st *****/
 
-.corner-body #contact {
+#contact {
+  display: flex;
+  align-items: center;
+  position: absolute;
   width: 100%;
-  height: inherit;
+  height: calc(100vh - 103px);
 }
 
 #contact .full-width {
   display: flex;
-  justify-content: center;
-  align-content: flex-end;
-  flex-flow: row wrap;
 }
 
 .contact-img-block {
@@ -1292,7 +1293,7 @@ hr {
   width: 100%;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-top: 20%;
+  margin-top: 13%;
   height: auto;
   padding-right: 19px;
 }
@@ -3611,6 +3612,7 @@ footer .half-width {
   }
 
   /***** PORTFOLIO THUMBNAIL PAGES | DESKTOP: min width 940px *****/
+
   .corner-body #portfolio-illustration {
     padding-top: 8%;
   }
@@ -3661,11 +3663,13 @@ footer .half-width {
 
   /***** CONTACT PAGE | DESKTOP: min width 940px *****/
 
-  .contact-img-block {
-    margin-top: 0%;
+  #contact {
+    height: calc(100vh - 198px)
   }
 
-
+  .contact-img-block {
+    margin-top: 7%;
+  }
 
 /***** UNDER CONSTRUCTION | DESKTOP min width 940px *****/
   #under-construction-page {

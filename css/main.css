@@ -1173,7 +1173,7 @@ hr {
 /***** PORTFOLIO INDIVIDUAL PAGES | MOBILE 1st *****/
 
 #individual-portfolio-page {
-  padding-top: 31%;
+  padding-top: 27%;
 }
 
 #individual-portfolio-page .full-width {
@@ -4061,7 +4061,6 @@ footer .half-width {
   #portfolio .full-width {
     padding-top: -1%;
     width: 72%;
-  }
   }
 /***** INDIVIDUAL PORTFOLIO PAGES *****/
   .portfolio-description {

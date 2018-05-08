@@ -234,7 +234,6 @@ main {
   justify-content: flex-start;
   flex-flow: column;
   width: inherit;
-  flex: 1;
 }
 
 .full-width {
@@ -1275,16 +1274,17 @@ hr {
 
 
 /***** CONTACT PAGE | MOBILE 1st *****/
-#contact {
-  display: flex;
-  min-height: 300px;
-  height: 80vh;
-  align-items: center;
+
+.corner-body #contact {
+  width: 100%;
+  height: inherit;
 }
 
-#contact .half-width {
-  width: 95%;
-  margin: 0 2.5%;
+#contact .full-width {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  flex-flow: row wrap;
 }
 
 .contact-img-block {
@@ -1293,32 +1293,67 @@ hr {
   justify-content: flex-end;
   align-items: flex-end;
   margin-top: 20%;
+  height: auto;
+  padding-right: 19px;
 }
 
-#contact .height-140 {
+.contact-info-block .contact-name {
   display: flex;
   justify-content: flex-end;
 }
 
-#contact h1 {
+.contact-info-block .contact-details {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+
+.contact-name h1 {
   font-family: 'Fredericka the Great', cursive;
-  font-size: 53px;
-  line-height: 53px;
+  font-size: 50px;
+  line-height: 50px;
   color: #dfcde4;
-  display: inline-block;
   margin: 0;
+  padding-bottom: 5px;
+}
+
+.contact-info-block h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24.5px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 22px;
+  text-align: right;
+  text-decoration: none;
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+.contact-info-block p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #000000;
+  line-height: 21px;
+  text-align: right;
+  text-decoration: none;
+  margin: 0;
+}
+
+.email {
+  color: #000000;
+  text-decoration: none;
+  word-spacing: 1.5px;
 }
 
 .contact-page-img {
   display: inline-block;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 25%;
+  width: 29%;
   height: 140px;
   background-color: lightgrey;
   border: 1px solid #000000;
-  margin: 0 0 6px 13px;
+  margin: 0 0 3px 13px;
 }
 
 #mobile-contact-image {
@@ -1329,44 +1364,7 @@ hr {
   display: inline-block;
 }
 
-#contact h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 27px;
-  font-weight: 300;
-  color: #000000;
-  line-height: 30px;
-  text-align: right;
-  text-decoration: none;
-  margin: 0;
-}
 
-#contact p {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 17px;
-  font-weight: 300;
-  color: #000000;
-  line-height: 13px;
-  text-align: right;
-  text-decoration: none;
-}
-
-.email {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  color: #000000;
-  line-height: 20px;
-  text-align: right;
-  text-decoration: none;
-  word-spacing: 1.5px;
-}
-
-.address {
-  color: #000000;
-  font-size: 20px;
-  text-align: right;
-  text-decoration: none;
-}
 
 /***** UNDER CONSTRUCTION PAGE | MOBILE 1st *****/
 
@@ -1992,8 +1990,31 @@ footer .half-width {
 
     /*** CONTACT | min-width: 360px ***/
 
-    #contact .half-width {
-      width: 93%;
+    .contact-name h1 {
+      font-size: 53px;
+      line-height: 53px;
+      margin: 0;
+    }
+
+
+    .contact-info-block h2 {
+      font-size: 27px;
+      line-height: 30px;
+      margin: 0;
+    }
+
+    .contact-info-block p {
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    .contact-page-img {
+      width: 25%;
+      height: 140px;
+    }
+
+    .email {
+      letter-spacing: .3px;
     }
 }
 
@@ -2043,12 +2064,6 @@ footer .half-width {
     }
 
     /*** CONTACT | min-width: 375px ***/
-
-    #contact .half-width {
-      width: 89%;
-      margin-left: 5%;
-    }
-
     .contact-page-img {
       background-position: center;
       width: 29%;
@@ -2223,7 +2238,6 @@ footer .half-width {
   }
 
   /*** FOOTER-SECTION | min width: 411px ***/
-
   #footer-border .half-width .copyright {
     padding-left: 7px;
   }
@@ -2233,36 +2247,25 @@ footer .half-width {
   }
 
  /*** CONTACT | min-width: 411px ***/
-
-  #contact .half-width {
-    width: 94%;
-    margin: 0 auto;
-    padding-top: 5%;
-  }
-
   .contact-page-img {
     background-position: center;
     width: 29%;
     height: 147px;
   }
 
-  #contact h1 {
-    font-size: 63px;
+  .contact-name h1 {
+    font-size: 57px;
+    padding-bottom: 0;
   }
 
-  #contact h2 {
+  #contact-info-block h2 {
     font-size: 28px;
     padding-top: 6px;
-  }
-
-  #contact p {
-    font-size: 20px;
   }
 }
 
 
 @media screen and (min-width:414px) {
-
   /***** ABOUT | min-width: 414px *****/
   .vertical {
     padding-top: 44px;
@@ -2550,10 +2553,6 @@ footer .half-width {
   }
 
   /*** CONTACT | min-width: 520px ***/
-  #contact {
-    min-height: 350px;
-  }
-
   .contact-page-img {
     width: 21%;
   }
@@ -2579,12 +2578,6 @@ footer .half-width {
   .corner-body {
     background-size: 22%, 47%;
     background-position: 20px 10px, -29px 0px;
-  }
-
-
-  /*** CONTACT | min-width: 640px ***/
-  #contact {
-    min-height: 400px;
   }
 }
 
@@ -3091,42 +3084,32 @@ footer .half-width {
   }
 
   /*** CONTACT | TABLET min-width: 768px ***/
-
-  #contact {
-  }
-
-  #contact .height-140 {
-    height: auto;
-  }
-
   .contact-img-block {
-    margin-top: 0%;
+    margin-top: 15%;
   }
 
-  #contact .half-width {
-    margin-top: 10%;
-  }
-
-  #contact h1 {
-    font-size: 113px;
-    padding-left: 47px;
+  .contact-name h1 {
+    font-size: 93px;
     line-height: 114px;
   }
 
-  #contact h2 {
-    font-size: 38px;
-    line-height: 30px;
+  .contact-info-block h2 {
+    font-size: 45px;
+    line-height: 50px;
   }
 
-  #contact p {
-    font-size: 23px;
-    line-height: 13px;
-    text-align: right;
+  .contact-info-block p {
+    font-size: 28px;
+    line-height: 39px;
   }
 
   .contact-page-img {
-    width: 25%;
-    height: 207px;
+    width: 27%;
+    height: 230px;
+  }
+
+  .contact-page-img {
+    margin: 0 0 7px 13px;
   }
 
 }
@@ -3676,104 +3659,10 @@ footer .half-width {
     line-height: 27px;
   }
 
-  /***** PORTFOLIO | 5 by infinite layout system *****/
-
-/***
-  .porfolio-thumb-col-1 {
-    width: 220px;
-    height: 220px;
-    margin: 0 18px 23px 0;
-    border: solid 1px;
-    float: left;
-  }
-
-  .porfolio-thumb-col-2 {
-    width: 220px;
-    height: 220px;
-    margin: 0 14px 23px 4px;
-    border: solid 1px;
-    float: left;
-  }
-
-  .porfolio-thumb-col-3 {
-    width: 220px;
-    height: 220px;
-    margin: 0 9px 23px 9px;
-    border: solid 1px;
-    float: left;
-  }
-
-  .porfolio-thumb-col-4 {
-    width: 220px;
-    height: 220px;
-    margin: 0 4px 23px 15px;
-    border: solid 1px;
-    float: left;
-  }
-
-  .porfolio-thumb-col-5 {
-    width: 220px;
-    height: 220px;
-    margin: 0 0 23px 18px;
-    border: solid 1px;
-    float: left;
-  }
-
-  ***/
-
   /***** CONTACT PAGE | DESKTOP: min width 940px *****/
-
-
-  #contact {
-    height: 70vh;
-  }
-
-  #contact .height-140 {
-    height: auto;
-  }
 
   .contact-img-block {
     margin-top: 0%;
-  }
-
-  #contact .half-width {
-    width: 97.5%;
-  }
-
-  #contact h1 {
-    font-size: 144px;
-    padding-left: 47px;
-    line-height: 144px;
-  }
-
-  #contact h2 {
-    font-size: 38px;
-    line-height: 30px;
-  }
-
-  #contact p {
-    font-size: 23px;
-    line-height: 13px;
-    text-align: right;
-  }
-
-  .contact-page-img {
-    width: 19%;
-    height: 253px;
-  }
-
-  .email {
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 20px;
-    word-spacing: 1.5px;
-  }
-
-  .address {
-    color: #000000;
-    font-size: 24px;
-    text-align: right;
-    text-decoration: none;
   }
 
 
@@ -3799,17 +3688,12 @@ footer .half-width {
     border-top: 1px solid #000;
   }
 
-  #footer-border .copyright {
+  #footer-border .copyright, #footer-no-border .copyright {
     padding-top: 0px;
     padding-left: 5px;
   }
 
-  #footer-no-border .copyright {
-    padding-top: 0px;
-    padding-left: 5px;
-  }
-
-  #footer-border p {
+  #footer-border p, #footer-no-border p {
     font-size: 17px;
     font-weight: 300;
     color: #000000;
@@ -3819,17 +3703,7 @@ footer .half-width {
     padding-left: 5px;
   }
 
-  #footer-no-border p {
-    font-size: 17px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 15px;
-    text-align: left;
-    text-decoration: none;
-    padding-left: 5px;
-  }
-
-  #footer-border ul {
+  #footer-border ul, #footer-no-border ul{
     float: right;
     list-style: none;
     text-align: right;
@@ -3837,25 +3711,12 @@ footer .half-width {
     margin-top: 23px;
   }
 
-  #footer-no-border ul {
-    float: right;
-    list-style: none;
-    text-align: right;
-    padding-right: 5px;
-    margin-top: 23px;
-  }
-
-  #footer-border ul li {
+  #footer-border ul li, #footer-no-border ul li  {
     float: left;
     display: inline-block;
   }
 
-  #footer-no-border ul li {
-    float: left;
-    display: inline-block;
-  }
-
-  #footer-border ul li a {
+  #footer-border ul li a,   #footer-no-border ul li a  {
     font-size: 17px;
     color: #000000;
     padding-left: 5px;
@@ -3863,20 +3724,7 @@ footer .half-width {
     text-decoration: none;
   }
 
-  #footer-no-border ul li a {
-    font-size: 17px;
-    color: #000000;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-decoration: none;
-  }
-
-  #footer-border .email {
-    display: block;
-    line-height: 28px;
-  }
-
-  #footer-no-border .email {
+  #footer-border .email, #footer-no-border .email {
     display: block;
     line-height: 28px;
   }
@@ -3915,6 +3763,14 @@ footer .half-width {
     padding-right: 5px;
     text-decoration: none;
   }
+
+  #footer-border ul li .email:hover {
+    color: #72b648;
+  }
+
+  #footer-no-border ul li .email:hover {
+    color: #72b648;
+  }
 }
 
 /*============ NOTE: interim tweaks ========================= */
@@ -3929,10 +3785,14 @@ footer .half-width {
     margin-left: auto;
   }
 
-  #contact .half-width {
-    padding: 5% 0 0 0;
-    margin: 0;
+  .contact-img-block {
+    margin-top: 5%;
   }
+
+  .contact-page-img {
+    width: 17%;
+  }
+
 }
 
 @media screen and (min-width:1030px) {
@@ -4051,10 +3911,6 @@ footer .half-width {
     }
 
     /***** CONTACT PAGE *****/
-    #contact .half-width {
-      padding: 0;
-    }
-
     .contact-page-img {
       width: 14%;
     }
@@ -4064,7 +3920,6 @@ footer .half-width {
 
 @media screen and (min-width:1334px) {
   /***** MAIN PORTFOLIO PAGE *****/
-
   #portfolio .full-width {
     padding-top: 4%;
   }
@@ -4123,6 +3978,17 @@ footer .half-width {
     line-height: 33px;
   }
 
+  /***** CONTACT PAGE *****/
+  .contact-name h1 {
+    font-size: 143px;
+    line-height: 147px;
+  }
+
+  .contact-page-img {
+    width: 20%;
+    height: 300px;
+  }
+
 }
 
 @media screen and (min-width:1370px) {
@@ -4158,6 +4024,10 @@ footer .half-width {
   .portfolio-img, .portfolio-img-outlined {
     width: 40%;
   }
+
+  .contact-img-block {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width:1475px) {
@@ -4174,10 +4044,6 @@ footer .half-width {
   #portfolio .full-width {
     padding-top: 0;
     width: 75%;
-  }
-
-  #contact {
-    height: 60vh;
   }
 
   .contact-page-img {

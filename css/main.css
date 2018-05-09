@@ -211,7 +211,6 @@ html, body {
   justify-content: space-between;
   width: inherit;
   height: inherit;
-  overflow: hidden;
 }
 
 .spacing-container {
@@ -1643,6 +1642,10 @@ footer .half-width {
         padding-bottom: 1.5px;
    }
 
+   #home .little-bit-info .email-homepage:hover {
+     color: #72b648;
+   }
+
    #home .little-bit-info p {
         font-size: 17px;
         line-height: 21px;
@@ -2031,6 +2034,10 @@ footer .half-width {
         font-size: 20px;
     }
 
+    #home .little-bit-info .email-homepage:hover {
+      color: #72b648;
+    }
+
     .little-bit-info-large-mobile {
       display: none;
     }
@@ -2128,6 +2135,10 @@ footer .half-width {
       margin-bottom: -3px;
       text-align: right;
       text-decoration: none;
+  }
+
+  #home .little-bit-info-large-mobile .email-homepage:hover {
+    color: #72b648;
   }
 
   #home .little-bit-info-large-mobile p {
@@ -2559,6 +2570,18 @@ footer .half-width {
   }
 }
 
+@media screen and (min-width: 568px) {
+  #contact {
+    min-height: 250px;
+  }
+
+  .contact-img-block {
+    margin-top: 3%;
+  }
+
+}
+
+
 /***** ======= Interim size TWAEKS ======= *****/
 @media screen and (min-width: 610px) {
   /***** PORTFOLIO INDIVIDUAL PAGES | INTERIM SIZE TWEAKS*****/
@@ -2653,6 +2676,11 @@ footer .half-width {
     font-size: 30px;
     padding: 5px 0 11px 0;
   }
+
+  #home .little-bit-info-large-mobile .email-homepage:hover {
+    color: #72b648;
+  }
+
 
   #home .little-bit-info-large-mobile {
     margin-bottom: 0;
@@ -3140,6 +3168,14 @@ footer .half-width {
   .contact-page-img {
     width: 21%;
   }
+
+  #contact {
+    min-height: 275px;
+  }
+
+  .contact-img-block {
+    margin-top: 1%;
+  }
 }
 
 /***** ======= Interim size TWAEKS ======= *****/
@@ -3156,6 +3192,10 @@ footer .half-width {
 
     .home-vertical {
       margin-right:17%;
+    }
+
+    .contact-img-block {
+      margin-top: 13%;
     }
   }
 
@@ -3378,7 +3418,6 @@ footer .half-width {
   #about {
     max-width: 100%;
     margin-top: 3%;
-    padding-right: 2.5%;
     display: flex;
     justify-content: flex-end;
   }
@@ -3732,6 +3771,11 @@ footer .half-width {
     display: block;
     line-height: 28px;
   }
+
+  #footer-border .email:hover, #footer-no-border .email:hover {
+    color: #72b648;
+  }
+
 
   #footer p {
     font-size: 17px;

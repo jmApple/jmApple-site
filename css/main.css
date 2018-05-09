@@ -3866,6 +3866,10 @@ footer .half-width {
   .home-vertical {
     margin-right:29%;
   }
+
+  #contact {
+    height: calc(100vh - 220px);
+  }
 }
 
 @media screen and (min-width: 1120px) {
@@ -4043,6 +4047,10 @@ footer .half-width {
   #portfolio .full-width {
     padding-top: 4%;
     width: 80%;
+  }
+
+  #contact {
+    height: calc(100vh - 263px);
   }
 
 }

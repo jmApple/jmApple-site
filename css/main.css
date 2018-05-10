@@ -3471,7 +3471,9 @@ footer .half-width {
   }
 
   #portfolio {
+    display: flex;
     width: 97.5%;
+    height: calc(100vh - 198px);
     margin-left: auto;
     margin-right: 2.5%;
     align-items: center;
@@ -3479,7 +3481,7 @@ footer .half-width {
 
   #portfolio .full-width {
     display: flex;
-    padding-top: 7%;
+    padding-top: 3%;
     width: 95%;
     margin-left: auto;
     flex-flow: row nowrap;
@@ -3853,6 +3855,14 @@ footer .half-width {
 
 @media screen and (min-width:1090px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  .home-body {
+      background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
+      background-repeat: no-repeat, no-repeat;
+      background-attachment: scroll, scroll;
+      background-size: 24.4%, 37.84%;
+      background-position: -29px 0px;
+  }
+
   .dark-purple-blue {
     margin-top: 0;
   }
@@ -3990,6 +4000,13 @@ footer .half-width {
   }
 
   /***** PORTFOLIO PAGE *****/
+  #portfolio {
+    width: 97.5%;
+    margin-left: auto;
+    margin-right: 2.5%;
+    align-items: center;
+  }
+
   #portfolio .full-width {
     padding-top: 8%;
     width: 90%;
@@ -4044,6 +4061,39 @@ footer .half-width {
 }
 
 @media screen and (min-width:1370px) {
+  .home-body {
+      background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
+      background-repeat: no-repeat, no-repeat;
+      background-attachment: scroll, scroll;
+      background-size: 24%, 37.0598%;
+      background-position: -29px 0px;
+  }
+
+  .logo {
+    display: flex;
+    width: 10.18557%;
+    margin: 0;
+  }
+
+  .logo img {
+    display: flex;
+    padding: 9.7% 0 0 23.71134%;
+    margin: 0;
+  }
+
+  .horizontal-nav {
+    width: 60%;
+  }
+
+  #home {
+    height: calc(100vh - 214px);
+    padding-bottom: 0;
+  }
+
+  .corner-body {
+    background-size: 24%;
+  }
+
   #portfolio .full-width {
     padding-top: 4%;
     width: 80%;

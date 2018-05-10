@@ -3179,6 +3179,7 @@ footer .half-width {
 }
 
 /***** ======= Interim size TWAEKS ======= *****/
+
 @media screen and (min-width:841px) {
     /***** logo corner piece | min width 841px *****/
     .corner-body {
@@ -3192,6 +3193,10 @@ footer .half-width {
 
     .home-vertical {
       margin-right:17%;
+    }
+
+    #contact {
+      position: relative;
     }
 
     .contact-img-block {
@@ -4094,13 +4099,19 @@ footer .half-width {
     background-size: 24%;
   }
 
+  #portfolio {
+    height: calc(100vh - 224px);
+    min-height: 550px;
+  }
+
   #portfolio .full-width {
-    padding-top: 4%;
+    padding-top: 0;
     width: 80%;
   }
 
   #contact {
     height: calc(100vh - 263px);
+    min-height: 313px;
   }
 
 }
@@ -4108,7 +4119,6 @@ footer .half-width {
 @media screen and (min-width:1420px) {
   /***** MAIN PORTFOLIO PAGE *****/
   #portfolio .full-width {
-    padding-top: 3%;
   }
 
 /***** PORTFOLIO THUMBNAIL PAGES | min width 1420px *****/

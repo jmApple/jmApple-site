@@ -3829,9 +3829,9 @@ footer .half-width {
 }
 
 @media screen and (min-width:995px) {
-#home {
-  min-height: 503px;
-}
+  #home {
+    min-height: 503px;
+  }
 }
 /*============ NOTE: interim tweaks ========================= */
 
@@ -4001,7 +4001,6 @@ footer .half-width {
     .contact-page-img {
       width: 14%;
     }
-
 }
 
 

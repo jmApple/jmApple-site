@@ -3343,8 +3343,8 @@ footer .half-width {
   /***** HOME PAGE | DESKTOP min width 940px *****/
 
   #home {
-    height : 0;
-    padding-bottom: 50.75%;
+    height: calc(100vh - 45vh);
+    min-height: 474.5px;
     border: none;
   }
 
@@ -3828,10 +3828,29 @@ footer .half-width {
   }
 }
 
+@media screen and (min-width:995px) {
+#home {
+  min-height: 503px;
+}
+}
 /*============ NOTE: interim tweaks ========================= */
 
 @media screen and (min-width:1024px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  /* NOTE:
+  .home-body {
+      background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
+      background-repeat: no-repeat, no-repeat;
+      background-attachment: scroll, scroll;
+      background-size: 24.4%, 37.84%;
+      background-position: -29px 0px;
+  }
+   */
+
+   #home {
+     min-height: 533px;
+   }
+
   #about {
     margin-top: 2.5%;
   }
@@ -3852,6 +3871,11 @@ footer .half-width {
 
 @media screen and (min-width:1030px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  #home {
+    height: calc(100vh - 30.75vh);
+    min-height: 523px;
+  }
+
   #about p {
     font-size: 15px;
   }
@@ -3860,12 +3884,8 @@ footer .half-width {
 
 @media screen and (min-width:1090px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
-  .home-body {
-      background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
-      background-repeat: no-repeat, no-repeat;
-      background-attachment: scroll, scroll;
-      background-size: 24.4%, 37.84%;
-      background-position: -29px 0px;
+  #home {
+    height: calc(100vh - 29.5vh);
   }
 
   .dark-purple-blue {
@@ -4142,7 +4162,7 @@ footer .half-width {
   }
 
   .contact-img-block {
-    margin-top: 0;
+    margin-top: 4%;
   }
 }
 

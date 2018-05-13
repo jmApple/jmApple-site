@@ -95,11 +95,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   .clearfix:after {
-       clear: both;
-   }
+.clearfix:after {
+  clear: both;
+}
 
-/***** Base Styles *****/
+/*==================================================
+BASE STYLES | NO min width
+===================================================*/
 @import url('http://fast.fonts.net/t/1.css?apiType=css&projectid=83e20145-0d49-400a-a25a-d4ca0fc7eb70');
 
 @font-face{
@@ -123,37 +125,37 @@ textarea {
 }
 
 @font-face{
-    font-family:'Natural Script W00 Regular';
-    src:url('../fonts/3cc5cf8c-cbd9-4207-9feb-f0b6e6a5cd2d.eot?#iefix');
-    src:url('../fonts/3cc5cf8c-cbd9-4207-9feb-f0b6e6a5cd2d.eot?#iefix') format('eot'),
-        url('../fonts/e2092c9f-512b-49b6-b9a6-7d5990fa9f15.woff2') format('woff2'),
-        url('../fonts/a8a71063-f71e-4026-b9b8-915c34256bf4.woff') format('woff'),
-        url('../fonts/12c6a6b0-b50d-48d2-bc96-f4d2fd322434.ttf') format('truetype'),
-        url('../fonts/3e4bc75f-7812-4307-9322-967a0851ec27.svg#3e4bc75f-7812-4307-9322-967a0851ec27') format('svg');
+  font-family:'Natural Script W00 Regular';
+  src:url('../fonts/3cc5cf8c-cbd9-4207-9feb-f0b6e6a5cd2d.eot?#iefix');
+  src:url('../fonts/3cc5cf8c-cbd9-4207-9feb-f0b6e6a5cd2d.eot?#iefix') format('eot'),
+      url('../fonts/e2092c9f-512b-49b6-b9a6-7d5990fa9f15.woff2') format('woff2'),
+      url('../fonts/a8a71063-f71e-4026-b9b8-915c34256bf4.woff') format('woff'),
+      url('../fonts/12c6a6b0-b50d-48d2-bc96-f4d2fd322434.ttf') format('truetype'),
+      url('../fonts/3e4bc75f-7812-4307-9322-967a0851ec27.svg#3e4bc75f-7812-4307-9322-967a0851ec27') format('svg');
 }
 @font-face{
-    font-family:'Natural Script Bold W001405414';
-    src:url('../fonts/f0721d4e-83fd-4d67-9e63-3f5d0038cbfa.eot?#iefix');
-    src:url('../fonts/f0721d4e-83fd-4d67-9e63-3f5d0038cbfa.eot?#iefix') format('eot'),
-        url('../fonts/420f9f64-8e6d-461b-8b2a-268d1c770ac4.woff2') format('woff2'),
-        url('../fonts/360f533f-92f0-45a1-a02a-68479ac80492.woff') format('woff'),
-        url('../fonts/e4bd1315-1f00-42d8-af1e-43d1ccd178be.ttf') format('truetype'),
-        url('../fonts/4ac95d38-d78c-433d-a96f-a5395957f1b8.svg#4ac95d38-d78c-433d-a96f-a5395957f1b8') format('svg');
+  font-family:'Natural Script Bold W001405414';
+  src:url('../fonts/f0721d4e-83fd-4d67-9e63-3f5d0038cbfa.eot?#iefix');
+  src:url('../fonts/f0721d4e-83fd-4d67-9e63-3f5d0038cbfa.eot?#iefix') format('eot'),
+      url('../fonts/420f9f64-8e6d-461b-8b2a-268d1c770ac4.woff2') format('woff2'),
+      url('../fonts/360f533f-92f0-45a1-a02a-68479ac80492.woff') format('woff'),
+      url('../fonts/e4bd1315-1f00-42d8-af1e-43d1ccd178be.ttf') format('truetype'),
+      url('../fonts/4ac95d38-d78c-433d-a96f-a5395957f1b8.svg#4ac95d38-d78c-433d-a96f-a5395957f1b8') format('svg');
 }
 
 @font-face{
-    font-family:"SegoeScriptW01-Regular";
-    src:url("Fonts/9d5bc590-16ac-448d-9304-3fd6d144be13.eot?#iefix");
-    src:url("Fonts/9d5bc590-16ac-448d-9304-3fd6d144be13.eot?#iefix") format("eot"),url("Fonts/e820e1ab-8906-42be-99b1-548e2535d601.woff2") format("woff2"),url("Fonts/b4b7cb0f-71f7-4bb2-8e3e-ce8ac58b4d34.woff") format("woff"),url("Fonts/f7cab7ee-0ffa-4f55-bff8-8efc9e7d43ec.ttf") format("truetype"),url("Fonts/9ec13400-7da6-422c-a894-daf37f6acba7.svg#9ec13400-7da6-422c-a894-daf37f6acba7") format("svg");
+  font-family:"SegoeScriptW01-Regular";
+  src:url("Fonts/9d5bc590-16ac-448d-9304-3fd6d144be13.eot?#iefix");
+  src:url("Fonts/9d5bc590-16ac-448d-9304-3fd6d144be13.eot?#iefix") format("eot"),url("Fonts/e820e1ab-8906-42be-99b1-548e2535d601.woff2") format("woff2"),url("Fonts/b4b7cb0f-71f7-4bb2-8e3e-ce8ac58b4d34.woff") format("woff"),url("Fonts/f7cab7ee-0ffa-4f55-bff8-8efc9e7d43ec.ttf") format("truetype"),url("Fonts/9ec13400-7da6-422c-a894-daf37f6acba7.svg#9ec13400-7da6-422c-a894-daf37f6acba7") format("svg");
 }
 @font-face{
-    font-family:'Segoe Script W01 Bold904831';
-    src:url('../fonts/5d84832f-16a2-4e3a-9271-05b3fd419de5.eot?#iefix');
-    src:url('../fonts/5d84832f-16a2-4e3a-9271-05b3fd419de5.eot?#iefix') format('eot'),
-        url('../fonts/68d12691-47e9-4444-bf0e-fc517f0b6537.woff2') format('woff2'),
-        url('../fonts/c3e6fbc6-9220-401a-a0e6-a97df12c3c9b.woff') format('woff'),
-        url('../fonts/a37f2203-8f0c-4cc8-a931-a2d90597a4d9.ttf') format('truetype'),
-        url('../fonts/39d99906-9e02-42d2-82a1-0d3ea05ca496.svg#39d99906-9e02-42d2-82a1-0d3ea05ca496') format('svg');
+  font-family:'Segoe Script W01 Bold904831';
+  src:url('../fonts/5d84832f-16a2-4e3a-9271-05b3fd419de5.eot?#iefix');
+  src:url('../fonts/5d84832f-16a2-4e3a-9271-05b3fd419de5.eot?#iefix') format('eot'),
+      url('../fonts/68d12691-47e9-4444-bf0e-fc517f0b6537.woff2') format('woff2'),
+      url('../fonts/c3e6fbc6-9220-401a-a0e6-a97df12c3c9b.woff') format('woff'),
+      url('../fonts/a37f2203-8f0c-4cc8-a931-a2d90597a4d9.ttf') format('truetype'),
+      url('../fonts/39d99906-9e02-42d2-82a1-0d3ea05ca496.svg#39d99906-9e02-42d2-82a1-0d3ea05ca496') format('svg');
 }
 @font-face{
     font-family:"Segoe Script W01 Regular";
@@ -162,23 +164,23 @@ textarea {
 }
 
 @font-face{
-    font-family:'Banana W01 Regular';
-    src:url('../fonts/7072c29b-515c-4107-820d-b9c69a20fc8a.eot?#iefix');
-    src:url('../fonts/7072c29b-515c-4107-820d-b9c69a20fc8a.eot?#iefix') format('eot'),
-        url('../fonts/79017506-6b11-4a49-b12d-827fc04c9564.woff2') format('woff2'),
-        url('../fonts/e8424539-bf51-4ec6-93bc-0085581a0533.woff') format('woff'),
-        url('../fonts/1b970a26-3ff1-42e2-bb01-f3b6621c61a7.ttf') format('truetype'),
-        url('../fonts/fd5e2fd2-e5f1-4b0f-9aa8-bbc164976253.svg#fd5e2fd2-e5f1-4b0f-9aa8-bbc164976253') format('svg');
+  font-family:'Banana W01 Regular';
+  src:url('../fonts/7072c29b-515c-4107-820d-b9c69a20fc8a.eot?#iefix');
+  src:url('../fonts/7072c29b-515c-4107-820d-b9c69a20fc8a.eot?#iefix') format('eot'),
+      url('../fonts/79017506-6b11-4a49-b12d-827fc04c9564.woff2') format('woff2'),
+      url('../fonts/e8424539-bf51-4ec6-93bc-0085581a0533.woff') format('woff'),
+      url('../fonts/1b970a26-3ff1-42e2-bb01-f3b6621c61a7.ttf') format('truetype'),
+      url('../fonts/fd5e2fd2-e5f1-4b0f-9aa8-bbc164976253.svg#fd5e2fd2-e5f1-4b0f-9aa8-bbc164976253') format('svg');
 }
 
 @font-face{
-    font-family:'Rosie W01 Regular';
-    src:url('../fonts/07c95398-7693-4117-b830-027274333c1b.eot?#iefix');
-    src:url('../fonts/07c95398-7693-4117-b830-027274333c1b.eot?#iefix') format('eot'),
-        url('../fonts/c65b17a5-cfb3-4c1b-8d01-cb96d3f03e40.woff2') format('woff2'),
-        url('../fonts/c45ba439-b71c-4284-b746-82fcad93b1fa.woff') format('woff'),
-        url('../fonts/610b4419-5d4b-4180-b750-89697b975427.ttf') format('truetype'),
-        url('../fonts/e40066be-3cea-4221-b7d6-d7c804e6be87.svg#e40066be-3cea-4221-b7d6-d7c804e6be87') format('svg');
+  font-family:'Rosie W01 Regular';
+  src:url('../fonts/07c95398-7693-4117-b830-027274333c1b.eot?#iefix');
+  src:url('../fonts/07c95398-7693-4117-b830-027274333c1b.eot?#iefix') format('eot'),
+      url('../fonts/c65b17a5-cfb3-4c1b-8d01-cb96d3f03e40.woff2') format('woff2'),
+      url('../fonts/c45ba439-b71c-4284-b746-82fcad93b1fa.woff') format('woff'),
+      url('../fonts/610b4419-5d4b-4180-b750-89697b975427.ttf') format('truetype'),
+      url('../fonts/e40066be-3cea-4221-b7d6-d7c804e6be87.svg#e40066be-3cea-4221-b7d6-d7c804e6be87') format('svg');
 }
 
 img {
@@ -187,10 +189,12 @@ img {
 }
 
 
-/***** ======= MOBILE FIRST ======= *****/
-
-/***** ======= MOBILE small - iphone 5 ======= *****/
-  /***** HOME *****/
+/*==================================================
+MOBILE FIRST | NO min width
+===================================================*/
+/*==================================================
+GLOBAL STYLES | iPhone5 | NO min width
+===================================================*/
 html, body {
   width: 100%;
   height: 100%;
@@ -287,7 +291,6 @@ main {
   background-position: -62px 25px;
 }
 
-/***** Special class's and id's *****/
 .black {
   color: #000000;
   text-decoration: none;
@@ -297,22 +300,26 @@ main {
   color:#808285;
   text-decoration: none;
 }
-
-/*****  COLORS =================
+/* ===============================
+  COLOR PALETTE
         70% grey color: #6d6e71;
         60% grey color: #808285;
         white: #ffffff;
         purple: #dfcde4;
         green: #72b648;
         deep-blue-purple: #211E53;
-========================== *****/
+================================== */
 
-/*** mouse over link ***/
+/*==================================================
+MOUSE OVER / HOVER | iPhone5 | NO min width
+===================================================*/
 a:hover {
   color: #72b648;
 }
 
-/***** MOBILE NAV & HEADER *****/
+/*==================================================
+NAVIGATION | iPhone5 | NO min width
+===================================================*/
 .logo {
   display: block;
 }
@@ -333,39 +340,41 @@ hr {
   margin-bottom: -13px;
 }
 
-/* Style The Dropdown Button */
+/*==================================================
+DROPDOWN BUTTON | iPhone5 | NO min width
+===================================================*/
 .dropbtn {
-    background-color: #ffffff;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  background-color: #ffffff;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 100px;
-    box-shadow: 0px 13px 13px 13px rgba(0,0,0,0.3);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 13px 13px 13px rgba(0,0,0,0.3);
+  z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
-    padding: 10px 42px 10px 10px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 10px 42px 10px 10px;
+  text-decoration: none;
+  display: block;
 }
 
 /* Change color of dropdown links on hover */
@@ -375,29 +384,29 @@ hr {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .dropdown-content nav ul {
-    text-align: center;
+  text-align: center;
 }
 
 .dropdown-content nav ul li{
-    display: inline-block;
+  display: inline-block;
 }
 
 .dropdown-content nav ul li a {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    text-transform: lowercase;
-    text-decoration: none;
-    font-size: 22px;
-    color: #828282;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 22px;
+  color: #828282;
 }
 
 .dropdown-content #nav-on-page {
@@ -410,13 +419,13 @@ hr {
   padding: 10px auto;
 }
 
-
 .horizontal-nav nav {
   display: none;
 }
 
-/***** HOME PAGE | MOBILE 1st (iPhone5) *****/
-
+/*==================================================
+HOME PAGE | iPhone5 | NO min width
+===================================================*/
 #home {
   height: 100%;
   width: 100%;
@@ -426,12 +435,12 @@ hr {
 
 
 #home h1 {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 100px;
-    line-height: 100px;
-    color: #dfcde4;
-    padding-left: 47px;
-    padding-top: 55px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 100px;
+  line-height: 100px;
+  color: #dfcde4;
+  padding-left: 47px;
+  padding-top: 55px;
 }
 
 #home h2 {
@@ -574,8 +583,9 @@ hr {
   display: none;
 }
 
-/***** ======= ABOUT PAGE | MOBIlE 1st======= *****/
-
+/*==================================================
+ABOUT PAGE | iPhone5 | NO min width
+===================================================*/
 #about {
   width: 100%;
 }
@@ -671,7 +681,7 @@ hr {
   color: #828282;
 }
 
-/***** Graphic Designer *****/
+/* TITLE: Graphic Designer */
 .dark-purple-blue {
   color: #262261;
   font-size: 17px;
@@ -679,49 +689,49 @@ hr {
   margin-top: 0px;
 }
 
-/***** Illustrator *****/
+/* TITLE: Illustrator */
 .true-purple {
   color: #652C90;
   font-size: 17px;
   line-height: 8px;
 }
 
-/***** Front End Developer *****/
+/* TITLE: Front End Developer */
 .bright-purple {
   color: #91268F;
   font-size: 17px;
   line-height: 8px;
 }
 
-/***** Web Designer *****/
+/* TITLE: Web Designer */
 .warm-purple {
   color: #9E1E62;
   font-size: 17px;
   line-height: 8px;
 }
 
-/***** HTML *****/
+/* TITLE: HTML */
 .cool-red {
   color: #D91B5B;
   font-size: 17px;
   line-height: 8px;
 }
 
-/***** CSS *****/
+/* TITLE: CSS */
 .red {
   color: #ED1C24;
   font-size: 17px;
   line-height: 8px;
 }
 
-/***** Javascript *****/
+/* TITLE: Javascript */
 .red-orange {
   color: #F05A28;
   font-size: 17px;
   line-height: 8px;
 }
 
-/***** Responsive Development *****/
+/* TITLE: Responsive Development */
 .orange {
   color: #F7931D;
   font-size: 17px;
@@ -810,7 +820,7 @@ hr {
   display: none;
 }
 
-/***** Wife *****/
+/* TITLE: Wife */
 .green {
   color: #38B449;
   font-size: 17px;
@@ -818,28 +828,28 @@ hr {
   margin-top: 0px;
 }
 
-/***** Mother *****/
+/* TITLE: Mother */
 .blue-green {
   color: #00A79D;
   font-size: 17px;
   line-height: 8px;
 }
 
-/***** Proud USAF Sister *****/
+/* TITLE: Proud USAF Sister */
 .blue {
   color: #1B75BB;
   font-size: 17px;
   line-height: 8px;
 }
 
-/***** Play *****/
+/* TITLE: Play */
 .colbalt-blue {
   color: #2A388F;
   font-size: 17px;
   line-height: 8px;
 }
 
-/***** Creative Dreamer *****/
+/* TITLE: Creative Dreamer */
 .true-purple-home {
   color: #652C90;
   font-size: 17px;
@@ -850,9 +860,9 @@ hr {
   display: none;
 }
 
-
-/***** ======= PORTFOLIO MAIN PAGE | MOBIlE 1st ======= *****/
-
+/*==================================================
+PORTFOLIO PAGE | iPhone5 | NO min width
+===================================================*/
 #portfolio .full-width {
   display: flex;
   width: 100%;
@@ -1150,7 +1160,9 @@ hr {
   padding-left: 2px;
 }
 
-/***** PORTFOLIO THUMBNAIL PAGES | MOBILE 1st *****/
+/*==================================================
+PORTFOLIO INDEX PAGES | iPhone5 | NO min width
+===================================================*/
 .corner-body #portfolio-illustration {
   padding-top: 25%;
 }
@@ -1169,8 +1181,9 @@ hr {
   height: auto;
 }
 
-/***** PORTFOLIO INDIVIDUAL PAGES | MOBILE 1st *****/
-
+/*==================================================
+PORTFOLIO INDIVIDUAL PAGES | iPhone5 | NO min width
+===================================================*/
 #individual-portfolio-page {
   padding-top: 27%;
 }
@@ -1195,7 +1208,6 @@ hr {
   margin: auto;
 }
 
-
 .portfolio-img img {
   margin: 0 3.5% 0 3.5%;
   width: 92%;
@@ -1217,7 +1229,6 @@ hr {
 .back-button {
   margin-top: .75%;
 }
-
 
 .next-button {
   width: 30px;
@@ -1272,9 +1283,9 @@ hr {
   padding-bottom: 5px;
 }
 
-
-/***** CONTACT PAGE | MOBILE 1st *****/
-
+/*==================================================
+CONTACT PAGE | iPhone5 | NO min width
+===================================================*/
 #contact {
   display: flex;
   align-items: center;
@@ -1364,10 +1375,9 @@ hr {
   display: inline-block;
 }
 
-
-
-/***** UNDER CONSTRUCTION PAGE | MOBILE 1st *****/
-
+/*==================================================
+UNDER CONSTRUCTION PAGE | iPhone5 | NO min width
+===================================================*/
 #under-construction-page {
   padding-top: 37%;
 }
@@ -1414,7 +1424,9 @@ hr {
   margin: 90px 0 0px 9px;
 }
 
-/***** FOOTER | MOBILE 1st *****/
+/*==================================================
+FOOTER - GLOBAL | iPhone5 | NO min width
+===================================================*/
 footer {
   display: inline-block;
   width: 100%;
@@ -1533,9 +1545,9 @@ footer .half-width {
 #footer-no-border .email {
   display: none;
 }
-
-
-/***** END MOBILE FIRST *****/
+/*==================================================
+END MOBILE FIRST | iPhone5 | NO min width
+===================================================*/
 
 /* ==========================================================================
    Helper classes
@@ -1617,13 +1629,20 @@ footer .half-width {
    Modify as content requires.
    ========================================================================== */
 
-   /***** ======= LARGE MOBILE TWEAKS ======= *****/
-   @media screen and (min-width:360px) {
-     /*larger mobile styles set 1 Galaxy S5*/
+/*==================================================
+~~~~~~~~~~~~~INTERIM LAYOUT ADJUSTMENTS~~~~~~~~~~~~~
+===================================================*/
 
+   /*==================================================
+   ~~~~~~~~~~~~~~~~~~min width 360px~~~~~~~~~~~~~~~~~~
+   ===================================================*/
+   @media screen and (min-width:360px) {
+   /*==================================================
+   HOME PAGE || min width 360px
+   ===================================================*/
    .owl-mobile img {
-        width: 91%;
-        margin: -41px 0 0 0;
+      width: 91%;
+      margin: -41px 0 0 0;
    }
 
    .vertical-header {
@@ -1660,7 +1679,9 @@ footer .half-width {
         font-size: 17px;
    }
 
-   /*** ABOUT | min-width:360px ***/
+   /*==================================================
+   ABOUT PAGE | | min width 360px
+   ===================================================*/
    #about {
      width: 100%;
    }
@@ -1743,42 +1764,42 @@ footer .half-width {
      line-height: 12px;
    }
 
-   /***** Graphic Designer *****/
+   /* TITLE: Graphic Designer */
    .dark-purple-blue {
      line-height: 13.4px;
    }
 
-   /***** Illustrator *****/
+   /* TITLE: Illustrator */
    .true-purple {
      line-height: 9.2px;
    }
 
-   /***** Front End Developer *****/
+   /* TITLE: Front End Developer */
    .bright-purple {
      line-height: 9.2px;
    }
 
-   /***** Web Designer *****/
+   /* TITLE: Web Designer */
    .warm-purple {
      line-height: 9.2px;
    }
 
-   /***** HTML *****/
+   /* TITLE: HTML */
    .cool-red {
      line-height: 9.2px;
    }
 
-   /***** CSS *****/
+   /* TITLE:  CSS */
    .red {
      line-height: 9.2px;
    }
 
-   /***** Javascript *****/
+   /*TITLE:  Javascript */
    .red-orange {
      line-height: 9.2px;
    }
 
-   /***** Responsive Development *****/
+   /*TITLE: Responsive Development */
    .orange {
      line-height: 9.2px;
    }
@@ -1855,27 +1876,27 @@ footer .half-width {
      display: none;
    }
 
-   /***** Wife *****/
+   /* TITLE: Wife */
    .green {
      line-height: 13px;
    }
 
-   /***** Mother *****/
+   /* TITLE: Mother */
    .blue-green {
      line-height: 9.2px;
    }
 
-   /***** Proud USAF Sister *****/
+   /* TITLE: Proud USAF Sister */
    .blue {
      line-height: 9.2px;
    }
 
-   /***** Play *****/
+   /* TITLE: Play */
    .colbalt-blue {
      line-height: 9.2px;
    }
 
-   /***** Creative Dreamer *****/
+   /* TITLE: Creative Dreamer */
    .true-purple-home {
      line-height: 9.2px;
    }
@@ -1884,8 +1905,9 @@ footer .half-width {
      display: none;
    }
 
-    /***** PORTFOLIO | min-width:360px *****/
-
+   /*==================================================
+   PORTFOLIO PAGE | | min width 360px
+   ===================================================*/
     #portfolio .full-width {
       padding-top: 23%;
     }
@@ -1992,8 +2014,9 @@ footer .half-width {
     }
 
 
-    /*** CONTACT | min-width: 360px ***/
-
+    /*==================================================
+    CONTACT PAGE | | min width 360px
+    ===================================================*/
     .contact-name h1 {
       font-size: 53px;
       line-height: 53px;
@@ -2022,10 +2045,13 @@ footer .half-width {
     }
 }
 
-
-@media screen and (min-width:375px) {
-  /*larger mobile styles set 2 iPhone6*/
-
+   /*==================================================
+   ~~~~~~~~~~~~~~~~~~min width 375px~~~~~~~~~~~~~~~~~~
+   ===================================================*/
+   @media screen and (min-width:375px) {
+   /*==================================================
+   HOME PAGE | | min width 375px
+   ===================================================*/
     .vertical-header {
         min-height: 443px;
     }
@@ -2042,7 +2068,9 @@ footer .half-width {
       display: none;
     }
 
-    /*** ABOUT | min-width:375px ***/
+    /*==================================================
+    ABOUT PAGE | | min width 375px
+    ===================================================*/
     .vertical {
       padding-top: 47px;
       padding-bottom: 8px;
@@ -2057,8 +2085,9 @@ footer .half-width {
       margin-bottom: 15px;
     }
 
-    /***** PORTFOLIO | min-width:375px *****/
-
+    /*==================================================
+    PORTFOLIO PAGE | | min width 375px
+    ===================================================*/
     #portfolio .full-width {
       padding-top: 27%;
     }
@@ -2071,58 +2100,66 @@ footer .half-width {
       background-size: 29%;
     }
 
-    /*** CONTACT | min-width: 375px ***/
+    /*==================================================
+    CONTACT PAGE | | min width 375px
+    ===================================================*/
     .contact-page-img {
       background-position: center;
       width: 29%;
     }
-}
-
-@media screen and (min-width:411px) {
-  /*larger mobile styles set 3 & Nexus 5x Nexus 6P & iPhone 6 Plus (414 screen width) */
-  .owl-mobile {
-      display: none;
   }
 
-  .owl-tablet {
+  /*==================================================
+  ~~~~~~~~~~~~~~~~~~min width 411px~~~~~~~~~~~~~~~~~~
+  ===================================================*/
+  @media screen and (min-width:411px) {
+    /*==================================================
+    HOME PAGE | | min width 411px
+    ===================================================*/
+    /*larger mobile styles set 3 & Nexus 5x Nexus 6P & iPhone 6 Plus (414 screen width) */
+    .owl-mobile {
+      display: none;
+    }
+
+    .owl-tablet {
       display: flex;
       height: 100%;
       width: 100%;
       margin: 0;
-  }
+    }
 
-  .owl-tablet img {
+    .owl-tablet img {
       display: flex;
       height: 100%;
       margin: -35px 0 0 0;
       width: 92%;
-  }
+    }
 
-  .owl-mobile img {
+    .owl-mobile img {
       width: 87%;
       margin: 0;
-  }
+    }
 
-  .vertical-header {
+    .vertical-header {
       min-height: 465px;
       padding-left: 7px;
-  }
+    }
 
-  .developer-designer-illustrator-mobile-text {
+    .developer-designer-illustrator-mobile-text {
       letter-spacing: 1.3px;
-  }
+    }
 
-  .little-bit-info {
+    .little-bit-info {
       display: none;
-  }
+    }
 
-  #home .little-bit-info-large-mobile {
+    #home .little-bit-info-large-mobile {
       display: block;
       float: right;
       margin: 0 19.5px;
-  }
+    }
 
-  #home .little-bit-info-large-mobile .email-homepage {
+    #home .little-bit-info-large-mobile .email-homepage {
       float: right;
       font-family: 'Quicksand', sans-serif;
       font-size: 20.5px;
@@ -2135,1077 +2172,1226 @@ footer .half-width {
       margin-bottom: -3px;
       text-align: right;
       text-decoration: none;
-  }
-
-  #home .little-bit-info-large-mobile .email-homepage:hover {
-    color: #72b648;
-  }
-
-  #home .little-bit-info-large-mobile p {
-    float: right;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    color: #828282;
-    line-height: 22px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 7px;
-    text-align: justify;
-    text-decoration: none;
-  }
-
-  /*** ABOUT | min-width: 411px ***/
-  .mobile-img-set-top, .mobile-img-set-bottom {
-    margin: 11% 3% 0 3%;
-  }
-
-  .vertical {
-    padding-top: 49px;
-    padding-bottom: 11px;
-  }
-
-  #about h1 {
-    font-size: 37px;
-    margin-top: 25px;
-    margin-bottom: 5px;
-  }
-
-  #about p {
-    font-size: 11px;
-    line-height: 14px;
-  }
-
-  .four-fifths-width-home {
-    margin-top: 23px;
-    margin-bottom: 10px;
-  }
-
-  .giant-bracket-work {
-    font-size: 275px;
-    line-height: 166px;
-  }
-
-  .giant-bracket-home {
-    font-size: 275px;
-    line-height: 164px;
-  }
-
-  .work-vertical {
-    font-size: 21px;
-    margin-left: 25.8px;
-    margin-top: -121px;
-  }
-
-  .home-vertical {
-    font-size: 21px;
-  }
-
-  .home-bracket-div-mobile p {
-    margin-left: 19.1px;
-    margin-top: -152px;
-  }
-
-  .work-info-mobile, .home-info-mobile {
-    padding-left: 13px;
-  }
-
-  /***** ABOUT | WORK HEADERS IN THE BRACKET *****/
-
-  .true-purple, .bright-purple, .warm-purple, .cool-red, .red, .red-orange, .orange {
-    line-height: 14px;
-  }
-
-  .green, .blue-green, .blue, .colbalt-blue, .true-purple-home {
-    line-height: 14px;
-  }
-
-  /***** PORTFOLIO | min-width:411px *****/
-
-  #portfolio .full-width {
-    padding-top: 28%;
-  }
-
-  #portfolio .quarter-width{
-    height: 115px;
-    margin-top: 7.5px;
-  }
-
-  .illustration-mobile {
-    height: 91.5%;
-  }
-
-  .logo-design-mobile {
-    height: 91.5%;
-  }
-
-  .web-design-mobile {
-    height: 90.75%;
-    background-size: 28%;
-    background-position: 97% 27%;
-  }
-
-  .digital-illustration-mobile {
-    height: 91.5%;
-  }
-
-  /*** FOOTER-SECTION | min width: 411px ***/
-  #footer-border .half-width .copyright {
-    padding-left: 7px;
-  }
-
-  #footer-border ul {
-      margin-right: 7px;
-  }
-
- /*** CONTACT | min-width: 411px ***/
-  .contact-page-img {
-    background-position: center;
-    width: 29%;
-    height: 147px;
-  }
-
-  .contact-name h1 {
-    font-size: 57px;
-    padding-bottom: 0;
-  }
-
-  #contact-info-block h2 {
-    font-size: 28px;
-    padding-top: 6px;
-  }
-}
-
-
-@media screen and (min-width:414px) {
-  /***** ABOUT | min-width: 414px *****/
-  .vertical {
-    padding-top: 44px;
-    padding-bottom: 9px;
-  }
-
-  .fifth-width-about {
-    margin-top: 10px;
-  }
-
-  .four-fifths-width-home {
-    margin-bottom: 7px;
-
-  }
-
-  /***** PORTFOLIO | min-width: 414px *****/
-
-  .logo-design-mobile {
-    height: 90.75%;
-  }
-
-  /***** UNDER CONSTRUCTION | min width: 414px *****/
-
-  #under-construction-page {
-    padding-top: 43%;
-  }
-
-}
-
-/***** ======= END LARGE MOBILE ======= *****/
-
-/***** MID RANGE LAYOUT FIX *****/
-@media screen and (min-width: 520px) {
-  hr {
-    border-top: 2px solid #808080;
-  	border-bottom: 1px solid #fff;
-    width: 43px;
-    margin-bottom: -10px;
-  }
-
-  /***** ABOUT PAGE | min-width: 520px *****/
-  .corner-body {
-    background-size: 23%, 55%;
-    background-position: 20px 20px, -29px 0px;
-  }
-
-  #about {
-    max-width: 530px;
-  }
-
-  .mobile-img-set-top, .mobile-img-set-bottom {
-  width: 25%;
-  height: 175px;
-  float: left;
-  margin: 8% 3% 0 3%;
-}
-
-  .vertical {
-    padding-top: 70px;
-  }
-
-  .four-fifths-width-home {
-    margin-bottom: 20px;
-  }
-
-
-  /***** PORTFOLIO PAGE | min-width: 520px *****/
-  #portfolio .full-width {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    padding-top: 23%;
-  }
-
-  .mobile {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
-
-  #portfolio .quarter-width {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 232.5px;
-    height: 226px;
-    margin: 11px 17px 11px 0px;
-  }
-
-  .illustration-mobile {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 95.5%;
-    width: 100%;
-    background: url('../img/portfolio-illustration-tablet-faded.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 105%;
-    background-position: 20% 12%;
-    padding: 5px;
-  }
-
-  .i-block-initial {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .i {
-    font-size: 57px;
-    line-height: 63px;
-    padding-left: 4px;
-  }
-
-  .i-block-letters{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    width: 195px;
-  }
-
-  .i-word-continuation {
-    font-size: 21px;
-    line-height: 90px;
-    padding-left: 0px;
-  }
-
-  .logo-design-mobile {
-    display: none;
-  }
-
-  .logo-design-tablet {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 95.5%;
-    width: 100%;
-    background: url('../img/portfolio-logo-design-mobile-logo.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 91%;
-    background-position: 490% 230%;
-    padding: 5px;
-  }
-
-  .ld-logo-design {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .ld-logo p {
-    margin: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-  }
-
-  .ld-l {
-    font-size: 57px;
-    line-height: 63px;
-    padding-left: 15px;
-  }
-
-  .ld-d {
-    font-size: 57px;
-    line-height: 43px;
-    padding-left: 4px;
-  }
-
-  .logo-word-continuation {
-    font-size: 21px;
-    line-height: 36px;
-    padding-left: 4.5px;
-  }
-
-  .l-design-word-continuation {
-    font-size: 21px;
-    line-height: 17px;
-    padding-left: 3.5px;
-  }
-
-  .web-design-mobile {
-    display: none;
-  }
-
-  .web-design-tablet {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 95.5%;
-    width: 100%;
-    background: url('../img/portfolio-web-design-mobile-web.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 47%;
-    background-position: 95% 86%;
-    padding: 5px;
-  }
-
-  .wd-web-design p {
-    margin: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-  }
-
-  .wd-w {
-    font-size: 57px;
-    line-height: 63px;
-    padding-left: 5px;
-  }
-
-  .wd-d {
-    font-size: 57px;
-    line-height: 43px;
-    padding-left: 6px;
-  }
-
-  .web-word-continuation {
-    font-size: 21px;
-    line-height: 36px;
-    padding-left: 0px;
-  }
-
-  .w-design-word-continuation {
-    font-size: 21px;
-    line-height: 17px;
-    padding-left: 3.5px;
-  }
-
-  .digital-illustration-mobile {
-    display: none;
-  }
-
-  .digital-illustration-tablet {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 95.5%;
-    width: 100%;
-    background: url('../img/portfolio-digital-illustration-mobile-pattern.png');
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 100%;
-    background-position: 100% 30%;
-    padding: 5px;
-  }
-
-  .di-digital-illustration p {
-    margin: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-  }
-
-  .di-d {
-    font-size: 57px;
-    line-height: 63px;
-    padding-left: 4px;
-  }
-
-  .di-i {
-    font-size: 57px;
-    line-height: 43px;
-    padding-left: 12.5px;
-  }
-
-  .digital-word-continuation {
-    font-size: 21px;
-    line-height: 36px;
-    padding-left: 5px;
-  }
-
-  .d-illustration-word-continuation {
-    font-size: 21px;
-    line-height: 16px;
-    padding-left: 5px;
-  }
-
-  /*** CONTACT | min-width: 520px ***/
-  .contact-page-img {
-    width: 21%;
-  }
-}
-
-@media screen and (min-width: 568px) {
-  #contact {
-    min-height: 250px;
-  }
-
-  .contact-img-block {
-    margin-top: 3%;
-  }
-
-}
-
-
-/***** ======= Interim size TWAEKS ======= *****/
-@media screen and (min-width: 610px) {
-  /***** PORTFOLIO INDIVIDUAL PAGES | INTERIM SIZE TWEAKS*****/
-
-
-  #individual-portfolio-page {
-    padding-top: 27%;
-  }
-
-  .portfolio-img, .portfolio-img-outlined {
-    width: 80%;
-  }
-}
-
-
-/***** ======= Interim size TWAEKS ======= *****/
-@media screen and (min-width: 640px) {
-  .corner-body {
-    background-size: 22%, 47%;
-    background-position: 20px 10px, -29px 0px;
-  }
-}
-
-/***** ======= Interim size TWAEKS ======= *****/
-
-@media screen and (min-width: 758px) {
-
-  #portfolio .full-width {
-    padding-top: 23%;
-  }
-
-  #portfolio .quarter-width{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 250px;
-    height: 251px;
-    margin: 11px 17px 11px 0px;
-  }
-
-}
-
-/***** ======= TABLETS | min width 768px ======= *****/
-@media screen and (min-width: 768px) {
-  .home-body {
-    background-size: 19%, 45.5%;
-    background-position: 5% 2.5%, -29px 0px;
-  }
-
-  .corner-body {
-    background-size: 19%, 45.5%;
-    background-position: 5% 2.5%, -29px 0px;
-  }
-
-  hr {
-    border-top: 2px solid #808080;
-  	border-bottom: 1px solid #fff;
-    width: 50px;
-    margin-bottom: -9px;
-  }
-
-  .owl-mobile img {
-    display: none;
-  }
-
-  .owl-tablet {
-    display: flex;
-    height: 100%;
-    width: 110%;
-    margin: 0;
-  }
-
-  .owl-tablet img {
-    margin: -59px 0 0 0;
-    width: 76%;
-  }
-
-  .vertical-header {
-    min-height: 740px;
-    padding-top: 15px;
-    padding-bottom: 7px;
-  }
-
-  .developer-designer-illustrator-mobile-text {
-    width: 40px;
-    padding-left: 0px;
-    font-size: 50px;
-    line-height: 0px;
-  }
-
-  #home .little-bit-info-large-mobile .email-homepage {
-    font-size: 30px;
-    padding: 5px 0 11px 0;
-  }
-
-  #home .little-bit-info-large-mobile .email-homepage:hover {
-    color: #72b648;
-  }
-
-
-  #home .little-bit-info-large-mobile {
-    margin-bottom: 0;
-  }
-
-  #home .little-bit-info-large-mobile p {
-    font-size: 22.4px;
-    line-height: 26px;
-    padding-bottom: 11px;
-    margin-bottom: 0;
-  }
-
-
-  /***** ABOUT PAGE | TABLET min width 768px *****/
-  .about-spacing-container {
-    min-height: 1024px;
-  }
-
-  #about {
-    max-width: 935px;
-    width: 100%;
-  }
-
-  #about .full-width-about {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    padding: 0;
-    margin: 0;
-  }
-
-  .fifth-width-about {
-    width: 8%;
-    margin: 0;
-    padding: 0;
-  }
-
-  #about h1 {
-    font-size: 78px;
-    line-height: 0;
-    font-weight: bold;
-    color: #E6E7E8;
-    margin: 0;
-    font-weight: 400;
-  }
-
-  .jessica-mcintosh-vertical {
-    display: flex;
-    width: 8%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .vertical {
-    writing-mode: vertical-rl;
-    -webkit-transform:rotate(180deg);
-    -moz-transform:rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform:rotate(180deg);
-    transform: rotate(180deg);
-    white-space: nowrap;
-    display: flex;
-    line-height: 0px;
-    margin: 337px 0 0 13px;
-    padding: 0;
-
-  }
-
-  .about-work-home-sections {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    width: 97%;
-    margin: 0;
-    overflow: hidden;
-    height: 907px;
-  }
-
-  .four-fifths-width-work {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    width: 100%;
-    margin: 125px 0 0 0;
-    padding: 0;
-  }
-
-  .work-bracket-div {
-    width: 88px;
-    padding-top: 49px;
-  }
-
-  .giant-bracket-work {
-    font-size: 405px;
-  }
-
-  .work-vertical {
-    color: #ffffff;
-    font-size: 30px;
-    padding: 0;
-    margin-top: -213px;
-    margin-left: 20px;
-  }
-
-  .mobile-img-set-top {
-    display: none;
-  }
-
-  .mobile-img-set-bottom {
-    display: none;
-  }
-
-  .work-info-mobile {
-    display: none;
-  }
-
-  .about-wording-section-work {
-    padding: 0 15px 0 0;
-    width: 60%;
-  }
-
-  .work-info {
-    display: block;
-    padding-top: 7px;
-  }
-
-  #about .work-info p {
-    font-size: 15px;
-    line-height: 18px;
-    margin: 15px 0;
-  }
-
-  #about .home-info p {
-    font-size: 15px;
-    line-height: 18px;
-    margin: 13.5px 0;
-  }
-
-  .dark-purple-blue, .true-purple, .bright-purple, .warm-purple, .cool-red, .red, .red-orange, .orange {
-    font-size: 22px;
-  }
-
-  .about-img-block-work-tablet {
-    display: block;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 15px 25px 0 0;
-    width: 35%;
-    height: 345px;
-    background-color: lightgrey;
-    border: 1px solid #000;
-  }
-
-  #mobile-image-work-tablet {
-    background: lightgrey url('../img/jessica-work-tablet-pic.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-
-  .home-bracket-div-mobile {
-    display: none;
-  }
-
-  .home-info-mobile {
-    display: none;
-  }
-
-  .four-fifths-width-home {
-    display: flex;
-    flex-flow: row-reverse nowrap;
-    justify-content: space-between;
-    width: 100%;
-    margin: auto 0 0 0;
-  }
-
-  .about-wording-section-home {
-    width: 50%;
-  }
-
-  .home-bracket-div {
-    display: block;
-    width: 11.25%;
-    padding: 53px 13px 0 0;
-    height: 333px;
-  }
-
-  .giant-bracket-home {
-    font-size: 405px;
-  }
-
-  .home-vertical {
-    color: #fff;
-    font-size: 30px;
-    line-height: 0;
-    margin-top: -198px;
-    margin-left: 37px;
-    width: 20px;
     }
 
-  .home-info {
-    display: block;
-    width: 100%;
-    margin-top: -2px;
-    margin-right: -3px;
-    text-align: right;
-    padding: 0;
-  }
-
-  .green, .blue-green, .blue, .colbalt-blue, .true-purple-home {
-    font-size: 22px;
-  }
-
-  .about-img-block-home {
-    display: block;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: lightgrey;
-    border: 1px solid #000;
-    width: 33%;
-    height: 351px;
-    margin: 0 0 7px 39px;
-  }
-
-
-
-  /***** PORTFOLIO MAIN PAGE | TABLET min width 768px *****/
-
-  .corner-body #portfolio-illustration {
-    padding-top: 25%;
-  }
-
-  #portfolio .full-width {
-    padding-top: 21%;
-  }
-
-  #portfolio .quarter-width{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 343px;
-    height: 345px;
-    margin: 11px;
-  }
-
-  .illustration-mobile {
-    height: 97%;
-    width: 100%;
-    background-size: 105%;
-    background-position: 20% 12%;
-    padding: 5px;
-  }
-
-  .i {
-    font-size: 77px;
-    line-height: 87px;
-    padding-left: 8px;
-  }
-
-  .i-word-continuation {
-    font-size: 35px;
-    line-height: 118px;
-    padding-left: 9px;
-  }
-
-  .logo-design-tablet {
-    height: 97%;
-    width: 100%;
-    background-size: 95%;
-    background-position: 800% 240%;
-    padding: 5px;
-  }
-
-  .ld-l {
-    font-size: 77px;
-    line-height: 87px;
-    padding-left: 20px;
-  }
-
-  .ld-d {
-    font-size: 77px;
-    line-height: 63px;
-    padding-left: 7px;
-  }
-
-  .logo-word-continuation {
-    font-size: 35px;
-    line-height: 55px;
-    padding-left: 4.5px;
-  }
-
-  .l-design-word-continuation {
-    font-size: 35px;
-    line-height: 31px;
-    padding-left: 3.5px;
-  }
-
-  .web-design-tablet {
-    height: 97%;
-    width: 100%;
-    background-size: 47%;
-    background-position: 95% 86%;
-    padding: 5px;
-  }
-
-  .wd-w {
-    font-size: 77px;
-    line-height: 87px;
-    padding-left: 13px;
-  }
-
-  .wd-d {
-    font-size: 77px;
-    line-height: 63px;
-    padding-left: 15px;
-  }
-
-  .web-word-continuation {
-    font-size: 35px;
-    line-height: 55px;
-    padding-left: 0px;
-  }
-
-  .w-design-word-continuation {
-    font-size: 35px;
-    line-height: 31px;
-    padding-left: 4px;
-  }
-
-  .digital-illustration-tablet {
-    height: 97%;
-    width: 100%;
-    background-size: 100%;
-    background-position: 100% 30%;
-    padding: 5px;
-  }
-
-  .di-d {
-    font-size: 77px;
-    line-height: 87px;
-    padding-left: 6px;
-  }
-
-  .di-i {
-    font-size: 77px;
-    line-height: 63px;
-    padding-left: 16.5px;
-  }
-
-  .digital-word-continuation {
-    font-size: 35px;
-    line-height: 55px;
-    padding-left: 5px;
-  }
-
-  .d-illustration-word-continuation {
-    font-size: 35px;
-    line-height: 31px;
-    padding-left: 4px;
-  }
-
-  /***** PORTFOLIO THUMBNAIL PAGES | TABLETS min width 768px *****/
-
-  #portfolio-illustration  {
-    padding-top: 21%;
-  }
-
-  /***** PORTFOLIO INDIVIDUAL PAGES | TABLETS min width 768px *****/
-  #individual-portfolio-page {
-    padding-top: 20%;
-  }
-
-  .project-title {
-    margin: 15px 0 0 0;
-  }
-
-  #individual-portfolio-page h3 {
-    font-size: 33px;
-    line-height: normal;
-  }
-
-  #individual-portfolio-page p {
-    font-size: 21px;
-    margin: 1px 0 11px 0;
-  }
-
-  .link-to-site-project img {
-    width: 17px;
-    height: auto;
-    padding-bottom: 5px;
-  }
-
-
-  /***** UNDER CONSTRUCTION PAGE | TABLET min width 768px *****/
-
-  #under-construction-page {
-    padding-top: 33%;
-  }
-
-  #under-construction-page .full-width {
-    justify-content: center;
-    padding-top: 0;
-  }
-
-  #under-construction-page .under-construction-title h3 {
-    font-size: 65px;
-    line-height: 19px;
-  }
-
-  #under-construction-page .text-block p {
-    font-size: 37.5px;
-    margin: 13px 0 7px 0;
-  }
-
-  #under-construction-page .portfolio-description {
-    width: 84%;
-  }
-
-  #under-construction-page .portfolio-img {
-    width: 84%;
-  }
-
-  #under-construction-page .page-construction-title h1 {
-    font-size: 93px;
-    padding: 0;
-    margin: 90px 0 0px 9px;
-  }
-
-  /*** CONTACT | TABLET min-width: 768px ***/
-  .contact-img-block {
-    margin-top: 15%;
-  }
-
-  .contact-name h1 {
-    font-size: 93px;
-    line-height: 114px;
-  }
-
-  .contact-info-block h2 {
-    font-size: 45px;
-    line-height: 50px;
-  }
-
-  .contact-info-block p {
-    font-size: 28px;
-    line-height: 39px;
-  }
-
-  .contact-page-img {
-    width: 27%;
-    height: 230px;
-  }
-
-  .contact-page-img {
-    margin: 0 0 7px 13px;
-  }
-
-}
-
-
-
-/***** ======= Interim size TWAEKS ======= *****/
-@media screen and (min-width:810px) {
-  /***** PORTFOLIO THUMBNAIL PAGES | min width 810px *****/
-  .home-vertical {
-    margin-right:13%;
-  }
-
-  #portfolio-illustration {
-    padding-top: 33%;
-  }
-
-  .porfolio-thumb {
-    width: 15%;
-  }
-
-  /***** INDIVIDUAL PORTFOLIO PAGE TWAEKS *****/
-  .portfolio-img, .portfolio-img-outlined {
-    width: 67%;
-  }
-
-  .contact-page-img {
-    width: 21%;
-  }
-
-  #contact {
-    min-height: 275px;
-  }
-
-  .contact-img-block {
-    margin-top: 1%;
-  }
-}
-
-/***** ======= Interim size TWAEKS ======= *****/
-
-@media screen and (min-width:841px) {
-    /***** logo corner piece | min width 841px *****/
-    .corner-body {
-      background-size: 17%, 41%;
-      background-position: 5% 3.5%, -29px 0px;
+    #home .little-bit-info-large-mobile .email-homepage:hover {
+      color: #72b648;
     }
 
-    .four-fifths-width-work {
-      margin-top: 140px;
+    #home .little-bit-info-large-mobile p {
+      float: right;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      color: #828282;
+      line-height: 22px;
+      padding-top: 0px;
+      margin-top: 0px;
+      margin-bottom: 7px;
+      text-align: justify;
+      text-decoration: none;
+    }
+
+    /*==================================================
+    ABOUT PAGE | | min width 411px
+    ===================================================*/
+    .mobile-img-set-top, .mobile-img-set-bottom {
+      margin: 11% 3% 0 3%;
+    }
+
+    .vertical {
+      padding-top: 49px;
+      padding-bottom: 11px;
+    }
+
+    #about h1 {
+      font-size: 37px;
+      margin-top: 25px;
+      margin-bottom: 5px;
+    }
+
+    #about p {
+      font-size: 11px;
+      line-height: 14px;
+    }
+
+    .four-fifths-width-home {
+      margin-top: 23px;
+      margin-bottom: 10px;
+    }
+
+    .giant-bracket-work {
+      font-size: 275px;
+      line-height: 166px;
+    }
+
+    .giant-bracket-home {
+      font-size: 275px;
+      line-height: 164px;
+    }
+
+    .work-vertical {
+      font-size: 21px;
+      margin-left: 25.8px;
+      margin-top: -121px;
     }
 
     .home-vertical {
-      margin-right:17%;
+      font-size: 21px;
     }
 
-    #contact {
-      position: relative;
+    .home-bracket-div-mobile p {
+      margin-left: 19.1px;
+      margin-top: -152px;
     }
 
-    .contact-img-block {
-      margin-top: 13%;
+    .work-info-mobile, .home-info-mobile {
+      padding-left: 13px;
+    }
+
+    /* TITLES: .WORK SECTION */
+    .true-purple, .bright-purple, .warm-purple, .cool-red, .red, .red-orange, .orange {
+      line-height: 14px;
+    }
+
+    /* TITLES: .HOME SECTION */
+    .green, .blue-green, .blue, .colbalt-blue, .true-purple-home {
+      line-height: 14px;
+    }
+
+    /*==================================================
+    PORTFOLIO PAGE | | min width 411px
+    ===================================================*/
+    #portfolio .full-width {
+      padding-top: 28%;
+    }
+
+    #portfolio .quarter-width{
+      height: 115px;
+      margin-top: 7.5px;
+    }
+
+    .illustration-mobile {
+      height: 91.5%;
+    }
+
+    .logo-design-mobile {
+      height: 91.5%;
+    }
+
+    .web-design-mobile {
+      height: 90.75%;
+      background-size: 28%;
+      background-position: 97% 27%;
+    }
+
+    .digital-illustration-mobile {
+      height: 91.5%;
+    }
+
+    /*==================================================
+    CONTACT | | min width 411px
+    ===================================================*/
+    .contact-page-img {
+      background-position: center;
+      width: 29%;
+      height: 147px;
+    }
+
+    .contact-name h1 {
+      font-size: 57px;
+      padding-bottom: 0;
+    }
+
+    #contact-info-block h2 {
+      font-size: 28px;
+      padding-top: 6px;
+    }
+
+    /*==================================================
+    FOOTER | | min width 411px
+    ===================================================*/
+    #footer-border .half-width .copyright {
+      padding-left: 7px;
+    }
+
+    #footer-border ul {
+      margin-right: 7px;
     }
   }
 
-  @media screen and (min-width:900px) {
-    /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  /*==================================================
+  ~~~~~~~~~~~~~~~~~~min width 414px~~~~~~~~~~~~~~~~~~
+  ===================================================*/
+  @media screen and (min-width:414px) {
+    /*==================================================
+    ABOUT PAGE | | min width 414px
+    ===================================================*/
+    .vertical {
+      padding-top: 44px;
+      padding-bottom: 9px;
+    }
+
+    .fifth-width-about {
+      margin-top: 10px;
+    }
+
+    .four-fifths-width-home {
+      margin-bottom: 7px;
+    }
+
+    /*==================================================
+    PORTFOLIO PAGE | | min width 414px
+    ===================================================*/
+    .logo-design-mobile {
+      height: 90.75%;
+    }
+
+    /*==================================================
+    UNDER CONSTRUCTION PAGE | | min width 414px
+    ===================================================*/
+    #under-construction-page {
+      padding-top: 43%;
+    }
+  }
+
+  /*==================================================
+  ~~~~~~~~~~~~~~~~~~min width 520px~~~~~~~~~~~~~~~~~~
+  ===================================================*/
+  @media screen and (min-width: 520px) {
+    /*==================================================
+    GLOBAL STYLES | | min width 520px
+    ===================================================*/
+    .corner-body {
+      background-size: 23%, 55%;
+      background-position: 20px 20px, -29px 0px;
+    }
+
+    /*==================================================
+    NAVAGATION | | min width 520px
+    ===================================================*/
+    hr {
+      border-top: 2px solid #808080;
+  	  border-bottom: 1px solid #fff;
+      width: 43px;
+      margin-bottom: -10px;
+    }
+
+    /*==================================================
+    ABOUT PAGE | | min width 520px
+    ===================================================*/
+    #about {
+      max-width: 530px;
+    }
+
+    .mobile-img-set-top, .mobile-img-set-bottom {
+      width: 25%;
+      height: 175px;
+      float: left;
+      margin: 8% 3% 0 3%;
+    }
+
+    .vertical {
+      padding-top: 70px;
+    }
+
+    .four-fifths-width-home {
+      margin-bottom: 20px;
+    }
+
+    /*==================================================
+    PORTFOLIO PAGE | | min width 520px
+    ===================================================*/
+    #portfolio .full-width {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      padding-top: 23%;
+    }
+
+    .mobile {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    #portfolio .quarter-width {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 232.5px;
+      height: 226px;
+      margin: 11px 17px 11px 0px;
+    }
+
+    .illustration-mobile {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      height: 95.5%;
+      width: 100%;
+      background: url('../img/portfolio-illustration-tablet-faded.png');
+      background-repeat: no-repeat;
+      background-color: #ffffff;
+      background-size: 105%;
+      background-position: 20% 12%;
+      padding: 5px;
+    }
+
+    .i-block-initial {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .i {
+      font-size: 57px;
+      line-height: 63px;
+      padding-left: 4px;
+    }
+
+    .i-block-letters{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      width: 195px;
+    }
+
+    .i-word-continuation {
+      font-size: 21px;
+      line-height: 90px;
+      padding-left: 0px;
+    }
+
+    .logo-design-mobile {
+      display: none;
+    }
+
+    .logo-design-tablet {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      height: 95.5%;
+      width: 100%;
+      background: url('../img/portfolio-logo-design-mobile-logo.png');
+      background-repeat: no-repeat;
+      background-color: #ffffff;
+      background-size: 91%;
+      background-position: 490% 230%;
+      padding: 5px;
+    }
+
+    .ld-logo-design {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
+    }
+
+    .ld-logo p {
+      margin: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+    }
+
+    .ld-l {
+      font-size: 57px;
+      line-height: 63px;
+      padding-left: 15px;
+    }
+
+    .ld-d {
+      font-size: 57px;
+      line-height: 43px;
+      padding-left: 4px;
+    }
+
+    .logo-word-continuation {
+      font-size: 21px;
+      line-height: 36px;
+      padding-left: 4.5px;
+    }
+
+    .l-design-word-continuation {
+      font-size: 21px;
+      line-height: 17px;
+      padding-left: 3.5px;
+    }
+
+    .web-design-mobile {
+      display: none;
+    }
+
+    .web-design-tablet {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      height: 95.5%;
+      width: 100%;
+      background: url('../img/portfolio-web-design-mobile-web.png');
+      background-repeat: no-repeat;
+      background-color: #ffffff;
+      background-size: 47%;
+      background-position: 95% 86%;
+      padding: 5px;
+    }
+
+    .wd-web-design p {
+      margin: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+    }
+
+    .wd-w {
+      font-size: 57px;
+      line-height: 63px;
+      padding-left: 5px;
+    }
+
+    .wd-d {
+      font-size: 57px;
+      line-height: 43px;
+      padding-left: 6px;
+    }
+
+    .web-word-continuation {
+      font-size: 21px;
+      line-height: 36px;
+      padding-left: 0px;
+    }
+
+    .w-design-word-continuation {
+      font-size: 21px;
+      line-height: 17px;
+      padding-left: 3.5px;
+    }
+
+    .digital-illustration-mobile {
+      display: none;
+    }
+
+    .digital-illustration-tablet {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      height: 95.5%;
+      width: 100%;
+      background: url('../img/portfolio-digital-illustration-mobile-pattern.png');
+      background-repeat: no-repeat;
+      background-color: #ffffff;
+      background-size: 100%;
+      background-position: 100% 30%;
+      padding: 5px;
+    }
+
+    .di-digital-illustration p {
+      margin: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+    }
+
+    .di-d {
+      font-size: 57px;
+      line-height: 63px;
+      padding-left: 4px;
+    }
+
+    .di-i {
+      font-size: 57px;
+      line-height: 43px;
+      padding-left: 12.5px;
+    }
+
+    .digital-word-continuation {
+      font-size: 21px;
+      line-height: 36px;
+      padding-left: 5px;
+    }
+
+    .d-illustration-word-continuation {
+      font-size: 21px;
+      line-height: 16px;
+      padding-left: 5px;
+    }
+
+    /*==================================================
+    contact PAGE | | min width 520px
+    ===================================================*/
+    .contact-page-img {
+      width: 21%;
+    }
+  }
+
+  /*==================================================
+  ~~~~~~~~~~~~~~~~~~min width 568px~~~~~~~~~~~~~~~~~~
+  ===================================================*/
+  @media screen and (min-width: 568px) {
+    /*==================================================
+    HOME PAGE | | min width 568px
+    ===================================================*/
+    .vertical-header {
+      min-height: 650px;
+    }
+
+    .developer-designer-illustrator-mobile-text {
+      width: 20px;
+      padding-top: 2px;
+      padding-left: 17.3px;
+      font-size: 40px;
+      word-spacing: 1.5px;
+    }
+
+    /*==================================================
+    CONTACT PAGE | | min width 568px
+    ===================================================*/
+    #contact {
+      min-height: 250px;
+    }
+
+    .contact-img-block {
+      margin-top: 3%;
+    }
+  }
+
+  /*==================================================
+  ~~~~~~~~~~~~~~~~~~min width 610px~~~~~~~~~~~~~~~~~~
+  ===================================================*/
+  @media screen and (min-width: 610px) {
+    /*==================================================
+    PORTFOLIO INDIVIDUAL PAGES | | min width 610px
+    ===================================================*/
+    #individual-portfolio-page {
+      padding-top: 27%;
+    }
+
+    .portfolio-img, .portfolio-img-outlined {
+      width: 80%;
+    }
+  }
+
+  /*==================================================
+  ~~~~~~~~~~~~~~~~~~min width 640px~~~~~~~~~~~~~~~~~~
+  ===================================================*/
+  @media screen and (min-width: 640px) {
+    /*==================================================
+    GLOBAL STYLES | | min width 640px
+    ===================================================*/
+    .corner-body {
+      background-size: 22%, 47%;
+      background-position: 20px 10px, -29px 0px;
+    }
+
+    /*==================================================
+    HOME PAGE | | min width 640px
+    ===================================================*/
+    .vertical-header {
+      min-height: 740px;
+      max-height: 760px;
+      padding-top: 15px;
+      padding-bottom: 2px;
+    }
+
+    .developer-designer-illustrator-mobile-text {
+      width: 40px;
+      padding-left: 0px;
+      font-size: 47px;
+      line-height: 0px;
+    }
+  }
+
+  /*==================================================
+  ~~~~~~~~~~~~~~~~~~min width 667px~~~~~~~~~~~~~~~~~~
+  ===================================================*/
+  @media screen and (min-width: 667px) {
+    /*==================================================
+    HOME PAGE | | min width 667px
+    ===================================================*/
+    .vertical-header {
+      min-height: 790px;
+    }
+  }
+
+  /*==================================================
+  ~~~~~~~~~~~~~~~~~~min width 730px~~~~~~~~~~~~~~~~~~
+  ===================================================*/
+  @media screen and (min-width: 730px) {
+    /*==================================================
+    HOME PAGE | | min width 730px
+    ===================================================*/
+    .vertical-header {
+      min-height: 825px;
+      padding-bottom: 3px;
+    }
+
+    .developer-designer-illustrator-mobile-text {
+      font-size: 50px;
+    }
+  }
+
+  /*==================================================
+  ~~~~~~~~~~~~~~~~~~min width 758px~~~~~~~~~~~~~~~~~~
+  ===================================================*/
+  @media screen and (min-width: 758px) {
+    /*==================================================
+    PORTFOLIO PAGE | | min width 758px
+    ===================================================*/
+    #portfolio .full-width {
+      padding-top: 23%;
+    }
+
+    #portfolio .quarter-width{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 250px;
+      height: 251px;
+      margin: 11px 17px 11px 0px;
+    }
+  }
+
+  /*==================================================
+  ~~~~~~~~~~~~~~~~~~min width 768px~~~~~~~~~~~~~~~~~~
+  ===================================================*/
+  @media screen and (min-width: 768px) {
+    /*==================================================
+    GLOBAL STYLES | TABLET-iPAD | min width 768px
+    ===================================================*/
+    .home-body {
+      background-size: 19%, 49.5%;
+      background-position: 5% 2.5%, -29px 0px;
+    }
+
+    .corner-body {
+      background-size: 19%, 45.5%;
+      background-position: 5% 2.5%, -29px 0px;
+    }
+
+    hr {
+      border-top: 2px solid #808080;
+  	   border-bottom: 1px solid #fff;
+       width: 50px;
+       margin-bottom: -9px;
+     }
+
+     /*==================================================
+     HOME PAGE | TABLET-iPAD | min width 768px
+     ===================================================*/
+     .hello-mobile {
+       min-height: calc(100vh - 122px);
+     }
+
+     .owl-mobile img {
+       display: none;
+     }
+
+     .owl-tablet {
+       display: flex;
+       height: 100%;
+       width: 110%;
+       margin: 0;
+     }
+
+     .owl-tablet img {
+       margin: -59px 0 5px 0;
+       width: 78%;
+     }
+
+     .vertical-header {
+       min-height: 757px;
+       padding-bottom: 5px;
+     }
+
+     #home .little-bit-info-large-mobile .email-homepage {
+       font-size: 30px;
+       padding: 5px 0 11px 0;
+     }
+
+     #home .little-bit-info-large-mobile .email-homepage:hover {
+       color: #72b648;
+     }
+
+     #home .little-bit-info-large-mobile {
+       margin-bottom: 0;
+     }
+
+     #home .little-bit-info-large-mobile p {
+       font-size: 22.4px;
+       line-height: 26px;
+       padding-bottom: 11px;
+       margin-bottom: 0;
+     }
+
+     /*==================================================
+     ABOUT PAGE | TABLET-iPAD | min width 768px
+     ===================================================*/
+     .about-spacing-container {
+       min-height: 1024px;
+     }
+
+     #about {
+       max-width: 935px;
+       width: 100%;
+     }
+
+     #about .full-width-about {
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: flex-end;
+       padding: 0;
+       margin: 0;
+     }
+
+     .fifth-width-about {
+       width: 8%;
+       margin: 0;
+       padding: 0;
+     }
+
+     #about h1 {
+       font-size: 78px;
+       line-height: 0;
+       font-weight: bold;
+       color: #E6E7E8;
+       margin: 0;
+       font-weight: 400;
+     }
+
+     .jessica-mcintosh-vertical {
+       display: flex;
+       width: 8%;
+       padding: 0;
+       margin: 0;
+     }
+
+     .vertical {
+       writing-mode: vertical-rl;
+       -webkit-transform:rotate(180deg);
+       -moz-transform:rotate(180deg);
+       -o-transform: rotate(180deg);
+       -ms-transform:rotate(180deg);
+       transform: rotate(180deg);
+       white-space: nowrap;
+       display: flex;
+       line-height: 0px;
+       margin: 337px 0 0 13px;
+       padding: 0;
+     }
+
+     .about-work-home-sections {
+       display: flex;
+       flex-direction: column;
+       align-content: space-between;
+       width: 97%;
+       margin: 0;
+       overflow: hidden;
+       height: 907px;
+     }
+
+     .four-fifths-width-work {
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: space-between;
+       width: 100%;
+       margin: 125px 0 0 0;
+       padding: 0;
+     }
+
+     .work-bracket-div {
+       width: 88px;
+       padding-top: 49px;
+     }
+
+     .giant-bracket-work {
+       font-size: 405px;
+     }
+
+     .work-vertical {
+       color: #ffffff;
+       font-size: 30px;
+       padding: 0;
+       margin-top: -213px;
+       margin-left: 20px;
+     }
+
+     .mobile-img-set-top {
+       display: none;
+     }
+
+     .mobile-img-set-bottom {
+       display: none;
+     }
+
+     .work-info-mobile {
+       display: none;
+     }
+
+     .about-wording-section-work {
+       padding: 0 15px 0 0;
+       width: 60%;
+     }
+
+     .work-info {
+       display: block;
+       padding-top: 7px;
+     }
+
+     #about .work-info p {
+       font-size: 15px;
+       line-height: 18px;
+       margin: 15px 0;
+     }
+
+     #about .home-info p {
+       font-size: 15px;
+       line-height: 18px;
+       margin: 13.5px 0;
+     }
+
+     .dark-purple-blue, .true-purple, .bright-purple, .warm-purple, .cool-red, .red, .red-orange, .orange {
+       font-size: 22px;
+     }
+
+     .about-img-block-work-tablet {
+       display: block;
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin: 15px 25px 0 0;
+       width: 35%;
+       height: 345px;
+       background-color: lightgrey;
+       border: 1px solid #000;
+     }
+
+     #mobile-image-work-tablet {
+       background: lightgrey url('../img/jessica-work-tablet-pic.png');
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+
+
+     .home-bracket-div-mobile {
+       display: none;
+     }
+
+     .home-info-mobile {
+       display: none;
+     }
+
+     .four-fifths-width-home {
+       display: flex;
+       flex-flow: row-reverse nowrap;
+       justify-content: space-between;
+       width: 100%;
+       margin: auto 0 0 0;
+     }
+
+     .about-wording-section-home {
+       width: 50%;
+     }
+
+     .home-bracket-div {
+       display: block;
+       width: 11.25%;
+       padding: 53px 13px 0 0;
+       height: 333px;
+     }
+
+     .giant-bracket-home {
+       font-size: 405px;
+     }
+
+     .home-vertical {
+       color: #fff;
+       font-size: 30px;
+       line-height: 0;
+       margin-top: -198px;
+       margin-left: 37px;
+       width: 20px;
+     }
+
+     .home-info {
+       display: block;
+       width: 100%;
+       margin-top: -2px;
+       margin-right: -3px;
+       text-align: right;
+       padding: 0;
+     }
+
+     .green, .blue-green, .blue, .colbalt-blue, .true-purple-home {
+       font-size: 22px;
+     }
+
+     .about-img-block-home {
+       display: block;
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-color: lightgrey;
+       border: 1px solid #000;
+       width: 33%;
+       height: 351px;
+       margin: 0 0 7px 39px;
+     }
+
+     /*==================================================
+     PORTFOLIO PAGE | TABLET-iPAD | min width 768px
+     ===================================================*/
+     .corner-body #portfolio-illustration {
+       padding-top: 25%;
+     }
+
+     #portfolio .full-width {
+       padding-top: 21%;
+     }
+
+     #portfolio .quarter-width{
+       display: flex;
+       justify-content: flex-start;
+       align-items: flex-start;
+       width: 343px;
+       height: 345px;
+       margin: 11px;
+     }
+
+     .illustration-mobile {
+       height: 97%;
+       width: 100%;
+       background-size: 105%;
+       background-position: 20% 12%;
+       padding: 5px;
+     }
+
+     .i {
+       font-size: 77px;
+       line-height: 87px;
+       padding-left: 8px;
+     }
+
+     .i-word-continuation {
+       font-size: 35px;
+       line-height: 118px;
+       padding-left: 9px;
+     }
+
+     .logo-design-tablet {
+       height: 97%;
+       width: 100%;
+       background-size: 95%;
+       background-position: 800% 240%;
+       padding: 5px;
+     }
+
+     .ld-l {
+       font-size: 77px;
+       line-height: 87px;
+       padding-left: 20px;
+     }
+
+     .ld-d {
+       font-size: 77px;
+       line-height: 63px;
+       padding-left: 7px;
+     }
+
+     .logo-word-continuation {
+       font-size: 35px;
+       line-height: 55px;
+       padding-left: 4.5px;
+     }
+
+     .l-design-word-continuation {
+       font-size: 35px;
+       line-height: 31px;
+       padding-left: 3.5px;
+     }
+
+     .web-design-tablet {
+       height: 97%;
+       width: 100%;
+       background-size: 47%;
+       background-position: 95% 86%;
+       padding: 5px;
+     }
+
+     .wd-w {
+       font-size: 77px;
+       line-height: 87px;
+       padding-left: 13px;
+     }
+
+     .wd-d {
+       font-size: 77px;
+       line-height: 63px;
+       padding-left: 15px;
+     }
+
+     .web-word-continuation {
+       font-size: 35px;
+       line-height: 55px;
+       padding-left: 0px;
+     }
+
+     .w-design-word-continuation {
+       font-size: 35px;
+       line-height: 31px;
+       padding-left: 4px;
+     }
+
+     .digital-illustration-tablet {
+       height: 97%;
+       width: 100%;
+       background-size: 100%;
+       background-position: 100% 30%;
+       padding: 5px;
+     }
+
+     .di-d {
+       font-size: 77px;
+       line-height: 87px;
+       padding-left: 6px;
+     }
+
+     .di-i {
+       font-size: 77px;
+       line-height: 63px;
+       padding-left: 16.5px;
+     }
+
+     .digital-word-continuation {
+       font-size: 35px;
+       line-height: 55px;
+       padding-left: 5px;
+     }
+
+     .d-illustration-word-continuation {
+       font-size: 35px;
+       line-height: 31px;
+       padding-left: 4px;
+     }
+
+     /*==================================================
+     PORTFOLIO INDEX PAGE | TABLET-iPAD | min width 768px
+     ===================================================*/
+     #portfolio-illustration  {
+       padding-top: 21%;
+     }
+
+     /*=======================================================
+     PORTFOLIO INDIVIDUAL PAGE | TABLET-iPAD | min width 768px
+     ========================================================*/
+     #individual-portfolio-page {
+       padding-top: 20%;
+     }
+
+     .project-title {
+       margin: 15px 0 0 0;
+     }
+
+     #individual-portfolio-page h3 {
+       font-size: 33px;
+       line-height: normal;
+     }
+
+     #individual-portfolio-page p {
+       font-size: 21px;
+       margin: 1px 0 11px 0;
+     }
+
+     .link-to-site-project img {
+       width: 17px;
+       height: auto;
+       padding-bottom: 5px;
+     }
+
+     /*=====================================================
+     UNDER CONSTRUCTION PAGE | TABLET-iPAD | min width 768px
+     ======================================================*/
+     #under-construction-page {
+       padding-top: 33%;
+     }
+
+     #under-construction-page .full-width {
+       justify-content: center;
+       padding-top: 0;
+     }
+
+     #under-construction-page .under-construction-title h3 {
+       font-size: 65px;
+       line-height: 19px;
+     }
+
+     #under-construction-page .text-block p {
+       font-size: 37.5px;
+       margin: 13px 0 7px 0;
+     }
+
+     #under-construction-page .portfolio-description {
+       width: 84%;
+     }
+
+     #under-construction-page .portfolio-img {
+       width: 84%;
+     }
+
+     #under-construction-page .page-construction-title h1 {
+       font-size: 93px;
+       padding: 0;
+       margin: 90px 0 0px 9px;
+     }
+
+     /*==================================================
+     CONTACT PAGE | TABLET-iPAD | min width 768px
+     ===================================================*/
+     .contact-img-block {
+       margin-top: 15%;
+     }
+
+     .contact-name h1 {
+       font-size: 93px;
+       line-height: 114px;
+     }
+
+     .contact-info-block h2 {
+       font-size: 45px;
+       line-height: 50px;
+     }
+
+     .contact-info-block p {
+       font-size: 28px;
+       line-height: 39px;
+     }
+
+     .contact-page-img {
+       width: 27%;
+       height: 230px;
+     }
+
+     .contact-page-img {
+       margin: 0 0 7px 13px;
+     }
+   }
+
+/*==================================================
+~~~~~~~~~~~~~INTERIM LAYOUT ADJUSTMENTS~~~~~~~~~~~~~
+===================================================*/
+
+   /*==================================================
+   ~~~~~~~~~~~~~~~~~~min width 810px~~~~~~~~~~~~~~~~~~
+   ===================================================*/
+   @media screen and (min-width:810px) {
+     /*==================================================
+     HOME PAGE || min width 810px
+     ===================================================*/
+     .vertical-header {
+       min-height: 800px;
+     }
+
+     /*==================================================
+     ABOUT PAGE || min width 810px
+     ===================================================*/
+     .home-vertical {
+       margin-right:13%;
+     }
+
+     /*==================================================
+     PORTFOLIO INDEX PAGE || min width 810px
+     ===================================================*/
+     #portfolio-illustration {
+       padding-top: 33%;
+     }
+
+     .porfolio-thumb {
+       width: 15%;
+     }
+
+     /*==================================================
+     PORTFOLIO INDIVIDUAL PAGE || min width 810px
+     ===================================================*/
+     .portfolio-img, .portfolio-img-outlined {
+       width: 67%;
+     }
+
+     .contact-page-img {
+       width: 21%;
+     }
+
+     /*==================================================
+     CONTACT PAGE || min width 810px
+     ===================================================*/
+     #contact {
+       min-height: 275px;
+     }
+
+     .contact-img-block {
+       margin-top: 1%;
+     }
+   }
+
+   /*==================================================
+   ~~~~~~~~~~~~~~~~~~min width 823px~~~~~~~~~~~~~~~~~~
+   ===================================================*/
+   @media screen and (min-width: 823px) {
+     /*==================================================
+     HOME PAGE || min width 823px
+     ===================================================*/
+     .vertical-header {
+       min-height: 790px;
+       max-height: 800px;
+     }
+   }
+
+   /*==================================================
+   ~~~~~~~~~~~~~~~~~~min width 841px~~~~~~~~~~~~~~~~~~
+   ===================================================*/
+   @media screen and (min-width:841px) {
+     /*==================================================
+     GLOBAL STYLES || min width 841px
+     ===================================================*/
+     .corner-body {
+       background-size: 17%, 41%;
+       background-position: 5% 3.5%, -29px 0px;
+     }
+
+     /*==================================================
+     ABOUT PAGE || min width 841px
+     ===================================================*/
+     .four-fifths-width-work {
+       margin-top: 140px;
+     }
+
+     .home-vertical {
+       margin-right:17%;
+     }
+
+     /*==================================================
+     CONTACT PAGE || min width 841px
+     ===================================================*/
+     #contact {
+      position: relative;
+    }
+
+     .contact-img-block {
+       margin-top: 13%;
+     }
+   }
+
+   /*==================================================
+   ~~~~~~~~~~~~~~~~~~min width 900px~~~~~~~~~~~~~~~~~~
+   ===================================================*/
+   @media screen and (min-width:900px) {
+     /*==================================================
+     ABOUT PAGE || min width 900px
+     ===================================================*/
     .home-bracket-div {
       padding-right: 0.75%;
     }
@@ -3215,262 +3401,267 @@ footer .half-width {
     }
   }
 
+   /*==================================================
+   ~~~~~~~~~~~~~DESKTOP | min width 900px~~~~~~~~~~~~~~
+   ===================================================*/
+   @media screen and (min-width:940px) {
+     /*==================================================
+     GLOBAL STYLES | DESKTOP| min width 940px
+     ===================================================*/
+     .home-body {
+       background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
+       background-repeat: no-repeat, no-repeat;
+       background-attachment: scroll, scroll;
+       background-size: 30.5%, 47.3%;
+       background-position: -29px 0px;
+     }
 
-/***** ======= BEGIN DESKTOPS ======= *****/
-@media screen and (min-width:940px) {
-  /*desktop styles*/
+     .corner-body {
+       background: url('../img/corner-sketch.gif');
+       background-repeat: no-repeat;
+       background-attachment: scroll;
+       background-size: 30.5%;
+       background-position: -29px 0px;
+     }
 
-  /***** CORNER OPTIONS | DESKTOP min width 940px *****/
-  .home-body {
-      background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
-      background-repeat: no-repeat, no-repeat;
-      background-attachment: scroll, scroll;
-      background-size: 30.5%, 47.3%;
-      background-position: -29px 0px;
-  }
+     .full-width {
+       width: 100%;
+       margin: 0;
+       vertical-align: top;
+     }
 
-  .corner-body {
-      background: url('../img/corner-sketch.gif');
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-size: 30.5%;
-      background-position: -29px 0px;
-  }
+     .half-width {
+       width: 50%;
+       float: left;
+     }
 
-  /***** GRID OPTIONS | DESKTOP min width 940px *****/
+     .two-thirds-width {
+       width: calc(2/3);
+       float: left;
+     }
 
-  .full-width {
-    width: 100%;
-    margin: 0;
-    vertical-align: top;
-  }
+     .third-width {
+       width: calc(1/3);
+       float: left;
+     }
 
-  .half-width {
-    width: 50%;
-    float: left;
-  }
+     .fifth-width {
+       width: 20%;
+       float: left;
+     }
 
-  .two-thirds-width {
-    width: calc(2/3);
-    float: left;
-  }
+     .height-140 {
+       height: 140px;
+     }
 
-  .third-width {
-    width: calc(1/3);
-    float: left;
-  }
+     /*==================================================
+     NAVAGATION STYLES | DESKTOP| min width 940px
+     ===================================================*/
+     header {
+       display: flex;
+       flex-flow: row;
+       width: 100%;
+       margin: 0;
+       justify-content: space-between;
+       overflow: visible;
+     }
 
-  .fifth-width {
-    width: 20%;
-    float: left;
-  }
+     .logo {
+       display: flex;
+       width: 13%;
+       margin: 0;
+     }
 
-  .height-140 {
-    height: 140px;
-  }
+     .logo img {
+       display: flex;
+       padding: 9% 0 0 20%;
+       margin: 0;
+     }
 
-  /***** HEADER & NAVIGATION | DESKTOP min width 940px *****/
-  header {
-    display: flex;
-    flex-flow: row;
-    width: 100%;
-    margin: 0;
-    justify-content: space-between;
-    overflow: visible;
-  }
+     .mobile-nav-icon {
+       display: none;
+     }
 
-  .logo {
-    display: flex;
-    width: 13%;
-    margin: 0;
-  }
+     .horizontal-nav {
+       display: flex;
+       width: 50%;
+       margin: 0;
+       overflow: visible;
+     }
 
-  .logo img {
-    display: flex;
-    padding: 9% 0 0 20%;
-    margin: 0;
-  }
+     .horizontal-nav nav {
+       display: flex;
+       width: 100%;
+       padding: 0 5% 0 10%;
+       margin: 0;
+     }
 
-  .mobile-nav-icon {
-    display: none;
-  }
+     nav ul {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       width: 100%;
+     }
 
-  .horizontal-nav {
-    display: flex;
-    width: 50%;
-    margin: 0;
-    overflow: visible;
-  }
+     nav ul li {
+       display: flex;
+       padding: 75px 0 0 0;
+     }
 
-  .horizontal-nav nav {
-    display: flex;
-    width: 100%;
-    padding: 0 5% 0 10%;
-    margin: 0;
-  }
+     nav ul li a {
+       display: flex;
+       font-family: 'Quicksand', sans-serif;
+       font-weight: 300;
+       text-transform: lowercase;
+       text-decoration: none;
+       font-size: 22px;
+       color: #828282;
+     }
 
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-  }
+     #nav-on-page {
+       font-family: 'Quicksand', sans-serif;
+       font-weight: 300;
+       text-transform: lowercase;
+       text-decoration: none;
+       font-size: 22px;
+       color: #72b648;
+     }
 
-  nav ul li {
-    display: flex;
-    padding: 75px 0 0 0;
-  }
+     /*==================================================
+     HOME PAGE | DESKTOP| min width 940px
+     ===================================================*/
+     #home {
+       height: calc(100vh - 45vh);
+       min-height: 474.5px;
+       border: none;
+     }
 
-  nav ul li a {
-    display: flex;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    text-transform: lowercase;
-    text-decoration: none;
-    font-size: 22px;
-    color: #828282;
-  }
+     #home .full-width {
+       padding-top: 10px;
+     }
 
-  #nav-on-page {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    text-transform: lowercase;
-    text-decoration: none;
-    font-size: 22px;
-    color: #72b648;
-  }
+     #home h1 {
+       font-family: 'Fredericka the Great', cursive;
+       font-size: 144px;
+       line-height: 100px;
+       color: #dfcde4;
+       padding-left: 47px;
+       padding-top: 55px;
+     }
 
-  /***** HOME PAGE | DESKTOP min width 940px *****/
+     #home h2 {
+       font-family: 'Quicksand', sans-serif;
+       font-size: 38px;
+       font-weight: 300;
+       color: #000000;
+       line-height: 30px;
+       text-align: right;
+       padding-right: 16%;
+       text-decoration: none;
+     }
 
-  #home {
-    height: calc(100vh - 45vh);
-    min-height: 474.5px;
-    border: none;
-  }
+     #home p {
+       font-family: 'Quicksand', sans-serif;
+       font-size: 23px;
+       font-weight: 300;
+       color: #828282;
+       line-height: 27px;
+       padding-top: 50px;
+       text-align: right;
+       text-decoration: none;
+     }
 
-  #home .full-width {
-    padding-top: 10px;
-  }
+     #home ul li a {
+       font-family: 'Quicksand', sans-serif;
+       font-weight: 100;
+       font-size: 19px;
+       color: #000000;
+       text-decoration: none;
+     }
 
-  #home h1 {
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 144px;
-    line-height: 100px;
-    color: #dfcde4;
-    padding-left: 47px;
-    padding-top: 55px;
-  }
+     .hello-mobile {
+       display: none;
+     }
 
-  #home h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 38px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 30px;
-    text-align: right;
-    padding-right: 16%;
-    text-decoration: none;
-  }
+     .hello {
+       display: block;
+     }
 
-  #home p {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 23px;
-    font-weight: 300;
-    color: #828282;
-    line-height: 27px;
-    padding-top: 50px;
-    text-align: right;
-    text-decoration: none;
-  }
+     #home .half-width{
+       margin-top: 80px;
+     }
 
-  #home ul li a {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 100;
-    font-size: 19px;
-    color: #000000;
-    text-decoration: none;
-  }
+     .developer-designer-illustrator-mobile {
+       display: none;
+     }
 
-  .hello-mobile {
-    display: none;
-  }
+     .developer-designer-illustrator {
+       display: block;
+       font-family: 'Quicksand', sans-serif;
+       font-size: 25px;
+       font-weight: 300;
+       color: #000000;
+       line-height: 33px;
+       text-align: right;
+       text-decoration: none;
+       word-spacing: 1.5px;
+     }
 
-  .hello {
-    display: block;
-  }
+     /*==================================================
+     ABOUT PAGE | DESKTOP| min width 940px
+     ===================================================*/
+     #about {
+       max-width: 100%;
+       margin-top: 3%;
+       display: flex;
+       justify-content: flex-end;
+     }
 
-  #home .half-width{
-    margin-top: 80px;
-  }
+     .full-width-about {
+       width: 95%;
+       display: flex;
+       margin-left: auto;
+       margin-right: 0;
+     }
 
-  .developer-designer-illustrator-mobile {
-    display: none;
-  }
+     .four-fifths-width-work {
+       margin-top: 0;
+     }
 
-  .developer-designer-illustrator {
-    display: block;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 33px;
-    text-align: right;
-    text-decoration: none;
-    word-spacing: 1.5px;
-  }
+     .vertical {
+       margin: 207px 0 0 15px;
+     }
 
-  /***** ABOUT PAGE | DESKTOP min width 940px *****/
-  #about {
-    max-width: 100%;
-    margin-top: 3%;
-    display: flex;
-    justify-content: flex-end;
-  }
+     .about-work-home-sections {
+       height: auto;
+     }
 
-  .full-width-about {
-    width: 95%;
-    display: flex;
-    margin-left: auto;
-    margin-right: 0;
-  }
+     .four-fifths-width-home {
+       margin: 20px 0 0 0;
+     }
 
-  .four-fifths-width-work {
-    margin-top: 0;
-  }
+     .home-bracket-div {
+       width: 10%;
+     }
 
-  .vertical {
-    margin: 207px 0 0 15px;
-  }
+     .about-wording-section-work {
+       min-width: 479px;
+     }
 
-  .about-work-home-sections {
-    height: auto;
-  }
+     .about-wording-section-home {
+       margin-left: auto;
+     }
 
-  .four-fifths-width-home {
-    margin: 20px 0 0 0;
-  }
+     #mobile-image-home {
+       background: lightgrey url('../img/jessica-work-desktop-pic.png');
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
 
-  .home-bracket-div {
-    width: 10%;
-  }
-
-  .about-wording-section-work {
-    min-width: 479px;
-  }
-
-  .about-wording-section-home {
-    margin-left: auto;
-  }
-
-  #mobile-image-home {
-    background: lightgrey url('../img/jessica-work-desktop-pic.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  /***** PORTFOLIO PAGE | DESKTOP: min width 940px *****/
-
+     /*==================================================
+     PORTFOLIO PAGE | DESKTOP| min width 940px
+     ===================================================*/
   .horizontal-nav {
     overflow: visible;
   }
@@ -3657,8 +3848,7 @@ footer .half-width {
     text-decoration: none;
   }
 
-  /***** PORTFOLIO THUMBNAIL PAGES | DESKTOP: min width 940px *****/
-
+  /* PORTFOLIO INDEX PAGE | DESKTOP | min width 940px */
   .corner-body #portfolio-illustration {
     padding-top: 8%;
   }
@@ -3667,7 +3857,7 @@ footer .half-width {
     padding-top: 8%;
   }
 
-  /***** PORTFOLIO INDIVIDUAL PAGES | DESKTOP: min width 940px *****/
+  /* PORTFOLIO INDIVIDUAL PAGE | DESKTOP | min width 940px */
   #individual-portfolio-page {
     padding-top: 7%;
   }
@@ -3707,8 +3897,7 @@ footer .half-width {
     line-height: 27px;
   }
 
-  /***** CONTACT PAGE | DESKTOP: min width 940px *****/
-
+  /* CONTACT PAGE | DESKTOP | min width 940px */
   #contact {
     height: calc(100vh - 198px)
   }
@@ -3717,7 +3906,7 @@ footer .half-width {
     margin-top: 7%;
   }
 
-/***** UNDER CONSTRUCTION | DESKTOP min width 940px *****/
+  /* UNDER CONSTRUCTION PAGE | DESKTOP | min width 940px */
   #under-construction-page {
     padding-top: 7%;
     padding-left: 3%;
@@ -3731,8 +3920,7 @@ footer .half-width {
     width: 66.5%;
   }
 
-
-  /***** FOOTER | DESKTOP: min width 940px *****/
+  /* FOOTER | DESKTOP | min width 940px */
   .home-body footer {
     background-color: #fff;
     border-top: 1px solid #000;
@@ -3783,7 +3971,6 @@ footer .half-width {
     color: #72b648;
   }
 
-
   #footer p {
     font-size: 17px;
     font-weight: 300;
@@ -3828,35 +4015,73 @@ footer .half-width {
   }
 }
 
+
+
 @media screen and (min-width:995px) {
+  /* HOME PAGE | min width 995px */
   #home {
     min-height: 503px;
   }
 }
-/*============ NOTE: interim tweaks ========================= */
 
+
+/***** ======= BEGIN iPAD HORIZONTAL ======= *****/
 @media screen and (min-width:1024px) {
-  /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
-  /* NOTE:
+  /* GLOBAL STYLES | iPAD HORIZONTAL | min width 1024px */
   .home-body {
-      background: url('../img/corner-sketch.gif'), url('../img/wise-web-owl.gif');
-      background-repeat: no-repeat, no-repeat;
-      background-attachment: scroll, scroll;
-      background-size: 24.4%, 37.84%;
-      background-position: -29px 0px;
+    background: url(../img/corner-sketch.gif), url(../img/wise-web-owl.gif);
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    background-size: 32.4468%, 50.3191%;
+    background-position: -29px 0px;
   }
-   */
 
-   #home {
-     min-height: 533px;
-   }
+  .corner-body {
+    background: url('../img/corner-sketch.gif');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 32.4468%;
+    background-position: -29px 0px;
+  }
 
+  .logo {
+    display: flex;
+    width: 13.8298%;
+    margin: 0;
+  }
+
+  .logo img {
+    display: flex;
+    padding: 9% 0 0 20%;
+    margin: 0;
+  }
+
+  /* HOME PAGE | iPAD HORIZONTAL | min width 1024px */
+  #home {
+    height: 550PX;
+  }
+
+  /* ABOUT PAGE | iPAD HORIZONTAL | min width 1024px */
   #about {
     margin-top: 2.5%;
   }
 
   .fifth-width-about {
     margin-left: auto;
+  }
+
+  /* PORTFOLIO PAGE | iPAD HORIZONTAL | min width 1024px */
+  #portfolio {
+    height: calc(100vh - 217px);
+  }
+
+  #portfolio .full-width {
+    padding-top: 5%;
+  }
+
+  /* CONTACT PAGE | iPAD HORIZONTAL | min width 1024px */
+  #contact {
+    height: calc(100vh - 217px);
   }
 
   .contact-img-block {
@@ -3866,14 +4091,30 @@ footer .half-width {
   .contact-page-img {
     width: 17%;
   }
-
 }
 
 @media screen and (min-width:1030px) {
-  /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  /* GLOBAL STYLES | min width 1030px */
+  .home-body {
+    background-size: 32.4468%, 50.3191%;
+  }
+
+  .corner-body {
+    background-size: 32.4468%;
+  }
+
+  .logo {
+    width: 13.8298%;
+  }
+
+  .logo img {
+    display: flex;
+    padding: 9% 0 0 20%;
+    margin: 0;
+  }
+
   #home {
-    height: calc(100vh - 30.75vh);
-    min-height: 523px;
+    height: calc(550px + .5vh);
   }
 
   #about p {
@@ -3884,9 +4125,7 @@ footer .half-width {
 
 @media screen and (min-width:1090px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
-  #home {
-    height: calc(100vh - 29.5vh);
-  }
+
 
   .dark-purple-blue {
     margin-top: 0;
@@ -3908,6 +4147,26 @@ footer .half-width {
 }
 
 @media screen and (min-width: 1120px) {
+  .home-body {
+    background-size: 30.1755%, 46.7968%;
+  }
+
+  .corner-body {
+    background-size: 30.1755%;
+  }
+
+  .logo {
+    width: 12.8617%;
+  }
+
+  .logo img {
+    padding: 9% 0 0 24%;
+  }
+
+  #home {
+    height: calc(550px + 1vh);
+  }
+
   .about-img-block-work-tablet {
     display: none;
   }
@@ -3939,6 +4198,10 @@ footer .half-width {
 
 
 @media screen and (min-width:1200px) {
+  #home {
+    height: calc(592px + 1vh);
+  }
+
 
   /***** ABOUT PAGE *****/
 
@@ -3979,6 +4242,10 @@ footer .half-width {
 
 @media screen and (min-width:1250px) {
   /***** ABOUT PAGE .work & .home TITLE TWEAKS *****/
+  #home {
+    height: calc(617px + 1vh);
+  }
+
   #about {
     margin-top: 0;
   }
@@ -4016,14 +4283,41 @@ footer .half-width {
   }
 }
 
+/***** ======= BEGIN iPAD PRO HORIZONTAL ======= *****/
 @media screen and (min-width:1366px) {
-  /***** ABOUT | min-width: 1366px *****/
+  /* GLOBAL STYLES | iPAD PRO HORIZONTAL | min width 1366px */
+  .home-body {
+    background: url(../img/corner-sketch.gif), url(../img/wise-web-owl.gif);
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    background-size: 33.4503vw, 51.8754vw;
+    background-position: -29px 0px;
+  }
+
+  .corner-body {
+    background-size: 33.4503vw;
+  }
+
+  .logo {
+    width: 14.2575vw;
+  }
+
+  .logo img {
+    padding: 9% 0 0 27%;
+  }
+
+  /* HOME PAGE | iPAD PRO HORIZONTAL | min width 1366px */
+  #home {
+    height: 747.47px;
+  }
+
+  /* ABOUT PAGE | iPAD PRO HORIZONTAL | min width 1366px */
   .full-width-about {
     width: 85%;
     max-width: 1177px;
   }
 
-  /***** PORTFOLIO PAGE *****/
+  /* PORTFOLIO PAGE | iPAD PRO HORIZONTAL | min width 1366px */
   #portfolio {
     width: 97.5%;
     margin-left: auto;
@@ -4071,7 +4365,7 @@ footer .half-width {
     line-height: 33px;
   }
 
-  /***** CONTACT PAGE *****/
+  /* CONTACT PAGE | iPAD PRO HORIZONTAL | min width 1366px */
   .contact-name h1 {
     font-size: 143px;
     line-height: 147px;
@@ -4081,7 +4375,6 @@ footer .half-width {
     width: 20%;
     height: 300px;
   }
-
 }
 
 @media screen and (min-width:1370px) {
@@ -4110,8 +4403,7 @@ footer .half-width {
   }
 
   #home {
-    height: calc(100vh - 214px);
-    padding-bottom: 0;
+    height: calc(535px + 1vh);
   }
 
   .corner-body {
@@ -4167,6 +4459,10 @@ footer .half-width {
 
 @media screen and (min-width:1475px) {
 /***** MAIN PORTFOLIO PAGE *****/
+  #home {
+    height: calc(577px + 1vh);
+  }
+
   #portfolio .full-width {
     padding-top: 1%;
     width: 77%;
@@ -4188,7 +4484,11 @@ footer .half-width {
 }
 
 @media screen and (min-width:1615px) {
-  /***** MAIN PORTFOLIO PAGE *****/
+  #home {
+    height: calc(631px + 1vh);
+  }
+
+  /* portfolio PAGE | min width 1615px */
   #portfolio .full-width {
     padding-top: -1%;
     width: 72%;

@@ -4490,6 +4490,21 @@ END MOBILE FIRST | iPhone5 | NO min width
        max-width: 1177px;
      }
 
+     .about-work-home-sections {
+       width: 87%;
+     }
+
+     .about-wording-section-work {
+       width: 50%;
+       padding: 0 15px 0 0;
+       margin-right: auto;
+     }
+
+     .about-img-block-work {
+       width: 40%;
+       min-width: 370px
+     }
+
      /*====================================================
      PORTFOLIO PAGE | iPAD PRO HORIZONTAL | min width 1366px
      =====================================================*/

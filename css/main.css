@@ -3710,7 +3710,7 @@ END MOBILE FIRST | iPhone5 | NO min width
      }
 
      .about-spacing-container header {
-       min-height: 130px
+       min-height: 140px
      }
 
      #about {
@@ -4287,7 +4287,14 @@ END MOBILE FIRST | iPhone5 | NO min width
      #about p {
        font-size: 15px;
      }
-   }
+
+     .work-info {
+       padding-top: 10.5px;
+     }
+
+     #mobile-image-work-tablet {
+       background-position: 0% 25%;
+     }
 
    /*==================================================
    ~~~~~~~~~~~~~~~~~~min width 1090px~~~~~~~~~~~~~~~~~~
@@ -4402,10 +4409,6 @@ END MOBILE FIRST | iPhone5 | NO min width
        background-position: center;
        background-size: cover;
        background-repeat: no-repeat;
-     }
-
-     #mobile-image-work-tablet {
-       background-position: 0% 25%;
      }
 
      .home-vertical {

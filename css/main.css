@@ -251,6 +251,7 @@ main {
   background-attachment: scroll, scroll;
   background-size: 28%, 61%;
   background-position: 10px 10px, -29px 0px;
+  min-width: 315px;
 }
 
 .corner-body {
@@ -260,6 +261,7 @@ main {
   background-attachment: scroll, scroll;
   background-size: 28%, 61%;
   background-position: 10px 10px, -29px 0px;
+  min-width: 315px;
 }
 
 
@@ -2328,6 +2330,11 @@ END MOBILE FIRST | iPhone5 | NO min width
     /*==================================================
     ABOUT PAGE | | min width 414px
     ===================================================*/
+    #about {
+      max-width: 422px;
+      margin: 0 auto 0 12px;
+    }
+
     .vertical {
       padding-top: 44px;
       padding-bottom: 9px;
@@ -2382,7 +2389,8 @@ END MOBILE FIRST | iPhone5 | NO min width
     ABOUT PAGE | | min width 520px
     ===================================================*/
     #about {
-      max-width: 530px;
+      max-width: 400px;
+      margin: 0 auto 0 0px;
     }
 
     .mobile-img-set-top, .mobile-img-set-bottom {
@@ -2653,6 +2661,7 @@ END MOBILE FIRST | iPhone5 | NO min width
     ABOUT PAGE | | min width 568px
     ===================================================*/
     #about {
+      max-width: 530px;
       min-height: 665px;
       margin: 0 auto 0 12px;
     }
@@ -2686,6 +2695,11 @@ END MOBILE FIRST | iPhone5 | NO min width
     /*==================================================
     ABOUT PAGE | | min width 610px
     ===================================================*/
+    #about {
+      max-width: 530px;
+      margin: 0 auto 0 0px;
+    }
+
     #about h1 {
       font-size: 46px;
       margin-top: 25px;
@@ -2694,6 +2708,10 @@ END MOBILE FIRST | iPhone5 | NO min width
 
     .vertical {
       padding-top: 55px;
+    }
+
+    .jessica-mcintosh-vertical {
+      padding-right: 19px;
     }
 
     /*==================================================
@@ -2892,7 +2910,7 @@ END MOBILE FIRST | iPhone5 | NO min width
 
      #about {
        height: calc(100vh - 120px);
-       max-width: 935px;
+       max-width: 939px;
        width: 100%;
        margin: 0;
      }
@@ -3356,8 +3374,12 @@ END MOBILE FIRST | iPhone5 | NO min width
      /*==================================================
      ABOUT PAGE || min width 810px
      ===================================================*/
+     #about {
+       margin-top: 1.5%;
+     }
+
      .home-vertical {
-       margin-right:13%;
+       margin-right: 13%;
      }
 
      /*==================================================
@@ -3683,11 +3705,20 @@ END MOBILE FIRST | iPhone5 | NO min width
      /*==================================================
      ABOUT PAGE | DESKTOP | min width 940px
      ===================================================*/
+     .about-spacing-container {
+       min-height: 924px;
+     }
+
+     .about-spacing-container header {
+       min-height: 130px
+     }
+
      #about {
        max-width: 100%;
-       margin-top: 3%;
        display: flex;
        justify-content: flex-end;
+       margin-top: 0;
+       height: 786px;
      }
 
      .full-width-about {
@@ -3702,7 +3733,7 @@ END MOBILE FIRST | iPhone5 | NO min width
      }
 
      .vertical {
-       margin: 207px 0 0 15px;
+       margin: 221px 0 0 15px;
      }
 
      .about-work-home-sections {
@@ -4172,6 +4203,26 @@ END MOBILE FIRST | iPhone5 | NO min width
        margin: 33px 0 0 0;
      }
 
+     .about-wording-section-work {
+       width: 40%;
+       min-width: 379px;
+       margin-right: auto;
+     }
+
+     .about-img-block-work-tablet {
+       width: 45%
+     }
+
+     .about-wording-section-home {
+       width: 40%;
+       min-width: 357px;
+     }
+
+     .about-img-block-home {
+       width: 41%;
+       margin: 0 0 7px 40px;
+     }
+
      /*==================================================
      PORTFOLIO PAGE | iPAD HORIZONTAL | min width 1024px
      ===================================================*/
@@ -4495,14 +4546,20 @@ END MOBILE FIRST | iPhone5 | NO min width
      }
 
      .about-wording-section-work {
-       width: 50%;
+       width: 40%;
        padding: 0 15px 0 0;
        margin-right: auto;
+       min-width: 350px;
      }
 
      .about-img-block-work {
-       width: 40%;
-       min-width: 370px
+       width: 47%;
+       min-width: 370px;
+       margin: 1.93% 3% 0 0
+     }
+
+     .about-img-block-home {
+       width: 45%;
      }
 
      /*====================================================

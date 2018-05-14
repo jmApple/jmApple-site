@@ -2765,6 +2765,13 @@ END MOBILE FIRST | iPhone5 | NO min width
     .jessica-mcintosh-vertical {
       padding-right: 19px;
     }
+
+    /*==================================================
+    PORTFOLIO PAGE | | min width 640px
+    ===================================================*/
+    #portfolio .full-width {
+      padding-top: 17%;
+    }
   }
 
   /*==================================================
@@ -2806,6 +2813,13 @@ END MOBILE FIRST | iPhone5 | NO min width
     .four-fifths-width-home {
       margin: 17px 0;
     }
+
+    /*==================================================
+    PORTFOLIO PAGE | | min width 730px
+    ===================================================*/
+    #portfolio .full-width {
+      padding-top: 14%;
+    }
   }
 
   /*==================================================
@@ -2816,7 +2830,8 @@ END MOBILE FIRST | iPhone5 | NO min width
     PORTFOLIO PAGE | | min width 758px
     ===================================================*/
     #portfolio .full-width {
-      padding-top: 23%;
+      /* was 23% */
+      padding-top: 13%;
     }
 
     #portfolio .quarter-width{
@@ -3777,6 +3792,7 @@ END MOBILE FIRST | iPhone5 | NO min width
        margin-left: auto;
        margin-right: 2.5%;
        align-items: center;
+       min-height: 492px;
      }
 
      #portfolio .full-width {
@@ -4228,10 +4244,12 @@ END MOBILE FIRST | iPhone5 | NO min width
      ===================================================*/
      #portfolio {
        height: calc(100vh - 217px);
+       max-height: 555px;
+       min-height: 513px;
      }
 
      #portfolio .full-width {
-       padding-top: 5%;
+       padding-top: 5.5%;
      }
 
      /*==================================================
@@ -4295,6 +4313,7 @@ END MOBILE FIRST | iPhone5 | NO min width
      #mobile-image-work-tablet {
        background-position: 0% 25%;
      }
+   }
 
    /*==================================================
    ~~~~~~~~~~~~~~~~~~min width 1090px~~~~~~~~~~~~~~~~~~
@@ -4315,6 +4334,16 @@ END MOBILE FIRST | iPhone5 | NO min width
 
      .home-vertical {
        margin-right:29%;
+     }
+
+     /*==================================================
+     PORTFOLIO PAGE | | min width 1090px
+     ===================================================*/
+     #portfolio {
+       height: calc(100vh - 227px);
+       min-height: 555px;
+       max-height: 955px;
+       margin-top: 3%;
      }
 
      /*==================================================
@@ -4372,6 +4401,15 @@ END MOBILE FIRST | iPhone5 | NO min width
        background-color: grey;
        border: 1px solid #000;
      }
+
+     /*==================================================
+     PORTFOLIO PAGE | | min width 1120px
+     ===================================================*/
+     #portfolio {
+       height: calc(100vh - 222px);
+       min-height: 585px;
+     }
+
    }
 
    /*==================================================
@@ -4383,6 +4421,13 @@ END MOBILE FIRST | iPhone5 | NO min width
      ===================================================*/
      .home-vertical {
        margin-right:35%;
+     }
+
+     /*==================================================
+     PORTFOLIO PAGE | | min width 1160px
+     ===================================================*/
+     #portfolio {
+       margin-top: 0;
      }
 
      #portfolio .full-width {
@@ -4573,10 +4618,12 @@ END MOBILE FIRST | iPhone5 | NO min width
        margin-left: auto;
        margin-right: 2.5%;
        align-items: center;
+       height: calc(100vh - 276px);
+       max-height: 800px;
      }
 
      #portfolio .full-width {
-       padding-top: 8%;
+       padding-top: 6%;
        width: 90%;
      }
 

@@ -218,7 +218,10 @@ html, body {
   height: inherit;
 }
 
-.spacing-container, .portfolio-spacing-container, .spacing-container-contact {
+.spacing-container,
+.portfolio-spacing-container,
+.spacing-container-contact,
+.spacing-container-ind-portfolio {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -1193,57 +1196,6 @@ PORTFOLIO INDIVIDUAL PAGES | iPhone5 | NO min width
   padding-top: 27%;
 }
 
-#individual-portfolio-page .full-width {
-  display: flex;
-  flex-flow: column-reverse nowrap;
-  justify-content: center;
-  padding-top: 0;
-}
-
-.portfolio-description {
-  width: 90%;
-  margin: auto;
-}
-
-.portfolio-img, .portfolio-img-outlined {
-  display: flex;
-  flex-flow: column-reverse;
-  width: 95%;
-  height: inherit;
-  margin: auto;
-}
-
-.portfolio-img img {
-  margin: 0 3.5% 0 3.5%;
-  width: 92%;
-}
-
-.portfolio-img-outlined img {
-  margin: 0 3.5% 0 3.5%;
-  width: 92%;
-}
-
-.page-thru-buttons {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  width: 94.5%;
-  margin: auto;
-}
-
-.back-button {
-  margin-top: .75%;
-}
-
-.next-button {
-  width: 30px;
-  padding-right: 1.4%;
-}
-
-.project-title {
-  margin: 15px 0 2.5px 0;
-}
-
 #individual-portfolio-page h1 {
   font-size: 27px;
   line-height: 29px;
@@ -1281,6 +1233,64 @@ PORTFOLIO INDIVIDUAL PAGES | iPhone5 | NO min width
   text-decoration: none;
   margin: 1px 0 7px 0;
 }
+
+#individual-portfolio-page .full-width {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  justify-content: center;
+  padding-top: 0;
+}
+
+.portfolio-description {
+  width: 86%;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.portfolio-img, .portfolio-img-outlined {
+  display: flex;
+  flex-flow: column-reverse;
+  width: 95%;
+  height: inherit;
+  margin: auto;
+}
+
+.portfolio-img img {
+  margin: 0 3.5% 0 3.5%;
+  width: 92%;
+}
+
+.portfolio-img-outlined img {
+  margin: 0 3.5% 0 3.5%;
+  width: 92%;
+}
+
+.page-thru-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 92%;
+  margin: 15px auto 0px auto;
+}
+
+#individual-portfolio-page .back-button p,
+#individual-portfolio-page .next-button p {
+  margin: 0;
+}
+
+.back-button {
+  margin-top: .75%;
+}
+
+.next-button {
+  width: 30px;
+  padding-right: 1.4%;
+}
+
+.project-title {
+  margin: 0 0 2.5px 0;
+}
+
 
 .link-to-site-project img {
   width: 13px;
@@ -1470,6 +1480,10 @@ footer .half-width {
 }
 
 .portfolio-spacing-container #footer-no-border {
+  margin: 0;
+}
+
+.spacing-container-ind-portfolio #footer-no-border {
   margin: 0;
 }
 
@@ -2117,6 +2131,13 @@ END MOBILE FIRST | iPhone5 | NO min width
     }
 
     /*==================================================
+    INDIVIDUAL PORTFOLIO PAGE | | min width 375px
+    ===================================================*/
+    #individual-portfolio-page {
+      padding-top: 30%;
+    }
+
+    /*==================================================
     CONTACT PAGE | | min width 375px
     ===================================================*/
     .contact-page-img {
@@ -2309,7 +2330,8 @@ END MOBILE FIRST | iPhone5 | NO min width
     /*==================================================
     PORTFOLIO INDEX PAGES | | min width 411px
     ===================================================*/
-    .corner-body .spacing-container header {
+    .corner-body .spacing-container header,
+    .corner-body .spacing-container-ind-portfolio header {
       min-height: 21%;
     }
 
@@ -2321,6 +2343,12 @@ END MOBILE FIRST | iPhone5 | NO min width
       padding-top: 10%;
     }
 
+    /*==================================================
+    INDIVIDUAL PORTFOLIO PAGE | | min width 411px
+    ===================================================*/
+    #individual-portfolio-page {
+      padding-top: 10%;
+    }
 
     /*==================================================
     CONTACT | | min width 411px
@@ -2419,7 +2447,8 @@ END MOBILE FIRST | iPhone5 | NO min width
     /*==================================================
     PORTFOLIO INDEX PAGES | | min width 460px
     ===================================================*/
-    .corner-body .spacing-container header {
+    .corner-body .spacing-container header,
+    .corner-body .spacing-container-ind-portfolio header {
       min-height: 23%;
     }
 
@@ -2744,7 +2773,8 @@ END MOBILE FIRST | iPhone5 | NO min width
     /*==================================================
     PORTFOLIO INDEX PAGES | | min width 568px
     ===================================================*/
-    .corner-body .spacing-container header {
+    .corner-body .spacing-container header,
+    .corner-body .spacing-container-ind-portfolio header {
       height: 25%;
       min-height: 159px;
     }
@@ -2756,6 +2786,13 @@ END MOBILE FIRST | iPhone5 | NO min width
 
     .corner-body #portfolio-illustration {
       padding-top: 10%;
+    }
+
+    /*==================================================
+    INDIVIDUAL PORTFOLIO PAGE | | min width 568px
+    ===================================================*/
+    #individual-portfolio-page {
+      padding-top: 13%;
     }
 
     /*==================================================
@@ -2859,6 +2896,17 @@ END MOBILE FIRST | iPhone5 | NO min width
     #portfolio .full-width {
       padding-top: 17%;
     }
+
+    /*==================================================
+    INDIVIDUAL PORTFOLIO PAGE | | min width 640px
+    ===================================================*/
+    #individual-portfolio-page {
+      padding-top: 10%;
+    }
+
+    .portfolio-img, .portfolio-img-outlined {
+      width: 95%;
+    }
   }
 
   /*==================================================
@@ -2909,6 +2957,13 @@ END MOBILE FIRST | iPhone5 | NO min width
     }
 
     /*==================================================
+    INDIVIDUAL PORTFOLIO PAGE | | min width 730px
+    ===================================================*/
+    #individual-portfolio-page {
+      padding-top: 14%;
+    }
+
+    /*==================================================
     CONTACT PAGE | | min width 730px
     ===================================================*/
     .contact-page-img {
@@ -2955,7 +3010,8 @@ END MOBILE FIRST | iPhone5 | NO min width
       background-position: 5% 2.5%, -29px 0px;
     }
 
-    .spacing-container {
+    .spacing-container,
+    .spacing-container-ind-portfolio {
       min-height: 487px;
     }
 
@@ -3371,7 +3427,8 @@ END MOBILE FIRST | iPhone5 | NO min width
      PORTFOLIO INDEX PAGE | TABLET-iPAD | min width 768px
      ===================================================*/
      .corner-body .spacing-container header,
-     .corner-body .spacing-container-digital-illustraions-index header {
+     .corner-body .spacing-container-digital-illustraions-index header,
+     .corner-body .spacing-container-ind-portfolio header  {
        min-height: 195px;
        margin-bottom: 5%;
      }
@@ -3384,7 +3441,7 @@ END MOBILE FIRST | iPhone5 | NO min width
      PORTFOLIO INDIVIDUAL PAGE | TABLET-iPAD | min width 768px
      ========================================================*/
      #individual-portfolio-page {
-       padding-top: 20%;
+       padding-top: 2%;
      }
 
      .project-title {
@@ -3405,6 +3462,14 @@ END MOBILE FIRST | iPhone5 | NO min width
        width: 17px;
        height: auto;
        padding-bottom: 5px;
+     }
+
+     .portfolio-img, .portfolio-img-outlined {
+       width: 85%;
+     }
+
+     .portfolio-description {
+       width: 76.5%;
      }
 
      /*=====================================================
@@ -3515,12 +3580,49 @@ END MOBILE FIRST | iPhone5 | NO min width
      /*==================================================
      PORTFOLIO INDIVIDUAL PAGE || min width 810px
      ===================================================*/
-     .portfolio-img, .portfolio-img-outlined {
-       width: 67%;
+     #individual-portfolio-page {
+       padding-top: 0;
      }
 
-     .contact-page-img {
-       width: 21%;
+     #individual-portfolio-page .full-width {
+       display: flex;
+       flex-flow: row wrap;
+     }
+
+     #individual-portfolio-page .full-width {
+       display: flex;
+       align-items: flex-end;
+     }
+
+     .portfolio-description {
+       width: 47%;
+       padding-left: 2%;
+     }
+
+     .portfolio-img, .portfolio-img-outlined {
+       width: 47%;
+     }
+
+     .page-thru-buttons {
+       margin-top: 2%;
+     }
+
+     .next-button {
+       margin-top: .5%;
+     }
+
+     .project-title {
+       margin: 40px 0 0 0;
+     }
+
+     #individual-portfolio-page h3 {
+       font-size: 33px;
+       line-height: normal;
+     }
+
+     #individual-portfolio-page p {
+       font-size: 20px;
+       line-height: 24.5px;
      }
 
      /*==================================================
@@ -3626,6 +3728,14 @@ END MOBILE FIRST | iPhone5 | NO min width
     .home-vertical {
       margin-right:19%;
     }
+
+    /*==================================================
+    PORTFOLIO INDIVIDUAL PAGE || min width 900px
+    ===================================================*/
+    #individual-portfolio-page p {
+      font-size: 22px;
+      line-height: 27px;
+    }
   }
 
    /*==================================================
@@ -3651,7 +3761,9 @@ END MOBILE FIRST | iPhone5 | NO min width
        background-position: -29px 0px;
      }
 
-     .spacing-container, .portfolio-spacing-container{
+     .spacing-container,
+     .portfolio-spacing-container
+     .spacing-container-ind-portfolio{
        min-height: 690px;
      }
 
@@ -4092,7 +4204,8 @@ END MOBILE FIRST | iPhone5 | NO min width
      PORTFOLIO INDEX PAGES | DESKTOP | min width 940px
      ===================================================*/
      .corner-body .spacing-container header,
-     .corner-body .spacing-container-digital-illustraions-index header {
+     .corner-body .spacing-container-digital-illustraions-index header,
+     .corner-body .spacing-container-ind-portfolio header {
        margin-bottom: 1%;
      }
 
@@ -4102,43 +4215,8 @@ END MOBILE FIRST | iPhone5 | NO min width
      /*====================================================
      PORTFOLIO INDIVIDUAL PAGES | DESKTOP | min width 940px
      =====================================================*/
-     #individual-portfolio-page {
-       padding-top: 7%;
-     }
-
-     #individual-portfolio-page .full-width {
-       display: flex;
-       flex-flow: row wrap;
-     }
-
-     .portfolio-description {
-       width: 47%;
-     }
-
-     .portfolio-img, .portfolio-img-outlined {
-       width: 47%;
-     }
-
-     .page-thru-buttons {
-       margin-top: 2%;
-     }
-
-     .next-button {
-       margin-top: .5%;
-     }
-
-     .project-title {
-       margin: 40px 0 0 0;
-     }
-
-     #individual-portfolio-page h3 {
-       font-size: 33px;
-       line-height: normal;
-     }
-
      #individual-portfolio-page p {
        font-size: 23px;
-       line-height: 27px;
      }
 
      /*==================================================
@@ -4286,8 +4364,14 @@ END MOBILE FIRST | iPhone5 | NO min width
      #portfolio {
        min-height: 543px;
      }
-   }
 
+     /*====================================================
+     PORTFOLIO INDIVIDUAL PAGES | DESKTOP | min width 995px
+     =====================================================*/
+     .portfolio-description {
+       padding-left: 4%;
+     }
+   }
 
    /*==================================================
    ~~~~~~~~~iPAD HORIZONTAL | min width 1024px~~~~~~~~~
@@ -4392,7 +4476,8 @@ END MOBILE FIRST | iPhone5 | NO min width
      PORTFOLIO INDEX PAGES | iPAD HORIZONTAL | min width 1024px
      =========================================================*/
      .corner-body .spacing-container header,
-     .corner-body .spacing-container-digital-illustraions-index header {
+     .corner-body .spacing-container-digital-illustraions-index header,
+     .corner-body .spacing-container-ind-portfolio header {
        min-height: 225px;
      }
 
@@ -4691,7 +4776,8 @@ END MOBILE FIRST | iPhone5 | NO min width
      PORTFOLIO INDEX PAGES | | min width 1250px
      =========================================================*/
      .corner-body .spacing-container header,
-     .corner-body .spacing-container-digital-illustraions-index header {
+     .corner-body .spacing-container-digital-illustraions-index header,
+     .corner-body .spacing-container-ind-portfolio header {
        min-height: 255px;
      }
 
@@ -4722,12 +4808,12 @@ END MOBILE FIRST | iPhone5 | NO min width
      PORTFOLIO INDIVIDUAL PAGES | | min width 1334px
      ===================================================*/
      #individual-portfolio-page {
-       padding-top: 7%;
+       padding-top: 0;
      }
     }
 
    /*==================================================
-   ~~~~~~~iPAD PRO HORIZONTAL |min width 1366px~~~~~~~~
+   ~~~~~~~iPAD PRO HORIZONTAL | min width 1366px~~~~~~~
    ===================================================*/
    @media screen and (min-width:1366px) {
      /*====================================================
@@ -4854,9 +4940,17 @@ END MOBILE FIRST | iPhone5 | NO min width
      PORTFOLIO INDEX PAGES | iPAD PRO HORIZONTAL | min width 1366px
      =========================================================*/
      .corner-body .spacing-container header,
-     .corner-body .spacing-container-digital-illustraions-index header {
+     .corner-body .spacing-container-digital-illustraions-index header,
+     .corner-body .spacing-container-ind-portfolio header  {
        min-height: 275px;
        margin-bottom: 3%;
+     }
+
+     /*=====================================================
+     PORTFOLIO INDIVIDUAL PAGES | DESKTOP | min width 1366px
+     ======================================================*/
+     .portfolio-description {
+       width: 40%;
      }
 
      /*====================================================
@@ -4951,7 +5045,8 @@ END MOBILE FIRST | iPhone5 | NO min width
      PORTFOLIO INDEX PAGES | | min width 1370px
      =========================================================*/
      .corner-body .spacing-container header,
-     .corner-body .spacing-container-digital-illustraions-index header {
+     .corner-body .spacing-container-digital-illustraions-index header,
+     .corner-body .spacing-container-ind-portfolio header {
        min-height: 225px;
        margin-bottom: 1%;
      }
@@ -4990,6 +5085,11 @@ END MOBILE FIRST | iPhone5 | NO min width
      /*==================================================
      PORTFOLIO INDIVIDUAL PAGES | | min width 1420px
      ===================================================*/
+     .corner-body .spacing-container-ind-portfolio header {
+       min-height: 180px;
+       margin-bottom: 0;
+     }
+
      .portfolio-description {
        width: 47%;
      }
@@ -5000,8 +5100,13 @@ END MOBILE FIRST | iPhone5 | NO min width
        padding-bottom: 5px;
      }
 
-     .portfolio-img, .portfolio-img-outlined {
-       width: 40%;
+     .portfolio-img {
+       width: 38%;
+     }
+
+     .portfolio-img img {
+       margin: 0 3.5% 0 3.5%;
+       width: 92%;
      }
 
      /*==================================================
